@@ -9,6 +9,7 @@ import SubscriptionBanner from "./components/SubscriptionBanner";
 import ContactSection from "./components/ContactSection";
 
 import styled from "styled-components";
+import Footer from "./components/Footer";
 
 const CardsContainer = styled.section`
   display: flex;
@@ -53,6 +54,7 @@ function App() {
       </CardsContainer>
       <SubscriptionBanner />
       <ContactSection />
+      <Footer />
     </>
   );
 }
