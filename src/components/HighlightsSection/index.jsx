@@ -84,11 +84,11 @@ const Icon = styled.img`
   height: auto;
   margin-top: 1rem;
   opacity: 0.9;
-  max-width: 100%;
+
   display: block;
 
   @media (max-width: 768px) {
-    width: 200px;
+    width: 200px; /* reduz proporcionalmente */
     margin-top: 0.8rem;
   }
 
