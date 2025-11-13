@@ -109,6 +109,8 @@ const Title = styled.h1`
   color: #0c0421;
   font-family: "KronaOne", sans-serif;
   line-height: 1.3;
+  margin: 0;
+  text-align: left;
 
   span {
     color: #4e75ff;
@@ -116,10 +118,25 @@ const Title = styled.h1`
 
   @media (max-width: 900px) {
     font-size: 2.2rem;
+    line-height: 1.4;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 2rem;
+    line-height: 1.4;
   }
 
   @media (max-width: 480px) {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    text-align: center;
+  }
+
+  @media (max-width: 360px) {
+    font-size: 1.4rem;
+    line-height: 1.3;
   }
 `;
 
