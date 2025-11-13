@@ -170,21 +170,11 @@ const Icon = styled.img`
 `;
 
 const HighlightsSection = ({ image, title, text, icon, reverse }) => {
-  const [hasAnimated, setHasAnimated] = useState(false);
-
   const { ref, inView } = useInView({
-    triggerOnce: true,
     threshold: 0.1,
   });
 
-  useEffect(() => {
-    if (inView) {
-      setHasAnimated(true);
-    }
-  }, [inView]);
-
-  const isVisible = hasAnimated || inView;
-
+  const isVisible = inView;
   return (
     <ContentHighlights ref={ref}>
       <StyledHighlights $reverse={reverse}>
