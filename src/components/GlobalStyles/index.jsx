@@ -12,6 +12,15 @@ const EstilosGlobais = createGlobalStyle`
   font-family: 'Montserrat';
   src: local('Montserrat'), local('Montserrat'), url(${Montserrat});
 }
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* evita scroll lateral no mobile */
+}
 html {
   line-height: 1.15; 
   -webkit-text-size-adjust: 100%; 
