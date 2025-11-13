@@ -1,26 +1,32 @@
 import styled from "styled-components";
 
-const StylezedItem = styled.li`
-  font-size: 18px;
+const StyledItem = styled.li`
+  font-size: 22px;
+  font-weight: 400;
   line-height: 29px;
+  font-family: "Montserrat", sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
   cursor: pointer;
-  color: ${(props) => (props.$ativo ? "#747F30" : "#D9D9D9")};
-  font-family: ${(props) =>
-    props.$ativo ? "GandhiSansBold" : "GandhiSansRegular"};
+  color: ${(props) => (props.$ativo ? "#535a1fff" : "#000")};
   display: flex;
   align-items: center;
   gap: 16px;
   cursor: pointer;
+  color: #0c0421;
+  transition: transform 0.3s ease;
 
   &:hover {
-    color: #747f30;
+    transform: scale(1.05);
+  }
+
+  &:hover {
+    color: #424911ff;
   }
 `;
 
 const NavBarItem = ({ children, ativo = false }) => {
-  return <StylezedItem $ativo={ativo}>{children}</StylezedItem>;
+  return <StyledItem $ativo={ativo}>{children}</StyledItem>;
 };
 
 export default NavBarItem;

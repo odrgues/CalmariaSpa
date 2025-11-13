@@ -16,9 +16,11 @@ html {
   line-height: 1.15; 
   -webkit-text-size-adjust: 100%; 
   font-family: Montserrat ;
+
 }
 body {
   margin: 0;
+  color: #0C0421;
   min-height: 100vh;
 }
 main {

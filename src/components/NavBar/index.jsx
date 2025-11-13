@@ -1,17 +1,23 @@
 import styled from "styled-components";
 import NavBarItem from "./NavBarItem";
 
-const StylezedNavBar = styled.div``;
+const StyledNavBar = styled.div`
+  display: flex;
+  justify-content: center;
+
+  gap: 30px;
+  whidth: 100%;
+`;
 
 const NavBar = () => {
   return (
     <nav>
-      <StylezedNavBar>
+      <StyledNavBar>
         <NavBarItem>Home</NavBarItem>
         <NavBarItem>Serviços</NavBarItem>
         <NavBarItem>Blog</NavBarItem>
         <NavBarItem>Quem Somos</NavBarItem>
-      </StylezedNavBar>
+      </StyledNavBar>
     </nav>
   );
 };
