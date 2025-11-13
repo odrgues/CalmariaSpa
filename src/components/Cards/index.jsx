@@ -34,10 +34,10 @@ const StyledCard = styled.div`
 const Illustration = styled.img`
   width: 352px;
   height: auto;
-  position: relative;
   display: block;
   margin: 0 auto 1.5rem auto;
-  max-width: none;
+  transform: translateX(-30px);
+  transition: transform 0.3s ease;
 `;
 
 const Paragraph = styled.p`
