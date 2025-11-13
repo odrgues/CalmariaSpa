@@ -5,6 +5,8 @@ import HighlightsSection from "./components/HighlightsSection";
 import { highlightsData } from "./data/highlightsData";
 import { CardsData } from "./data/cardsData";
 import Cards from "./components/Cards";
+import SubscriptionBanner from "./components/SubscriptionBanner";
+import ContactSection from "./components/ContactSection";
 
 import styled from "styled-components";
 
@@ -30,7 +32,7 @@ function App() {
 
       {highlightsData.map((item) => (
         <HighlightsSection
-          key={item.title}
+          key={item.id}
           image={item.image}
           title={item.title}
           text={item.text}
@@ -42,13 +44,15 @@ function App() {
       <CardsContainer>
         {CardsData.map((item) => (
           <Cards
-            key={item.title}
+            key={item.id}
             image={item.image}
             title={item.title}
             text={item.text}
           />
         ))}
       </CardsContainer>
+      <SubscriptionBanner />
+      <ContactSection />
     </>
   );
 }
