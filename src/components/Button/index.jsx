@@ -18,11 +18,6 @@ const Button = styled.button`
   box-shadow: 0 4px 12px rgba(78, 117, 255, 0.4);
 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 18px rgba(78, 117, 255, 0.6);
-  }
 `;
 
 export default Button;

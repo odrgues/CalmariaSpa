@@ -1,4 +1,28 @@
-import styled from "styled-components";
+import React, { useState, useEffect } from "react";
+import styled, { keyframes, css } from "styled-components";
+import { useInView } from "react-intersection-observer";
+
+const textIn = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
+
+const imageIn = keyframes`
+  from {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+`;
 
 const ContentHighlights = styled.div`
   display: flex;
@@ -6,7 +30,7 @@ const ContentHighlights = styled.div`
   width: 100%;
   margin-top: 3rem;
   gap: 4rem;
-  box-sizing: border-box; /* evita estouro lateral */
+  box-sizing: border-box;
 
   @media (max-width: 768px) {
     margin-top: 2rem;
@@ -20,8 +44,8 @@ const StyledHighlights = styled.section`
   justify-content: center;
   gap: 7rem;
   padding: 2rem 8%;
-  flex-direction: ${(props) => (props.reverse ? "row-reverse" : "row")};
-  box-sizing: border-box; /* previne scroll lateral */
+  flex-direction: ${(props) => (props.$reverse ? "row-reverse" : "row")};
+  box-sizing: border-box;
 
   @media (max-width: 1024px) {
     gap: 4rem;
@@ -43,6 +67,15 @@ const MainImage = styled.img`
   object-fit: cover;
   transition: transform 0.3s ease;
 
+  opacity: ${(props) => (props.$isVisible ? 1 : 0)};
+  transform: ${(props) => (props.$isVisible ? "scale(1)" : "scale(0.98)")};
+
+  ${(props) =>
+    props.$isVisible &&
+    css`
+      animation: ${imageIn} 0.7s ease-out forwards;
+    `}
+
   &:hover {
     transform: scale(1.05);
   }
@@ -58,6 +91,16 @@ const TextContainer = styled.div`
   flex-direction: column;
   gap: 1rem;
   box-sizing: border-box;
+
+  opacity: ${(props) => (props.$isVisible ? 1 : 0)};
+  transform: ${(props) =>
+    props.$isVisible ? "translateY(0)" : "translateY(20px)"};
+
+  ${(props) =>
+    props.$isVisible &&
+    css`
+      animation: ${textIn} 0.8s ease-out 0.2s forwards;
+    `}
 
   @media (max-width: 1024px) {
     width: 80%;
@@ -127,11 +170,30 @@ const Icon = styled.img`
 `;
 
 const HighlightsSection = ({ image, title, text, icon, reverse }) => {
+  const [hasAnimated, setHasAnimated] = useState(false);
+
+  const { ref, inView } = useInView({
+    triggerOnce: true,
+    threshold: 0.1,
+  });
+
+  useEffect(() => {
+    if (inView) {
+      setHasAnimated(true);
+    }
+  }, [inView]);
+
+  const isVisible = hasAnimated || inView;
+
   return (
-    <ContentHighlights>
-      <StyledHighlights reverse={reverse}>
-        <MainImage src={image} alt="Imagem ilustrativa" />
-        <TextContainer>
+    <ContentHighlights ref={ref}>
+      <StyledHighlights $reverse={reverse}>
+        <MainImage
+          src={image}
+          alt="Imagem ilustrativa"
+          $isVisible={isVisible}
+        />
+        <TextContainer $isVisible={isVisible}>
           <Title>{title}</Title>
           <Paragraph>{text}</Paragraph>
           {icon && <Icon src={icon} alt="Ícone ilustrativo" />}

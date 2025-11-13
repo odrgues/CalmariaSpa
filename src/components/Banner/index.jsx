@@ -97,6 +97,11 @@ const ButtonWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
 
+  &:hover {
+    transform: scale(1.05);
+    background-color: 0 6px 18px plum);
+  }
+
   @media (max-width: 900px) {
     justify-content: center;
     width: 100%;
