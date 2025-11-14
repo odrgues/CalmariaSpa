@@ -1,11 +1,14 @@
 import bannerImg from "../../assets/image-banner.png";
 
 import Button from "../Button";
+
 import {
   Gradient,
   TextContainer,
   Title,
   ButtonWrapper,
+
+  // StyledButton,
   BannerImage,
 } from "./styles";
 
@@ -17,7 +20,7 @@ const Banner = () => {
           Boas-vindas ao seu refúgio de <span>paz e bem-estar</span>
         </Title>
         <ButtonWrapper>
-          <Button>Quero relaxar!</Button>
+          <Button to="servicos">Quero relaxar!</Button>
         </ButtonWrapper>
       </TextContainer>
 

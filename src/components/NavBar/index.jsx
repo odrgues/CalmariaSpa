@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { useLocation } from "react-router-dom";
 import NavBarItem from "./NavBarItem";
 
 const StyledNavBar = styled.div`
@@ -10,13 +11,29 @@ const StyledNavBar = styled.div`
 `;
 
 const NavBar = () => {
+  const location = useLocation();
+  const pathname = location.pathname;
   return (
     <nav>
       <StyledNavBar>
-        <NavBarItem>Home</NavBarItem>
-        <NavBarItem>Serviços</NavBarItem>
-        <NavBarItem>Blog</NavBarItem>
-        <NavBarItem>Quem Somos</NavBarItem>
+        <NavBarItem to="/" ativo={pathname === "/"}>
+          Home
+        </NavBarItem>
+        <NavBarItem to="/servicos" ativo={pathname === "/servicos"}>
+          Serviços
+        </NavBarItem>
+        <NavBarItem to="/blog" ativo={pathname === "/blog"}>
+          Blog
+        </NavBarItem>
+        <NavBarItem to="/quem-somos" ativo={pathname === "/quem-somos"}>
+          Quem Somos
+        </NavBarItem>
+        <NavBarItem
+          to="/nossos-criadores"
+          ativo={pathname === "/nossos-criadores"}
+        >
+          Nossos Criadores
+        </NavBarItem>
       </StyledNavBar>
     </nav>
   );

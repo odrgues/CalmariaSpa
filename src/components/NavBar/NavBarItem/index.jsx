@@ -1,6 +1,7 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-const StyledItem = styled.li`
+const StyledLink = styled(Link)`
   font-size: 22px;
   font-weight: 400;
   line-height: 29px;
@@ -12,6 +13,7 @@ const StyledItem = styled.li`
   color: ${(props) => (props.$ativo ? "#535a1f" : "#0c0421")};
   cursor: pointer;
   transition: all 0.3s ease;
+  text-decoration: none;
 
   &:hover {
     transform: scale(1.05);
@@ -36,8 +38,12 @@ const StyledItem = styled.li`
   }
 `;
 
-const NavBarItem = ({ children, ativo = false }) => {
-  return <StyledItem $ativo={ativo}>{children}</StyledItem>;
+const NavBarItem = ({ children, to, ativo = false }) => {
+  return (
+    <StyledLink to={to} $ativo={ativo}>
+      {children}
+    </StyledLink>
+  );
 };
 
 export default NavBarItem;
