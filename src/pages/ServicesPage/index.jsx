@@ -11,7 +11,7 @@ const ServicesPage = () => {
         {servicesData.map((item) => (
           <Cards
             key={item.id}
-            category={item.category}
+            // category={item.category}
             image={item.image}
             title={item.title}
             text={item.text}

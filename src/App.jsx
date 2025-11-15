@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import HomePage from "./pages/HomePage";
 import ServicesPage from "./pages/ServicesPage/index.jsx";
 import BlogPage from "./pages/BlogPage";
+import BlogPostPage from "./pages/BlogPostPage/index.jsx";
 // import AboutUsPage from "./pages/AboutUsPage";
 // import CreatorsPage from "./pages/CreatorsPage";
 
@@ -20,6 +21,7 @@ function App() {
         <Route path="/servicos" element={<ServicesPage />} />
 
         <Route path="/blog" element={<BlogPage />} />
+        <Route path="/blog/:slug" element={<BlogPostPage />} />
 
         {/* <Route path="/quem-somos" element={<AboutUsPage />} />
         <Route path="/nossos-criadores" element={<CreatorsPage />} />   */}
