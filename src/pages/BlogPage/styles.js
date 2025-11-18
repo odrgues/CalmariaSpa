@@ -9,7 +9,10 @@ export const PageWrapper = styled.main``;
 export const BlogTitle = styled.h1``;
 
 export const PostCard = styled.div``;
-export const PostImage = styled.img``;
+export const PostImage = styled.img`
+  width: 20%;
+  height: auto;
+`;
 export const PostText = styled.p``;
 export const PostContent = styled.div``;
 

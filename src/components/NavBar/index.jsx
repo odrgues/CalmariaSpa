@@ -5,14 +5,14 @@ import NavBarItem from "./NavBarItem";
 const StyledNavBar = styled.div`
   display: flex;
   justify-content: center;
-
   gap: 30px;
-  whidth: 100%;
+  width: 100%;
 `;
 
 const NavBar = () => {
   const location = useLocation();
   const pathname = location.pathname;
+
   return (
     <nav>
       <StyledNavBar>
