@@ -45,6 +45,7 @@ const HomePage = () => {
             image={item.image}
             title={item.title}
             text={item.text}
+            icon={item.icon}
           />
         ))}
       </CardsContainer>
