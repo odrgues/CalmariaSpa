@@ -57,8 +57,8 @@ const SubscriptionBanner = () => {
             if (message) setMessage("");
           }}
         />
-           {" "}
-        <Button type="submit" $formStyle={true}>
+         {" "}
+        <Button type="submit" $subscribeStyle={true}>
           {" "}
           Inscrever{" "}
         </Button>

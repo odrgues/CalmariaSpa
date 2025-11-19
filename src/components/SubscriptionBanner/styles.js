@@ -5,6 +5,10 @@ export const StyledSubscriptionBanner = styled.section`
   overflow: hidden;
   height: 299px;
   margin-top: 80px;
+
+  @media (max-width: 1024px) {
+    margin-top: 1rem;
+  }
 `;
 export const Title = styled.h1`
   font-size: 31px;
@@ -13,6 +17,10 @@ export const Title = styled.h1`
   font-weight: 400;
   margin-bottom: 0.5rem;
   text-align: center;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 1.5rem;
+  }
 `;
 export const Subtitle = styled.h2`
   font-size: 22px;
@@ -21,12 +29,20 @@ export const Subtitle = styled.h2`
   font-weight: 400;
   margin-bottom: 0.5rem;
   text-align: center;
+
+  @media (max-width: 1024px) {
+    margin-bottom: 0.75rem;
+  }
 `;
 export const FormContainer = styled.form`
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
   height: 65px;
+
+  @media (max-width: 1024px) {
+    width: 90%;
+    margin: 0 auto;
+  }
 `;
 
 export const Input = styled.input`

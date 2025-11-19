@@ -1,6 +1,4 @@
-import styled from "styled-components";
-
-const StyledFooter = styled.div``;
+import { StyledFooter } from "./styles";
 
 const Footer = () => (
   <StyledFooter>

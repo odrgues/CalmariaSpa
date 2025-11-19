@@ -1,5 +1,6 @@
 import { useState } from "react";
 import contactImage from "../../assets/contact-image.png";
+import Button from "../Button";
 import {
   ContactWrapper,
   ImageContainer,
@@ -11,7 +12,6 @@ import {
   Label,
   Input,
   TextArea,
-  Button,
   Message,
 } from "./styles";
 
@@ -117,10 +117,11 @@ const ContactSection = () => {
             placeholder="Escreva sua mensagem"
             value={formData.message}
             onChange={handleChange}
-            rows="4"
           />
 
-          <Button type="submit">Enviar</Button>
+          <Button type="submit" $formStyle={true}>
+            Enviar
+          </Button>
         </Form>
         {feedbackMessage && (
           <Message $isError={isError}>{feedbackMessage}</Message>

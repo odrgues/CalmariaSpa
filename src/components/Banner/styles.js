@@ -79,7 +79,7 @@ export const BannerImage = styled.img`
   object-fit: contain;
   display: block;
 
-  animation: ${imageIn} 1s ease-out 0.2s forwards; /* Tempo maior e um delay sutil (0.2s) */
+  animation: ${imageIn} 1s ease-out 0.2s forwards;
 
   @media (max-width: 1200px) {
     width: 45%;
@@ -120,7 +120,7 @@ export const Title = styled.h1`
   text-align: left;
 
   span {
-    color: #4e75ff;
+    color: #4e75ffff;
   }
 
   @media (max-width: 900px) {

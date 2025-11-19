@@ -1,27 +1,140 @@
-import styled, { css } from "styled-components";
+import styled, { css, keyframes } from "styled-components";
 
-export const ContactWrapper = styled.section`
-  disply: flex;
+const formIn = keyframes`
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+`;
+const imageIn = keyframes`
+    from { opacity: 0; transform: scale(0.95); }
+    to { opacity: 1; transform: scale(1); }
+`;
+
+export const ContactWrapper = styled.div`
+  display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+  }
 `;
-export const ImageContainer = styled.div``;
-export const ContactImage = styled.img``;
+
+export const ContactContainer = styled.section`
+  display: flex;
+  justify-content: center
+  width: 20%:
+  align-items: center;
+  min-height: 100vh;
+ 
+
+  @media (max-width: 768px) {
+    padding: 4rem 5%;
+    min-height: auto;
+
+  }
+
+`;
+
+export const ImageContainer = styled.div`
+  flex-shrink:
+  width: 45%;
+  max-width: 589px;
+  animation: ${imageIn} 1s ease-out;
+
+  @media (max-width: 1024px) {
+   display: none; 
+  }
+  @media (max-width: 768px) {
+    display: none; 
+  }
+`;
+export const ContactImage = styled.img`
+  width: 100%;
+  height: 815.9969482421875px;
+  object-fit: cover;
+`;
+
 export const FormContainer = styled.div`
-  background: linear-gradient(
-    to top,
-    rgba(202, 212, 250, 0.5) 30%,
-    rgba(255, 255, 255, 0.9) 70%
-  );
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(to top, #ffffff 0%, #e8f5c8 100%);
   border-radius: 20px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  padding: 2.5rem 1.5rem;
+  padding: 3rem 2rem;
+  flex-grow: 1;
+  max-width: 583px;
+  height: 815.9969482421875px;
+  animation: ${formIn} 1s ease-out 0.2s;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+    max-width: 600px;
+    padding: 2.5rem 1.5rem;
+  }
+  @media (max-width: 768px) {
+    height: auto;
+    padding: 2rem 1rem;
+    width: 80%;
+  }
 `;
-export const Title = styled.h2``;
-export const Subtitle = styled.p``;
-export const Form = styled.form``;
-export const Label = styled.label``;
-export const Input = styled.input``;
-export const TextArea = styled.textarea``;
-export const Button = styled.button``;
-export const Message = styled.p``;
+export const Title = styled.h2`
+  font-size: 31px;
+  color: #4e75ffff;
+  font-family: "KronaOne", sans-serif;
+  margin-bottom: 0.5rem;
+  text-align: center;
+`;
+export const Subtitle = styled.p`
+  font-size: 22px;
+  color: rgba(12, 4, 33, 1);
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 2rem;
+  text-align: center;
+`;
+export const Form = styled.form`
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+`;
+export const Label = styled.label`
+  font-size: 18px;
+  font-weight: bold;
+  color: rgba(12, 4, 33, 1);
+  font-family: "Montserrat", sans-serif;
+  margin-top: 10px;
+`;
+
+const FormFieldStyle = css`
+  width: 100%;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+`;
+export const Input = styled.input`
+  ${FormFieldStyle}
+  height: 48px;
+`;
+export const TextArea = styled.textarea`
+  ${FormFieldStyle}
+  resize: none;
+  min-height: 120px;
+`;
+
+export const Message = styled.p`
+  font-size: 0.95rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+
+  color: ${(props) => (props.$isError ? "#ff4e4e" : "#4e75ff")};
+`;
