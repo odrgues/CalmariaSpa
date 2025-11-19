@@ -34,7 +34,7 @@ const HomePage = () => {
           title={item.title}
           text={item.text}
           icon={item.icon}
-          $reverse={item.reverse}
+          reverse={item.reverse}
         />
       ))}
 

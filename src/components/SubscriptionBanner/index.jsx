@@ -5,10 +5,10 @@ import {
   Subtitle,
   FormContainer,
   Input,
-  Button,
   Message,
   DecorImage,
 } from "./styles";
+import Button from "../Button";
 import decorImage from "../../assets/decor-image.png";
 
 const SubscriptionBanner = () => {
@@ -33,7 +33,6 @@ const SubscriptionBanner = () => {
       setIsError(true);
       return;
     }
-    console.log("email enviado:", email);
 
     setMessage("Email cadastrado com sucesso!");
     setIsError(false);
@@ -58,8 +57,11 @@ const SubscriptionBanner = () => {
             if (message) setMessage("");
           }}
         />
-
-        <Button type="submit"> Inscrever</Button>
+           {" "}
+        <Button type="submit" $formStyle={true}>
+          {" "}
+          Inscrever{" "}
+        </Button>
       </FormContainer>
 
       {message && <Message $isError={isError}> {message}</Message>}

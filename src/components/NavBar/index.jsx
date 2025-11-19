@@ -7,6 +7,19 @@ const StyledNavBar = styled.div`
   justify-content: center;
   gap: 30px;
   width: 100%;
+
+  @media (max-width: 1024px) {
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 0 3%;
+  }
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 0 1%;
+    text-align: center;
+  }
 `;
 
 const NavBar = () => {

@@ -7,8 +7,6 @@ import {
   TextContainer,
   Title,
   ButtonWrapper,
-
-  // StyledButton,
   BannerImage,
 } from "./styles";
 
