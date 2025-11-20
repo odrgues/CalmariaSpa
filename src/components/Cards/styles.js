@@ -2,71 +2,66 @@ import styled from "styled-components";
 
 export const StyledCard = styled.div`
   background: linear-gradient(
-    to top,
-    rgba(189, 165, 140, 0.6) 30%,
-    /* marrom claro suave */ rgba(230, 223, 215, 0.9) 70% /* bege claro suave */
+    to bottom,
+    rgba(245, 240, 235, 0.95) 30%,
+    rgba(220, 215, 210, 0.8) 100%
   );
 
-  border: 1px solid rgba(255, 255, 255, 0.5);
-  border-radius: 20px;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  padding: 2.5rem 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 3rem 2rem;
 
-  width: 30%;
-  min-width: 384px;
-  max-width: 380px;
-  height: 533px;
+  width: 100%;
+  min-width: 280px;
+  max-width: 420px;
+  height: auto;
 
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1),
+    box-shadow 0.4s ease;
 
   &:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
   }
 
   @media (max-width: 1024px) {
-    width: 45%;
+    max-width: none;
   }
 
   @media (max-width: 768px) {
-    width: 100%;
-    max-width: 400px;
+    max-width: 100%;
   }
 `;
 
 export const CardTitle = styled.h1`
-  font-size: 22px;
-  color: rgba(12, 4, 33, 1);
-  font-family: "KronaOne", sans-serif;
-  font-weight: 400;
+  font-size: 24px;
+  color: #1a2a53;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  margin-top: 1rem;
   margin-bottom: 0.5rem;
   text-align: center;
+  letter-spacing: 0.05rem;
 
   @media (max-width: 768px) {
     font-size: 20px;
   }
 `;
 
-export const Icon = styled.img`
-  width: 30px;
-  height: 32px;
-  margin-bottom: 1.5rem;
-  display: block;
-  margin: auto;
-`;
-
 export const Paragraph = styled.p`
-  font-size: 20px;
-  color: #0c0421;
-  line-height: 1.6;
+  font-size: 17px;
+  color: #5d667a;
+  line-height: 1.7;
   font-family: "Montserrat", sans-serif;
   padding: 0 0.5rem;
+  margin-top: 1rem;
 
   @media (max-width: 768px) {
-    font-size: 16px;
+    font-size: 15px;
   }
 `;

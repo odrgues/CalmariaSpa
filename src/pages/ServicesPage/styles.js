@@ -23,7 +23,6 @@ export const PageWrapper = styled.main`
   min-height: 80vh;
   padding: 6rem 8%;
   margin-top: -4rem;
-  background: linear-gradient(to bottom, #c8e1f5 0%, #ffffff 100%);
 
   @media (max-width: 768px) {
     padding: 4rem 5%;
@@ -33,7 +32,7 @@ export const PageWrapper = styled.main`
 export const ServicesTitle = styled.h1`
   font-family: "KronaOne", sans-serif;
   font-size: 3rem;
-  color: #042285ff;
+  color: #452829;
   text-align: center;
   margin-bottom: 4rem;
   padding-top: 2rem;
