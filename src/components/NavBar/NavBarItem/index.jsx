@@ -3,21 +3,21 @@ import { Link } from "react-router-dom";
 
 const StyledLink = styled(Link)`
   font-size: 22px;
-  font-weight: 400;
+  font-weight: ${(props) => (props.$ativo ? "700" : "400")};
   line-height: 29px;
   font-family: "Montserrat", sans-serif;
   margin: 10px 0;
   display: flex;
   align-items: center;
   gap: 16px;
-  color: ${(props) => (props.$ativo ? "#535a1f" : "#0c0421")};
+  color: ${(props) => (props.$ativo ? "#042285ff" : "#0c0421")};
   cursor: pointer;
   transition: all 0.3s ease;
   text-decoration: none;
 
   &:hover {
     transform: scale(1.05);
-    color: #424911;
+    color: #042285ff;
   }
 
   @media (max-width: 992px) {

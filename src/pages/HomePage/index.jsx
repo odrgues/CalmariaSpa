@@ -14,7 +14,8 @@ const CardsContainer = styled.section`
   justify-content: center;
   gap: 2.5rem;
   padding: 4rem 8%;
-  background: linear-gradient(to bottom, #e8f5c8 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #c8e1f5 0%, #ffffff 100%);
+
   margin-top: 4rem;
 
   @media (max-width: 1024px) {

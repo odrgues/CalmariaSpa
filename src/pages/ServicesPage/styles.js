@@ -1,10 +1,29 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+export const SlideImage = styled.img`
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+
+  ${(props) =>
+    props.$active &&
+    css`
+      opacity: 1;
+      z-index: 10;
+      animation: ${fadeIn} 1s ease-in-out;
+    `}
+`;
 
 export const PageWrapper = styled.main`
   min-height: 80vh;
   padding: 6rem 8%;
-
-  background: linear-gradient(to bottom, #e8f5c8 0%, #ffffff 100%);
+  margin-top: -4rem;
+  background: linear-gradient(to bottom, #c8e1f5 0%, #ffffff 100%);
 
   @media (max-width: 768px) {
     padding: 4rem 5%;
@@ -14,7 +33,7 @@ export const PageWrapper = styled.main`
 export const ServicesTitle = styled.h1`
   font-family: "KronaOne", sans-serif;
   font-size: 3rem;
-  color: #4e75ff;
+  color: #042285ff;
   text-align: center;
   margin-bottom: 4rem;
   padding-top: 2rem;

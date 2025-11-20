@@ -33,7 +33,7 @@ export const Gradient = styled.section`
   margin-top: -30px;
   gap: 6rem;
   box-sizing: border-box;
-  background: linear-gradient(to bottom, #e8f5c8 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #c8e1f5 0%, #ffffff 100%);
 
   @media (max-width: 1024px) {
     gap: 4rem;
@@ -120,7 +120,7 @@ export const Title = styled.h1`
   text-align: left;
 
   span {
-    color: #4e75ffff;
+    color: #042285ff;
   }
 
   @media (max-width: 900px) {

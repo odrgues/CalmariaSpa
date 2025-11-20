@@ -1,9 +1,9 @@
-import image1 from "../assets/slider/image-1.jpg";
-import image2 from "../assets/slider/image-2.jpg";
-import image3 from "../assets/slider/image-3.jpg";
-import image4 from "../assets/slider/image-4.jpg";
-import image5 from "../assets/slider/image-5.jpg";
-import image6 from "../assets/slider/image-6.jpg";
+import image1 from "../assets/slider-blog/image-1.jpg";
+import image2 from "../assets/slider-blog/image-2.jpg";
+import image3 from "../assets/slider-blog/image-3.jpg";
+import image4 from "../assets/slider-blog/image-4.jpg";
+import image5 from "../assets/slider-blog/image-5.jpg";
+import image6 from "../assets/slider-blog/image-6.jpg";
 
 import post1 from ".././assets/blog/post1.jpg";
 import post2 from ".././assets/blog/post2.jpg";

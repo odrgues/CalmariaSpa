@@ -112,7 +112,7 @@ export const TextContainer = styled.div`
 
 export const Title = styled.h2`
   font-size: 31px;
-  color: #4d6bff;
+  color: #042285ff;
   font-weight: 400;
   font-family: "KronaOne", sans-serif;
   line-height: 1.3;

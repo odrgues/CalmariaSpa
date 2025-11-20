@@ -24,6 +24,7 @@ export const ContactWrapper = styled.div`
     flex-direction: column;
     gap: 3rem;
     align-items: center;
+    margin-top: 2rem;
   }
 `;
 
@@ -63,7 +64,8 @@ export const ContactImage = styled.img`
 `;
 
 export const FormContainer = styled.div`
-  background: linear-gradient(to top, #ffffff 0%, #e8f5c8 100%);
+  background: linear-gradient(to bottom, #c8e1f5 0%, #ffffff 100%);
+
   border-radius: 20px;
   padding: 3rem 2rem;
   flex-grow: 1;
@@ -80,6 +82,8 @@ export const FormContainer = styled.div`
     height: auto;
     padding: 2rem 1rem;
     width: 80%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 `;
 export const Title = styled.h2`
@@ -135,6 +139,7 @@ export const Message = styled.p`
   font-weight: bold;
   margin-top: 10px;
   text-align: center;
+  margin-top: 2rem;
 
   color: ${(props) => (props.$isError ? "#ff4e4e" : "#4e75ff")};
 `;

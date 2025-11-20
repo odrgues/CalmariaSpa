@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
 export const StyledFooter = styled.footer`
-  background-color: rgba(232, 245, 200, 1);
+  // background-color: #c8e1f5;
   color: rgba(12, 4, 33, 1);
   padding: 2.5rem 5%;
   width: 100%;
   box-sizing: border-box;
-
+  background: linear-gradient(to top, #c8e1f5 0%, #ffffff 100%);
   display: flex;
   flex-direction: column;
   align-items: center;

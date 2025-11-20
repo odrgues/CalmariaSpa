@@ -3,9 +3,9 @@ import React, { useState, useEffect } from "react";
 import { SliderContainer, SlideImage, Dot, DotsWrapper } from "./styles";
 
 const DUMMY_IMAGES = [
-  { id: 1, src: "caminho-imagem-1.jpg", alt: "Meditação" },
-  { id: 2, src: "caminho-imagem-2.jpg", alt: "Tratamento Facial" },
-  { id: 3, src: "caminho-imagem-3.jpg", alt: "Chás e Ervas" },
+  { id: 1, src: "caminho-imagem-1.jpg", alt: " " },
+  { id: 2, src: "caminho-imagem-2.jpg", alt: " " },
+  { id: 3, src: "caminho-imagem-3.jpg", alt: " " },
 ];
 
 const ImageSlider = ({ images = DUMMY_IMAGES, interval = 5000 }) => {

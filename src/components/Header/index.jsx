@@ -2,7 +2,7 @@ import styled from "styled-components";
 import NavBar from "../NavBar";
 
 const StyledHeader = styled.header`
-  background-color: #e8f5c8;
+  background-color: #c8e1f5;
   width: 100%;
   height: auto;
   display: flex;

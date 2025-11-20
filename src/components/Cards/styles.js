@@ -14,6 +14,7 @@ export const StyledCard = styled.div`
   width: 30%;
   min-width: 384px;
   max-width: 380px;
+  height: 533px;
 
   display: flex;
   flex-direction: column;
@@ -51,7 +52,7 @@ export const Illustration = styled.img`
 `;
 
 export const CardTitle = styled.h1`
-  font-size: 26px;
+  font-size: 22px;
   color: rgba(12, 4, 33, 1);
   font-family: "KronaOne", sans-serif;
   font-weight: 400;
@@ -59,7 +60,7 @@ export const CardTitle = styled.h1`
   text-align: center;
 
   @media (max-width: 768px) {
-    font-size: 24px;
+    font-size: 20px;
   }
 `;
 
@@ -72,7 +73,7 @@ export const Icon = styled.img`
 `;
 
 export const Paragraph = styled.p`
-  font-size: 22px;
+  font-size: 20px;
   color: #0c0421;
   line-height: 1.6;
   font-family: "Montserrat", sans-serif;
