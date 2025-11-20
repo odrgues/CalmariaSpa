@@ -1,4 +1,4 @@
-import styled, { keyframes, css } from "styled-components";
+import styled, { keyframes } from "styled-components";
 
 export const textIn = keyframes`
   from {
@@ -71,7 +71,6 @@ export const MainImage = styled.img`
   transform: ${(props) => (props.$isVisible ? "scale(1)" : "scale(0.98)")};
 
   &:hover {
-    /* Mantemos a transição de hover, que agora é mais fluida por causa do 'all 0.7s' acima */
     transform: scale(1.05);
   }
 

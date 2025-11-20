@@ -32,28 +32,26 @@ export const StyledButton = styled(Link)`
     props.$subscribeStyle &&
     css`
       margin-left: 0;
-      height: 100%;
+      height: 66px;
       flex-shrink: 0;
       width: 150px;
-      border-radius: 0px 30px 30px 0px;
-      border-left: none;
+      border-radius: 0px 30px 30px 0;
+      border: 1px solid rgba(149, 124, 98, 0.5);
       font-size: 20px;
-
       background-color: #957c62;
       color: #ffffff;
-      border: 1px solid rgba(149, 124, 98, 0.5);
-      transition: transform 0.3s ease, box-shadow 0.3s ease,
-        background-color 0.3s ease;
 
       &:hover {
         transform: scale(1.05);
-
         box-shadow: 0 4px 12px rgba(149, 124, 98, 0.35);
       }
 
       @media (max-width: 768px) {
-        width: 120px;
+        width: 100%;
+        max-width: 150px;
+        height: 50px;
         font-size: 16px;
+        border-radius: 50px;
       }
     `}
 
@@ -80,10 +78,7 @@ export const StyledButton = styled(Link)`
         width: 100%;
         max-width: 250px;
         font-size: 16px;
-
-        &:hover {
-          transform: none;
-        }
+        border-radius: 50px;
       }
     `}
 `;

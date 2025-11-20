@@ -42,12 +42,6 @@ const HomePage = () => {
         />
       ))}
 
-      {/* <CardsContainer>
-        {CardsData.map((item) => (
-          <Cards key={item.id} title={item.title} text={item.text} />
-        ))}
-      </CardsContainer> */}
-
       <SubscriptionBanner />
       <ContactSection />
     </>

@@ -29,7 +29,7 @@ const StyledHeader = styled.header`
   @media (max-width: 480px) {
     padding: 2rem 6%;
     img {
-      height: 70px;
+      height: 40px;
     }
   }
 `;

@@ -8,11 +8,9 @@ import {
   Message,
   Icon,
   CenterWrapper,
-  // DecorImage,
 } from "./styles";
 import Button from "../Button";
 import icon from "../../assets/highlights/iconHighlights-1.png";
-// import decorImage from "../../assets/decor-image-black.png";
 
 const SubscriptionBanner = () => {
   const [email, setEmail] = useState("");
@@ -44,7 +42,6 @@ const SubscriptionBanner = () => {
 
   return (
     <StyledSubscriptionBanner>
-      {/* <DecorImage src={decorImage} alt="Decoração lateral" /> */}
       <Title>Inscreva-se para receber descontos!</Title>
       <Subtitle>
         Cadastre seu email para receber descontos e novidades sobre o espaço e
@@ -70,8 +67,6 @@ const SubscriptionBanner = () => {
         <Icon src={icon} alt="Ícone decorativo" />
         {message && <Message $isError={isError}>{message}</Message>}
       </CenterWrapper>
-
-      {/* <DecorImage src={decorImage} alt="Decoração lateral" $rightSide={true} /> */}
     </StyledSubscriptionBanner>
   );
 };

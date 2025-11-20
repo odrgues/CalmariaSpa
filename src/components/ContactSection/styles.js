@@ -46,21 +46,27 @@ export const ContactContainer = styled.section`
 `;
 
 export const ImageContainer = styled.div`
-  flex-shrink:
+  flex-shrink: 0;
   width: 45%;
   max-width: 589px;
   animation: ${imageIn} 1s ease-out;
 
   @media (max-width: 1024px) {
-   display: none; 
+    width: 70%;
+    max-width: 500px;
+    margin: 0 auto;
   }
+
   @media (max-width: 768px) {
-    display: none; 
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
   }
 `;
+
 export const ContactImage = styled.img`
   width: 100%;
-  height: 815.9969482421875px;
+  height: auto;
   object-fit: cover;
   border-radius: 20px;
 `;

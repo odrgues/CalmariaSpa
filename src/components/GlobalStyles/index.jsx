@@ -19,7 +19,7 @@ const EstilosGlobais = createGlobalStyle`
 html, body {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; /* evita scroll lateral no mobile */
+  overflow-x: hidden; 
 }
 html {
   line-height: 1.15; 

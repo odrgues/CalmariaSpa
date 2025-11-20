@@ -65,9 +65,9 @@ export const Title = styled.h1`
   line-height: 1.3;
   margin: 0;
   text-align: left;
-  white-space: nowrap;
-  overflow-x: auto;
-  text-overflow: ellipsis;
+  white-space: normal;
+  overflow: visible;
+  text-overflow: clip;
 
   span {
     color: #7b5e57;
@@ -76,23 +76,26 @@ export const Title = styled.h1`
   @media (max-width: 900px) {
     font-size: 2.2rem;
     line-height: 1.4;
-    text-align: left;
+    text-align: center;
+    margin-top: -1rem;
   }
 
   @media (max-width: 600px) {
     font-size: 2rem;
     line-height: 1.4;
+    margin-top: -1.5rem;
   }
 
   @media (max-width: 480px) {
     font-size: 1.6rem;
     line-height: 1.4;
-    text-align: left;
+    margin-top: -7.5em;
   }
 
   @media (max-width: 360px) {
     font-size: 1.4rem;
     line-height: 1.3;
+    margin-top: -2.5rem;
   }
 `;
 
@@ -104,12 +107,12 @@ export const ButtonWrapper = styled.div`
   height: auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  &:hover {
-    transform: scale(1.05);
+  @media (max-width: 900px) {
+    justify-content: center;
+    width: 100%;
   }
 
-  @media (max-width: 900px) {
-    justify-content: flex-start;
-    width: 100%;
+  &:hover {
+    transform: scale(1.05);
   }
 `;
