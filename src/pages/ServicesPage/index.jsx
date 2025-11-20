@@ -3,11 +3,13 @@ import { servicesData, serviceSliderImages } from "../../data/servicesPageData";
 import { PageWrapper, ServicesTitle, CardsGrid } from "./styles";
 import ImageSlider from "../../components/ImageSlider";
 import NavBar from "../../components/NavBar";
+import Header from "../../components/Header";
 
 const ServicesPage = () => {
   return (
     <>
       {" "}
+      <Header />
       <NavBar />
       <PageWrapper>
         <ImageSlider images={serviceSliderImages} interval={5000} />

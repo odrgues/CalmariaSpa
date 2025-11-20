@@ -14,7 +14,6 @@ function App() {
   return (
     <BrowserRouter>
       <GlobalStyles />
-      <Header />
 
       <Routes>
         <Route path="/" element={<HomePage />} />

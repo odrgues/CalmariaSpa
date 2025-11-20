@@ -4,10 +4,12 @@ import SubscriptionBanner from "../../components/SubscriptionBanner";
 import ContactSection from "../../components/ContactSection";
 import { highlightsData } from "../../data/highlightsData";
 import NavBar from "../../components/NavBar";
+import Header from "../../components/Header";
 
 const HomePage = () => {
   return (
     <>
+      <Header />
       <NavBar />
       <Banner />
 

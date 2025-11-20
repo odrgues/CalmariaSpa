@@ -81,4 +81,35 @@ export const StyledButton = styled(Link)`
         border-radius: 50px;
       }
     `}
+
+
+ ${(props) =>
+    props.$readMoreStyle &&
+    css`
+      margin-left: auto;
+      margin-right: auto;
+      height: 40px;
+      width: 120px;
+      border-radius: 10px;
+      text-decoration: none;
+      border: 1px solid #957c62;
+      background-color: transparent;
+      color: #957c62;
+      font-size: 14px;
+      font-weight: 600;
+      box-shadow: none;
+
+      &:hover {
+        transform: scale(1.02);
+        background-color: #957c62;
+        color: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      @media (max-width: 768px) {
+        height: 36px;
+        width: 100px;
+        font-size: 12px;
+      }
+    `}
 `;
