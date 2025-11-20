@@ -68,7 +68,10 @@ const ContactSection = () => {
   return (
     <ContactWrapper>
       <ImageContainer>
-        <ContactImage src={contactImage} alt="Pessoas relaxando no spa" />
+        <ContactImage
+          src={contactImage}
+          alt="Mulher negra com máscara de skin care nos olhos"
+        />
       </ImageContainer>
       <FormContainer>
         <Title>Entre em contato</Title>

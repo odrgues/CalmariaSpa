@@ -20,6 +20,7 @@ export const ContactWrapper = styled.div`
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5rem;
+  margin-top: 5rem;
   @media (max-width: 1024px) {
     flex-direction: column;
     gap: 3rem;
@@ -65,7 +66,7 @@ export const ContactImage = styled.img`
 `;
 
 export const FormContainer = styled.div`
-  background: linear-gradient(to bottom, #c8e1f5 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #fff3b3 0%, #ffffff 100%);
   border-radius: 20px;
   padding: 3rem 2rem;
   flex-grow: 1;

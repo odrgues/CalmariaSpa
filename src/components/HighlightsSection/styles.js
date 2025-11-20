@@ -64,18 +64,14 @@ export const MainImage = styled.img`
   height: 480px;
   border-radius: 16px;
   object-fit: cover;
-  transition: transform 0.3s ease;
   image-rendering: auto;
+  transition: all 0.7s ease-out;
+
   opacity: ${(props) => (props.$isVisible ? 1 : 0)};
   transform: ${(props) => (props.$isVisible ? "scale(1)" : "scale(0.98)")};
 
-  ${(props) =>
-    props.$isVisible &&
-    css`
-      animation: ${imageIn} 0.7s ease-out forwards;
-    `}
-
   &:hover {
+    /* Mantemos a transição de hover, que agora é mais fluida por causa do 'all 0.7s' acima */
     transform: scale(1.05);
   }
 
@@ -91,15 +87,11 @@ export const TextContainer = styled.div`
   gap: 1rem;
   box-sizing: border-box;
 
+  transition: all 0.8s ease-out 0.2s;
+
   opacity: ${(props) => (props.$isVisible ? 1 : 0)};
   transform: ${(props) =>
     props.$isVisible ? "translateY(0)" : "translateY(20px)"};
-
-  ${(props) =>
-    props.$isVisible &&
-    css`
-      animation: ${textIn} 0.8s ease-out 0.2s forwards;
-    `}
 
   @media (max-width: 1024px) {
     width: 80%;

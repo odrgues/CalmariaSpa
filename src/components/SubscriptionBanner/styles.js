@@ -1,15 +1,19 @@
 import styled, { css } from "styled-components";
 
 export const StyledSubscriptionBanner = styled.section`
-background: linear-gradient(to bottom, #DBD6D3, #FFFFFF); gradiente
-
+  background: linear-gradient(to bottom, #dbd6d3, #ffffff);
   position: relative;
   overflow: hidden;
-  height: 299px;
+  height: 320px;
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   @media (max-width: 1024px) {
     margin-top: 1rem;
+    height: auto;
+    padding-bottom: 2rem;
   }
 `;
 export const Title = styled.h1`
@@ -19,6 +23,7 @@ export const Title = styled.h1`
   font-weight: 400;
   margin-bottom: 0.5rem;
   text-align: center;
+  margin-top: 2.5rem;
 
   @media (max-width: 1024px) {
     margin-bottom: 1.5rem;
@@ -40,10 +45,12 @@ export const FormContainer = styled.form`
   display: flex;
   justify-content: center;
   height: 65px;
+  margin-top: 1.5rem;
+  width: 100%;
 
   @media (max-width: 1024px) {
     width: 90%;
-    margin: 0 auto;
+    margin: 1rem auto;
   }
 `;
 
@@ -64,24 +71,44 @@ export const Message = styled.p`
   font-weight: 400;
   margin-bottom: 0.5rem;
   text-align: center;
-`;
-export const DecorImage = styled.img`
-  position: absolute;
-  top: 250%;
-  transform: translateY(-50%);
-  width: 150px;
-  height: auto;
-  opacity: 0.8;
-
-  ${(props) =>
-    props.$rightSide &&
-    css`
-      left: auto;
-      right: 0;
-      transform: translateY(-50%) rotateY(180deg);
-    `}
+  margin-top: 0.5rem;
 
   @media (max-width: 1024px) {
-    display: none;
+    font-size: 18px;
   }
 `;
+
+export const CenterWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2.5rem;
+`;
+
+export const Icon = styled.img`
+  position: static;
+  width: 587px;
+  max-width: 100%;
+  height: auto;
+`;
+
+// export const DecorImage = styled.img`
+//   position: absolute;
+//   top: 275%;
+//   transform: translateY(-50%);
+//   width: 150px;
+//   height: auto;
+//   opacity: 0.8;
+
+//   ${(props) =>
+//     props.$rightSide &&
+//     css`
+//       left: auto;
+//       right: 0;
+//       transform: translateY(-50%) rotateY(180deg);
+//     `}
+
+//   @media (max-width: 1024px) {
+//     display: none;
+//   }
+// `;

@@ -6,10 +6,13 @@ import {
   FormContainer,
   Input,
   Message,
-  DecorImage,
+  Icon,
+  CenterWrapper,
+  // DecorImage,
 } from "./styles";
 import Button from "../Button";
-import decorImage from "../../assets/decor-image-black.png";
+import icon from "../../assets/highlights/iconHighlights-1.png";
+// import decorImage from "../../assets/decor-image-black.png";
 
 const SubscriptionBanner = () => {
   const [email, setEmail] = useState("");
@@ -41,7 +44,7 @@ const SubscriptionBanner = () => {
 
   return (
     <StyledSubscriptionBanner>
-      <DecorImage src={decorImage} alt="Decoração lateral" />
+      {/* <DecorImage src={decorImage} alt="Decoração lateral" /> */}
       <Title>Inscreva-se para receber descontos!</Title>
       <Subtitle>
         Cadastre seu email para receber descontos e novidades sobre o espaço e
@@ -51,21 +54,24 @@ const SubscriptionBanner = () => {
       <FormContainer onSubmit={handleSubmit}>
         <Input
           type="text"
+          placeholder="Digite seu email..."
           value={email}
           onChange={(e) => {
             setEmail(e.target.value);
             if (message) setMessage("");
           }}
         />
-         {" "}
         <Button type="submit" $subscribeStyle={true}>
-          {" "}
-          Inscrever{" "}
+          Inscrever
         </Button>
       </FormContainer>
 
-      {message && <Message $isError={isError}> {message}</Message>}
-      <DecorImage src={decorImage} alt="Decoração lateral" $rightSide={true} />
+      <CenterWrapper>
+        <Icon src={icon} alt="Ícone decorativo" />
+        {message && <Message $isError={isError}>{message}</Message>}
+      </CenterWrapper>
+
+      {/* <DecorImage src={decorImage} alt="Decoração lateral" $rightSide={true} /> */}
     </StyledSubscriptionBanner>
   );
 };

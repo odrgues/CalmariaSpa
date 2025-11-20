@@ -20,7 +20,7 @@ const HighlightsSection = ({ image, title, text, icon, reverse }) => {
       <StyledHighlights $reverse={reverse}>
         <MainImage
           src={image}
-          alt="Imagem ilustrativa"
+          alt="Imagem ilustrativa relacionadas ao Calmaria Spa"
           $isVisible={isVisible}
         />
         <TextContainer $isVisible={isVisible}>
