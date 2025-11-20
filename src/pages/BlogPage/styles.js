@@ -1,17 +1,47 @@
-import styled, { css, keyframes } from "styled-components";
-
-const fadeIn = keyframes`
-  from { opacity: 0.5; }
-  to { opacity: 1; }
-`;
+import styled, { css } from "styled-components";
+import blogBanner from "../../assets/blog-banner.jpg";
 export const PageWrapper = styled.main``;
+export const Banner = styled.div`
+  background-image: url(${blogBanner});
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 400px;
+  filter: brightness(0.8);
 
-export const BlogTitle = styled.h1``;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    height: 250px;
+    background-size: cover;
+
+    background-position: center center;
+  }
+`;
+export const BlogTitle = styled.h1`
+  color: #ffffff;
+
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  // text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.9);
+  z-index: 2;
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+    padding: 0 15px;
+  }
+`;
 
 export const PostCard = styled.div``;
 export const PostImage = styled.img`
   width: 20%;
   height: auto;
+  margin-top: 10rem;
 `;
 export const PostText = styled.p``;
 export const PostContent = styled.div``;

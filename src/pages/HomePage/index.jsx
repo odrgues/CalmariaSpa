@@ -8,25 +8,27 @@ import ContactSection from "../../components/ContactSection";
 
 import { highlightsData } from "../../data/highlightsData";
 import { CardsData } from "../../data/cardsData";
+import NavBar from "../../components/NavBar";
 
-const CardsContainer = styled.section`
-  display: flex;
-  justify-content: center;
-  gap: 2.5rem;
-  padding: 4rem 8%;
-  background: linear-gradient(to bottom, #c8e1f5 0%, #ffffff 100%);
+// const CardsContainer = styled.section`
+//   display: flex;
+//   justify-content: center;
+//   gap: 2.5rem;
+//   padding: 4rem 8%;
+//   background: linear-gradient(to bottom, #dbd6d3, #ffffff);
 
-  margin-top: 4rem;
+//   margin-top: 4rem;
 
-  @media (max-width: 1024px) {
-    flex-wrap: wrap;
-    max-width: 460px;
-  }
-`;
+//   @media (max-width: 1024px) {
+//     flex-wrap: wrap;
+//     max-width: 460px;
+//   }
+// `;
 
 const HomePage = () => {
   return (
     <>
+      <NavBar />
       <Banner />
 
       {highlightsData.map((item) => (
@@ -40,17 +42,11 @@ const HomePage = () => {
         />
       ))}
 
-      <CardsContainer>
+      {/* <CardsContainer>
         {CardsData.map((item) => (
-          <Cards
-            key={item.id}
-            image={item.image}
-            title={item.title}
-            text={item.text}
-            icon={item.icon}
-          />
+          <Cards key={item.id} title={item.title} text={item.text} />
         ))}
-      </CardsContainer>
+      </CardsContainer> */}
 
       <SubscriptionBanner />
       <ContactSection />

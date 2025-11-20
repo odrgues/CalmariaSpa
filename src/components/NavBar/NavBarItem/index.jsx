@@ -10,14 +10,14 @@ const StyledLink = styled(Link)`
   display: flex;
   align-items: center;
   gap: 16px;
-  color: ${(props) => (props.$ativo ? "#042285ff" : "#0c0421")};
+  color: ${(props) => (props.$ativo ? "#452829" : "#57595B")};
   cursor: pointer;
   transition: all 0.3s ease;
   text-decoration: none;
 
   &:hover {
     transform: scale(1.05);
-    color: #042285ff;
+    color: #57595b;
   }
 
   @media (max-width: 992px) {

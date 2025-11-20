@@ -61,11 +61,11 @@ export const ContactImage = styled.img`
   width: 100%;
   height: 815.9969482421875px;
   object-fit: cover;
+  border-radius: 20px;
 `;
 
 export const FormContainer = styled.div`
   background: linear-gradient(to bottom, #c8e1f5 0%, #ffffff 100%);
-
   border-radius: 20px;
   padding: 3rem 2rem;
   flex-grow: 1;
@@ -88,14 +88,14 @@ export const FormContainer = styled.div`
 `;
 export const Title = styled.h2`
   font-size: 31px;
-  color: #4e75ffff;
+  color: #777c6d;
   font-family: "KronaOne", sans-serif;
   margin-bottom: 0.5rem;
   text-align: center;
 `;
 export const Subtitle = styled.p`
   font-size: 22px;
-  color: rgba(12, 4, 33, 1);
+  color: #452829;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 2rem;
   text-align: center;
@@ -108,7 +108,7 @@ export const Form = styled.form`
 export const Label = styled.label`
   font-size: 18px;
   font-weight: bold;
-  color: rgba(12, 4, 33, 1);
+  color: #452829;
   font-family: "Montserrat", sans-serif;
   margin-top: 10px;
 `;

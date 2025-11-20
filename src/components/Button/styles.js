@@ -7,7 +7,7 @@ export const StyledButton = styled(Link)`
   align-items: center;
   justify-content: center;
   align-self: center;
-  background-color: #4e75ff;
+  background-color: #957c62;
   border-radius: 50px;
   border: none;
   cursor: pointer;
@@ -19,12 +19,13 @@ export const StyledButton = styled(Link)`
   text-decoration: none;
   font-size: 20px;
 
-  box-shadow: 0 4px 12px rgba(78, 117, 255, 0.4);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(12, 12, 12, 0.35);
+  transition: transform 0.3s ease, box-shadow 0.3s ease,
+    background-color 0.3s ease;
 
   &:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 20px rgba(78, 117, 255, 0.6);
+    box-shadow: 0 8px 20px rgba(149, 124, 98, 0.5);
   }
 
   ${(props) =>
@@ -34,22 +35,25 @@ export const StyledButton = styled(Link)`
       height: 100%;
       flex-shrink: 0;
       width: 150px;
- 
       border-radius: 0px 30px 30px 0px;
-      border: 1px solid #4e75ff;
       border-left: none;
       font-size: 20px;
 
-      &:hover {
-        transform: none;
-        box-shadow: none;
-        background-color:  #4e75ff;
+      background-color: #957c62;
+      color: #ffffff;
+      border: 1px solid rgba(149, 124, 98, 0.5);
+      transition: transform 0.3s ease, box-shadow 0.3s ease,
+        background-color 0.3s ease;
 
+      &:hover {
+        transform: scale(1.05);
+
+        box-shadow: 0 4px 12px rgba(149, 124, 98, 0.35);
+      }
 
       @media (max-width: 768px) {
         width: 120px;
         font-size: 16px;
-   
       }
     `}
 
@@ -61,14 +65,14 @@ export const StyledButton = styled(Link)`
       flex-shrink: 0;
       width: 487px;
       border-radius: 50px;
-      border: 1px solid rgba(78, 117, 255, 1);
+      border: 1px solid #957c62;
       font-size: 20px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      color: #fff;
 
       &:hover {
         transform: scale(1.03);
-        box-shadow: 0 8px 20px rgba(78, 117, 255, 0.6);
-        background-color: rgba(78, 117, 255, 1);
+        box-shadow: 0 8px 20px rgba(149, 124, 98, 0.5);
+        background-color: #957c62;
       }
 
       @media (max-width: 768px) {
@@ -76,7 +80,6 @@ export const StyledButton = styled(Link)`
         width: 100%;
         max-width: 250px;
         font-size: 16px;
-        padding: 0;
 
         &:hover {
           transform: none;

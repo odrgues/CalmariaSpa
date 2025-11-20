@@ -4,6 +4,7 @@ import { blogPostsData, blogSliderImages } from "../../data/blogPostsData";
 
 import {
   PageWrapper,
+  Banner,
   PostsContainer,
   PostCard,
   BlogTitle,
@@ -15,7 +16,9 @@ import {
 const BlogPage = () => {
   return (
     <PageWrapper>
-      <BlogTitle>Blog do Calmaria Spa: Seu Guia de Bem-Estar</BlogTitle>
+      <Banner>
+        <BlogTitle>Blog do Calmaria Spa: Seu Guia de Bem-Estar</BlogTitle>
+      </Banner>
       <PostsContainer>
         {blogPostsData.map((post) => (
           <PostCard key={post.id}>

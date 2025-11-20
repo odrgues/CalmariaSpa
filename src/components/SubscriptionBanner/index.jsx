@@ -9,7 +9,7 @@ import {
   DecorImage,
 } from "./styles";
 import Button from "../Button";
-import decorImage from "../../assets/decor-image.png";
+import decorImage from "../../assets/decor-image-black.png";
 
 const SubscriptionBanner = () => {
   const [email, setEmail] = useState("");

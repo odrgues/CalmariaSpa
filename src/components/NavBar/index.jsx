@@ -6,6 +6,7 @@ const StyledNavBar = styled.div`
   display: flex;
   justify-content: center;
   gap: 30px;
+  margin-top: 15px;
   width: 100%;
 
   @media (max-width: 1024px) {

@@ -1,14 +1,6 @@
-import bannerImg from "../../assets/image-banner.png";
-
 import Button from "../Button";
 
-import {
-  Gradient,
-  TextContainer,
-  Title,
-  ButtonWrapper,
-  BannerImage,
-} from "./styles";
+import { Gradient, TextContainer, Title, ButtonWrapper } from "./styles";
 
 const Banner = () => {
   return (
@@ -21,8 +13,6 @@ const Banner = () => {
           <Button to="servicos">Quero relaxar!</Button>
         </ButtonWrapper>
       </TextContainer>
-
-      <BannerImage src={bannerImg} alt="Banner do Calmaria Spa" />
     </Gradient>
   );
 };

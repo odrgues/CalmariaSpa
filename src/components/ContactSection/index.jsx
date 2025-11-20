@@ -1,5 +1,5 @@
 import { useState } from "react";
-import contactImage from "../../assets/contact-image.png";
+import contactImage from "../../assets/contact-image.jpg";
 import Button from "../Button";
 import {
   ContactWrapper,

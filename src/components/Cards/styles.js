@@ -3,9 +3,10 @@ import styled from "styled-components";
 export const StyledCard = styled.div`
   background: linear-gradient(
     to top,
-    rgba(202, 212, 250, 0.5) 30%,
-    rgba(255, 255, 255, 0.9) 70%
+    rgba(189, 165, 140, 0.6) 30%,
+    /* marrom claro suave */ rgba(230, 223, 215, 0.9) 70% /* bege claro suave */
   );
+
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 20px;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
@@ -16,10 +17,9 @@ export const StyledCard = styled.div`
   max-width: 380px;
   height: 533px;
 
-  displaay: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
@@ -35,19 +35,6 @@ export const StyledCard = styled.div`
   @media (max-width: 768px) {
     width: 100%;
     max-width: 400px;
-  }
-`;
-
-export const Illustration = styled.img`
-  width: 84px;
-  height: auto;
-  display: block;
-  margin: 0 auto 1.5rem auto;
-  transform: translateX(0);
-  transition: transform 0.3s ease;
-
-  @media (max-width: 768px) {
-    width: 84px;
   }
 `;
 

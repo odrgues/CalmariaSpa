@@ -1,6 +1,8 @@
 import styled, { css } from "styled-components";
 
 export const StyledSubscriptionBanner = styled.section`
+background: linear-gradient(to bottom, #DBD6D3, #FFFFFF); gradiente
+
   position: relative;
   overflow: hidden;
   height: 299px;
@@ -12,7 +14,7 @@ export const StyledSubscriptionBanner = styled.section`
 `;
 export const Title = styled.h1`
   font-size: 31px;
-  color: rgba(12, 4, 33, 1);
+  color: #452829;
   font-family: "KronaOne", sans-serif;
   font-weight: 400;
   margin-bottom: 0.5rem;
@@ -48,17 +50,12 @@ export const FormContainer = styled.form`
 export const Input = styled.input`
   width: 80%;
   max-width: 1102px;
-
-  border: 2px solid rgba(78, 117, 255, 1);
+  border: none;
   border-radius: 30px 0px 0px 30px;
   outline: none;
 
   padding: 10px 20px;
   font-size: 16px;
-
-  &:focus {
-    border-color: rgba(78, 117, 255, 1);
-  }
 `;
 export const Message = styled.p`
   font-size: 22px;
@@ -70,7 +67,7 @@ export const Message = styled.p`
 `;
 export const DecorImage = styled.img`
   position: absolute;
-  top: 50%;
+  top: 250%;
   transform: translateY(-50%);
   width: 150px;
   height: auto;
@@ -80,8 +77,7 @@ export const DecorImage = styled.img`
     props.$rightSide &&
     css`
       left: auto;
-      right: -1.5%;
-
+      right: 0;
       transform: translateY(-50%) rotateY(180deg);
     `}
 

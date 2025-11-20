@@ -1,26 +1,23 @@
 import styled from "styled-components";
-import NavBar from "../NavBar";
+import headerImage from "../../assets/header-image.jpg";
 
 const StyledHeader = styled.header`
-  background-color: #c8e1f5;
+  background-image: url(${headerImage});
+  background-size: cover;
+  background-position: center;
   width: 100%;
-  height: 265px;
+  min-height: 265px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 2.5rem 0;
+  align-items: flex-start;
+  padding: 2.5rem 4%;
   gap: 30px;
 
   img {
     height: 88px;
     width: auto;
     object-fit: contain;
-  }
-
-  .divider {
-    width: 100%;
-    border-bottom: 1px solid #0c0421;
-    width: 80%;
   }
 
   @media (max-width: 768px) {
@@ -30,17 +27,16 @@ const StyledHeader = styled.header`
   }
 
   @media (max-width: 480px) {
+    padding: 2rem 6%;
     img {
       height: 70px;
     }
   }
 `;
-
 const Header = () => (
   <StyledHeader>
     <img src="/logo.png" alt="Logo do Calmaria Spa" />
     <div className="divider" />
-    <NavBar />
   </StyledHeader>
 );
 

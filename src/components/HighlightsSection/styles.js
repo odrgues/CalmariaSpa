@@ -61,10 +61,11 @@ export const StyledHighlights = styled.section`
 export const MainImage = styled.img`
   width: 35%;
   max-width: 100%;
+  height: 480px;
   border-radius: 16px;
   object-fit: cover;
   transition: transform 0.3s ease;
-
+  image-rendering: auto;
   opacity: ${(props) => (props.$isVisible ? 1 : 0)};
   transform: ${(props) => (props.$isVisible ? "scale(1)" : "scale(0.98)")};
 
@@ -112,7 +113,7 @@ export const TextContainer = styled.div`
 
 export const Title = styled.h2`
   font-size: 31px;
-  color: #042285ff;
+  color: #777c6d;
   font-weight: 400;
   font-family: "KronaOne", sans-serif;
   line-height: 1.3;
