@@ -8,7 +8,7 @@ const DUMMY_IMAGES = [
   { id: 3, src: "caminho-imagem-3.jpg", alt: " " },
 ];
 
-const ImageSlider = ({ images = DUMMY_IMAGES, interval = 5000 }) => {
+const ImageSlider = ({ images = DUMMY_IMAGES, interval = 3000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
     const timer = setInterval(() => {

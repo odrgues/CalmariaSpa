@@ -4,7 +4,7 @@ import NavBar from "../NavBar";
 const StyledHeader = styled.header`
   background-color: #c8e1f5;
   width: 100%;
-  height: auto;
+  height: 265px;
   display: flex;
   flex-direction: column;
   align-items: center;

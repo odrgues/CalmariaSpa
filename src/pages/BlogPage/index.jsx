@@ -16,9 +16,6 @@ const BlogPage = () => {
   return (
     <PageWrapper>
       <BlogTitle>Blog do Calmaria Spa: Seu Guia de Bem-Estar</BlogTitle>
-
-      <ImageSlider images={blogSliderImages} interval={6000} />
-
       <PostsContainer>
         {blogPostsData.map((post) => (
           <PostCard key={post.id}>

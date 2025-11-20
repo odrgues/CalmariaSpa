@@ -20,6 +20,7 @@ const CardsContainer = styled.section`
 
   @media (max-width: 1024px) {
     flex-wrap: wrap;
+    max-width: 460px;
   }
 `;
 

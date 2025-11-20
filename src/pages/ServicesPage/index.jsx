@@ -6,7 +6,7 @@ import ImageSlider from "../../components/ImageSlider";
 const ServicesPage = () => {
   return (
     <PageWrapper>
-      <ImageSlider images={serviceSliderImages} interval={6000} />
+      <ImageSlider images={serviceSliderImages} interval={5000} />
 
       <ServicesTitle>Nossos Serviços</ServicesTitle>
 

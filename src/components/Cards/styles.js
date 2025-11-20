@@ -16,7 +16,7 @@ export const StyledCard = styled.div`
   max-width: 380px;
   height: 533px;
 
-  display: flex;
+  displaay: flex;
   flex-direction: column;
   align-items: center;
 
