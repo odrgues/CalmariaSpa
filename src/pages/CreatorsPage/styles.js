@@ -1,13 +1,9 @@
 import styled from "styled-components";
-// Importação de Link opcional, mantida para consistência
-import { Link } from "react-router-dom";
 
-// 1. Container Principal da Página
 export const CreatorsWrapper = styled.main`
   min-height: 85vh;
   padding: 6rem 8%;
-  /* Gradiente suave de fundo */
-  background: linear-gradient(to bottom, #e8f5c8 0%, #ffffff 100%);
+  background: linear-gradient(to top, #dbd6d3, #ffffff);
   color: #333;
 
   @media (max-width: 768px) {
@@ -15,7 +11,6 @@ export const CreatorsWrapper = styled.main`
   }
 `;
 
-// 2. Título Principal
 export const CreatorsTitle = styled.h1`
   font-family: "KronaOne", sans-serif;
   font-size: 3rem;
