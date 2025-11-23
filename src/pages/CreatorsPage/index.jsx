@@ -21,7 +21,6 @@ const CreatorsPage = () => {
       <CreatorsWrapper>
         <CreatorsTitle>{CreatorsData.title}</CreatorsTitle>
 
-        {/* 1. SEÇÃO NARRATIVA (TEXTO ÚNICO) */}
         <div
           style={{
             maxWidth: "800px",

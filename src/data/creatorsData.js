@@ -2,18 +2,47 @@ export const CreatorsData = {
   title: "Olá, muito prazer! Nós somos os criadores do Calmaria Spa",
 
   narrative: `
-        <h2 style="font-family: 'KronaOne', sans-serif; color: #4e75ff; margin-bottom: 0.5rem;">Jessica Rodrigues: A Arquiteta da Experiência</h2>
-        <p style="font-style: italic; color: #666; margin-bottom: 1rem;">"Acredito que a tranquilidade que buscamos em uma massagem deve ser refletida na tela."</p>
-        
-        <p>Sou <strong>Jessica Rodrigues</strong>, e minha paixão é a convergência entre <strong>Desenvolvimento Frontend e UX Design</strong>. Meu foco neste projeto foi garantir que, ao navegar pelo Calmaria Spa, você sinta a mesma fluidez e paz que encontraria em um ambiente de spa real. Cada cor, transição e layout foi meticulosamente desenhado para reduzir o atrito digital, transformando a navegação em uma experiência de calma visual e intuitiva. Se a interface parece leve e a navegação fácil, meu objetivo foi alcançado.</p>
+  
+ <p style="font-style: italic; color: #666; margin-bottom: 1rem;">
+  "A navegação deve transmitir a mesma paz que sentimos ao entrar em um ambiente de bem-estar."
+</p>
 
-        <h2 style="font-family: 'KronaOne', sans-serif; color: #4e75ff; margin-top: 2.5rem; margin-bottom: 0.5rem;">Rafael Alvarenga: O Mestre da Estrutura</h2>
-        <p style="font-style: italic; color: #666; margin-bottom: 1rem;">"Por trás de uma interface suave, deve haver uma estrutura sólida e organizada."</p>
-        
-        <p>Olá, sou <strong>Rafael Alvarenga</strong>, e sou o responsável pela arquitetura do sistema e organização dos dados deste projeto. Enquanto a Jessica cuidava da beleza e da usabilidade da superfície, meu trabalho era garantir que tudo funcionasse perfeitamente nos bastidores. Organizei a forma como os dados de serviços e os artigos longos do blog são armazenados e recuperados, assegurando que o site fosse rápido, eficiente e escalável. Minha missão foi construir uma base sólida para que a experiência de front-end pudesse brilhar sem interrupções.</p>
+<p>
+  Sou <strong>Jessica Rodrigues</strong>, responsável por toda a camada de 
+  <strong>Desenvolvimento Frontend</strong>, além do <strong>design</strong>, 
+  <strong>UX</strong> e <strong>UI</strong> do Calmaria Spa Digital.
+  Do conceito visual à implementação de cada componente, meu objetivo foi transformar cores, tipografias, transições e espaçamentos 
+  em elementos que transmitissem calma, acolhimento e fluidez.
+</p>
 
-        <p style="margin-top: 2rem; font-size: 1.15rem; font-weight: bold; text-align: center;">Juntos, unimos o design focado no bem-estar com uma engenharia robusta para entregar o Calmaria Spa Digital — um espaço onde a tranquilidade e a tecnologia se encontram.</p>
-    `,
+<p>
+  Desenvolvi cada página com foco na simplicidade, no conforto visual e na clareza das informações.  
+  Busquei trazer para o ambiente digital a sensação de leveza presente em um spa físico, garantindo uma navegação intuitiva, suave e harmoniosa.
+  Se o site transmite serenidade ao primeiro olhar, significa que meu propósito foi alcançado.
+</p>
+
+<p style="margin-top: 2rem; font-size: 1.15rem; font-weight: bold; text-align: center;">
+  O Calmaria Spa Digital nasceu para unir estética, usabilidade e tranquilidade em um único fluxo - 
+  e cada detalhe visual e técnico foi pensado para entregar essa experiência.
+</p>
+
+<p>
+  Olá, sou <strong>Rafael Alvarenga</strong>, e contribuí com o desenvolvimento do projeto ao lado da Jessica.
+  Enquanto ela conduzia toda a direção visual, a experiência do usuário e a construção do frontend,
+  pude colaborar oferecendo apoio na organização de ideias, revisões e na estruturação geral do conceito do site.
+</p>
+
+<p>
+  Minha participação esteve presente principalmente no acompanhamento do processo, auxiliando na validação das escolhas e na busca pelo equilíbrio entre os elementos,
+  garantindo que o resultado final se mantivesse coerente com a proposta de tranquilidade do projeto.
+</p>
+
+<p style="margin-top: 2rem; font-size: 1.15rem; font-weight: bold; text-align: center;">
+  Juntos, unimos visão, sensibilidade e dedicação para entregar o Calmaria Spa Digital - 
+  um espaço onde a tranquilidade e a tecnologia caminham lado a lado.
+</p>
+
+`,
 
   functionalLinks: [
     {
