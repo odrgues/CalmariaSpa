@@ -64,7 +64,7 @@ const SubscriptionBanner = () => {
       </FormContainer>
 
       <CenterWrapper>
-        <Icon src={icon} alt="Ícone decorativo" />
+        {/* <Icon src={icon} alt="Ícone decorativo" /> */}
         {message && <Message $isError={isError}>{message}</Message>}
       </CenterWrapper>
     </StyledSubscriptionBanner>

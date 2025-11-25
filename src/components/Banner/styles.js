@@ -1,4 +1,5 @@
-import styled, { keyframes } from "styled-components";
+import styled, { keyframes, css } from "styled-components";
+import { theme } from "../../styles";
 
 export const textIn = keyframes`
   from {
@@ -13,31 +14,21 @@ export const textIn = keyframes`
 
 export const Gradient = styled.section`
   display: flex;
-  flex-direction: row;
+  flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
   width: 100%;
-  min-height: 480px;
-  padding: 0;
-  margin-top: 60px;
-  gap: 6rem;
+  min-height: auto;
+  padding: clamp(1.5rem, 5vw, 5rem) clamp(5%, 8vw, 8%);
+  gap: clamp(1rem, 3vw, 6rem);
   box-sizing: border-box;
-  background: linear-gradient(to top, #dbd6d3, #ffffff);
+  background: ${theme.gradients.brownTop};
+  text-align: center;
+  margin-top: clamp(2rem, 5vw, 60px);
 
-  @media (max-width: 1024px) {
-    gap: 4rem;
-    padding: 5rem 6%;
-  }
-
-  @media (max-width: 900px) {
-    flex-direction: column-reverse;
-    gap: 2.5rem;
-    padding: 4rem 5%;
-    text-align: center;
-  }
-
-  @media (max-width: 480px) {
-    padding: 3rem 5%;
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    text-align: left;
   }
 `;
 
@@ -58,58 +49,37 @@ export const TextContainer = styled.div`
 `;
 
 export const Title = styled.h1`
-  font-size: 2.6rem;
+  font-size: ${theme.fontSizes.h1};
   font-weight: 400;
-  color: #452829;
+  color: ${theme.colors.title_banner};
   font-family: "KronaOne", sans-serif;
   line-height: 1.3;
   margin: 0;
-  text-align: left;
+  text-align: center;
   white-space: normal;
   overflow: visible;
   text-overflow: clip;
 
   span {
-    color: #7b5e57;
+    color: ${theme.colors.span};
   }
 
-  @media (max-width: 900px) {
-    font-size: 2.2rem;
-    line-height: 1.4;
-    text-align: center;
-    margin-top: -1rem;
-  }
-
-  @media (max-width: 600px) {
-    font-size: 2rem;
-    line-height: 1.4;
-    margin-top: -1.5rem;
-  }
-
-  @media (max-width: 480px) {
-    font-size: 1.6rem;
-    line-height: 1.4;
-    margin-top: -7.5em;
-  }
-
-  @media (max-width: 360px) {
-    font-size: 1.4rem;
-    line-height: 1.3;
-    margin-top: -2.5rem;
+  @media (min-width: 1024px) {
+    text-align: left;
   }
 `;
 
 export const ButtonWrapper = styled.div`
-  margin-top: 1rem;
+  margin-top: ${theme.spacing.md};
   display: flex;
-  justify-content: flex-start;
-  width: auto;
+  justify-content: center;
+  width: 100%;
   height: auto;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-  @media (max-width: 900px) {
-    justify-content: center;
-    width: 100%;
+  @media (min-width: 1024px) {
+    justify-content: flex-start;
+    width: auto;
   }
 
   &:hover {

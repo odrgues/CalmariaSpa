@@ -1,4 +1,5 @@
 import styled, { css, keyframes } from "styled-components";
+import { theme } from "../../styles";
 
 const fadeIn = keyframes`
   from { opacity: 0.5; }
@@ -8,12 +9,12 @@ const fadeIn = keyframes`
 export const SliderContainer = styled.div`
   width: 100%;
   max-width: 1200px;
-  height: 450px;
-  margin: 2rem auto 4rem auto;
+  height: clamp(300px, 45vw, 420px);
+  margin: 2rem auto 3.5rem auto;
   position: relative;
   overflow: hidden;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  border-radius: ${theme.radii.md};
+  box-shadow: ${theme.shadows.medium};
 `;
 
 export const SlideImage = styled.img`

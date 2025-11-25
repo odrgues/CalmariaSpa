@@ -1,121 +1,124 @@
 import styled, { css, keyframes } from "styled-components";
+import { theme } from "../../styles";
 
 const formIn = keyframes`
-    from { opacity: 0; transform: translateY(10px); }
-    to { opacity: 1; transform: translateY(0); }
+ from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
 `;
 const imageIn = keyframes`
-    from { opacity: 0; transform: scale(0.95); }
-    to { opacity: 1; transform: scale(1); }
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
 `;
 
 export const ContactWrapper = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: ${theme.spacing.gapMd};
   max-width: 1200px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5rem;
-  margin-top: 5rem;
-  @media (max-width: 1024px) {
-    flex-direction: column;
-    gap: 3rem;
-    align-items: center;
-    margin-top: 2rem;
+  margin-bottom: ${theme.spacing.gapMd};
+  margin-top: ${theme.spacing.gapMd};
+  padding: 0 ${theme.spacing.md};
+
+  @media (min-width: 1024px) {
+    flex-direction: row;
+    gap: ${theme.spacing.gapMd};
+    align-items: stretch;
+    padding: 0;
   }
 `;
 
 export const ContactContainer = styled.section`
-  display: flex;
-  justify-content: center
-  width: 20%:
+  display: block;
+  width: 100%;
   align-items: center;
-  min-height: 100vh;
- 
+  box-sizing: border-box;
+  padding: ${theme.spacing.lg} 5%;
+  min-height: auto;
 
-  @media (max-width: 768px) {
-    padding: 4rem 5%;
-    min-height: auto;
-
+  @media (min-width: 1024px) {
+    width: 20%;
+    padding: 0;
   }
-
 `;
 
 export const ImageContainer = styled.div`
   flex-shrink: 0;
-  width: 45%;
-  max-width: 589px;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  align-self: stretch;
+  margin: 0 auto;
   animation: ${imageIn} 1s ease-out;
 
-  @media (max-width: 1024px) {
-    width: 70%;
-    max-width: 500px;
-    margin: 0 auto;
-  }
-
-  @media (max-width: 768px) {
-    width: 90%;
-    max-width: 100%;
-    margin: 0 auto;
+  @media (min-width: 1024px) {
+    width: 45%;
+    max-width: 589px;
   }
 `;
 
 export const ContactImage = styled.img`
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: cover;
   border-radius: 20px;
 `;
 
 export const FormContainer = styled.div`
-  background: linear-gradient(to bottom, #fff3b3 0%, #ffffff 100%);
-  border-radius: 20px;
-  padding: 3rem 2rem;
-  flex-grow: 1;
-  max-width: 583px;
-  height: 815.9969482421875px;
+  background: ${theme.gradients.yellowContact};
+  border-radius: ${theme.radii.lg};
+  padding: clamp(1rem, 3vw, 2.25rem) clamp(1rem, 2vw, 1.5rem);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 0;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
   animation: ${formIn} 1s ease-out 0.2s;
+  margin-top: ${theme.spacing.gapMd};
+  margin-bottom: ${theme.spacing.gapMd};
 
-  @media (max-width: 1024px) {
-    width: 100%;
-    max-width: 600px;
-    padding: 2.5rem 1.5rem;
-  }
-  @media (max-width: 768px) {
+  @media (min-width: 1024px) {
+    max-width: 583px;
+    flex-grow: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    align-self: stretch;
     height: auto;
-    padding: 2rem 1rem;
-    width: 80%;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
   }
 `;
+
 export const Title = styled.h2`
-  font-size: 31px;
-  color: #777c6d;
+  font-size: ${theme.fontSizes.h2};
+  color: ${theme.colors.title_contact};
   font-family: "KronaOne", sans-serif;
   margin-bottom: 0.5rem;
   text-align: center;
 `;
+
 export const Subtitle = styled.p`
-  font-size: 22px;
-  color: #452829;
+  font-size: ${theme.fontSizes.lg};
+  color: ${theme.colors.title_banner};
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
   text-align: center;
 `;
+
 export const Form = styled.form`
   display: flex;
   flex-direction: column;
   gap: 15px;
 `;
+
 export const Label = styled.label`
-  font-size: 18px;
+  font-size: ${theme.fontSizes.md};
   font-weight: bold;
-  color: #452829;
+  color: ${theme.colors.title_banner};
   font-family: "Montserrat", sans-serif;
   margin-top: 10px;
 `;
@@ -124,16 +127,18 @@ const FormFieldStyle = css`
   width: 100%;
   padding: 12px 15px;
   border: none;
-  border-radius: 30px;
+  border-radius: ${theme.radii.pill};
   font-size: 1rem;
   font-family: "Montserrat", sans-serif;
   outline: none;
   transition: border-color 0.3s, box-shadow 0.3s;
 `;
+
 export const Input = styled.input`
   ${FormFieldStyle}
   height: 48px;
 `;
+
 export const TextArea = styled.textarea`
   ${FormFieldStyle}
   resize: none;
@@ -141,9 +146,9 @@ export const TextArea = styled.textarea`
 `;
 
 export const Message = styled.p`
-  font-size: 0.95rem;
+  font-size: ${theme.fontSizes.md};
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: 400;
   margin-top: 10px;
   text-align: center;
   margin-top: 2rem;

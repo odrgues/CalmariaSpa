@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import { theme } from "../../styles";
 
 export const StyledFooter = styled.footer`
-  color: rgba(12, 4, 33, 1);
+  color: ${theme.colors.text};
   padding: 2.5rem 5%;
   width: 100%;
   box-sizing: border-box;
@@ -12,27 +13,18 @@ export const StyledFooter = styled.footer`
   text-align: center;
 
   img {
-    width: 150px;
+    width: clamp(120px, 25vw, 150px);
     height: auto;
     margin-bottom: 1.5rem;
-
-    @media (max-width: 768px) {
-      width: 120px;
-      margin-bottom: 1rem;
-    }
   }
 
   p {
     font-family: "Montserrat", sans-serif;
-    font-size: 16px;
+    font-size: ${theme.fontSizes.md};
     font-weight: 400;
     line-height: 1.5;
-    color: #57595b;
+    color: ${theme.colors.muted};
     margin: 0;
     padding-top: 10px;
-
-    @media (max-width: 768px) {
-      font-size: 14px;
-    }
   }
 `;

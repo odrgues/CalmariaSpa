@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { theme } from "../../styles";
+import { media } from "../../styles/breakpoints";
 import { useLocation } from "react-router-dom";
 import NavBarItem from "./NavBarItem";
 
@@ -6,7 +8,7 @@ const StyledNavBar = styled.div`
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: 25px;
+  margin-top: 18px;
   width: 100%;
 
   @media (max-width: 1024px) {
@@ -21,6 +23,12 @@ const StyledNavBar = styled.div`
     padding: 0 1%;
     text-align: center;
   }
+  ${media.bp1366`
+    gap: 24px;
+  `}
+  ${media.bp1920`
+    gap: 20px;
+  `}
 `;
 
 const NavBar = () => {

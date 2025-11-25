@@ -1,4 +1,5 @@
 import styled, { keyframes } from "styled-components";
+import { theme } from "../../styles";
 
 export const textIn = keyframes`
   from {
@@ -26,64 +27,54 @@ export const ContentHighlights = styled.div`
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 3rem;
-  gap: 4rem;
+  margin-top: ${theme.spacing.gapMd};
+  gap: clamp(1.5rem, 3vw, 4rem);
   box-sizing: border-box;
-
-  @media (max-width: 768px) {
-    margin-top: 2rem;
-    gap: 2.5rem;
-  }
 `;
 
 export const StyledHighlights = styled.section`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 7rem;
-  padding: 2rem 8%;
-  flex-direction: ${(props) => (props.$reverse ? "row-reverse" : "row")};
+  gap: clamp(1rem, 2vw, 7rem);
+  padding: clamp(1rem, 3vw, 2.5rem) clamp(5%, 6vw, 9%);
+  flex-direction: column;
+  text-align: center;
   box-sizing: border-box;
 
-  @media (max-width: 1024px) {
-    gap: 4rem;
-    padding: 2rem 6%;
-  }
-
-  @media (max-width: 768px) {
-    flex-direction: column;
-    text-align: center;
-    gap: 2rem;
-    padding: 1rem 5%;
+  @media (min-width: 1024px) {
+    flex-direction: ${(props) => (props.$reverse ? "row-reverse" : "row")};
+    text-align: left;
   }
 `;
 
 export const MainImage = styled.img`
-  width: 35%;
+  width: clamp(100%, 100%, 40%);
   max-width: 100%;
-  height: 480px;
-  border-radius: 16px;
+  height: auto;
+  border-radius: ${theme.radii.md};
   object-fit: cover;
   image-rendering: auto;
-  transition: all 0.7s ease-out;
+  transition: all 0.6s ease-out;
 
   opacity: ${(props) => (props.$isVisible ? 1 : 0)};
-  transform: ${(props) => (props.$isVisible ? "scale(1)" : "scale(0.98)")};
+  transform: ${(props) =>
+    props.$isVisible ? "translateY(0)" : "translateY(10px)"};
 
   &:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
   }
 
-  @media (max-width: 768px) {
-    width: 100%;
+  @media (min-width: 1024px) {
+    width: 40%;
   }
 `;
 
 export const TextContainer = styled.div`
-  width: 587px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: ${theme.spacing.md};
   box-sizing: border-box;
 
   transition: all 0.8s ease-out 0.2s;
@@ -92,69 +83,43 @@ export const TextContainer = styled.div`
   transform: ${(props) =>
     props.$isVisible ? "translateY(0)" : "translateY(20px)"};
 
-  @media (max-width: 1024px) {
-    width: 80%;
-  }
-
-  @media (max-width: 768px) {
-    width: 100%;
-    align-items: center;
+  @media (min-width: 1024px) {
+    width: 60%;
   }
 `;
 
 export const Title = styled.h2`
-  font-size: 31px;
-  color: #777c6d;
+  font-size: ${theme.fontSizes.h2};
+  color: ${theme.colors.title_highlight};
   font-weight: 400;
   font-family: "KronaOne", sans-serif;
   line-height: 1.3;
-  text-align: left;
+  text-align: center;
 
-  @media (max-width: 1024px) {
-    font-size: 28px;
-  }
-
-  @media (max-width: 768px) {
-    font-size: 24px;
-    text-align: center;
+  @media (min-width: 1024px) {
+    text-align: left;
   }
 `;
 
 export const Paragraph = styled.p`
-  font-size: 20px;
-  color: #0c0421;
+  font-size: ${theme.fontSizes.md};
+  color: ${theme.colors.text};
   line-height: 1.6;
   font-family: "Montserrat", sans-serif;
-  margin-top: -10px;
-  text-align: justify;
+  margin-top: 0;
+  text-align: center;
 
-  @media (max-width: 1024px) {
-    font-size: 19px;
-  }
-
-  @media (max-width: 768px) {
-    font-size: 17px;
-    text-align: center;
+  @media (min-width: 1024px) {
+    text-align: justify;
   }
 `;
 
 export const Icon = styled.img`
-  width: 587px;
+  width: clamp(150px, 45vw, 587px);
   max-width: 100%;
+  align-self: center;
   height: auto;
   margin-top: 1rem;
   opacity: 0.9;
   display: block;
-
-  @media (max-width: 1024px) {
-    width: 300px;
-  }
-
-  @media (max-width: 768px) {
-    width: 200px;
-  }
-
-  @media (max-width: 480px) {
-    width: 150px;
-  }
 `;
