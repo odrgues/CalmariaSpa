@@ -51,7 +51,7 @@ export const TextContainer = styled.div`
 export const Title = styled.h1`
   font-size: ${theme.fontSizes.h1};
   font-weight: 400;
-  color: ${theme.colors.title_banner};
+  color: ${theme.colors.primary};
   font-family: "KronaOne", sans-serif;
   line-height: 1.3;
   margin: 0;

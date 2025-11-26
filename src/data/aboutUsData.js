@@ -1,4 +1,52 @@
+import footerImage from "../assets/aboutUs/imageFooter.jpg";
+import inlineImage from "../assets/aboutUs/imageInline.jpg";
 export const AboutUsData = {
-  title: "Sobre o Calmaria Spa: Seu Santuário de Bem-Estar", // 💡 SUBSTITUA PELO TEXTO ABAIXO
-  text: `<p>O Calmaria Spa nasceu de uma semente simples, mas profundamente enraizada: a crença de que em um mundo acelerado e barulhento, todos merecemos e precisamos de um <strong>santuário de paz</strong>. Nossa história não começou em um grande prédio, mas em um pequeno espaço inaugurado em 2018, dedicado a provar que o relaxamento não é um luxo, mas sim o <strong>alicerce</strong> para uma vida equilibrada.</p> <p>No início, éramos conhecidos por nosso toque atencioso nos rituais de massagem ayurvédica. Com o tempo, percebemos que a busca por bem-estar era mais profunda. Isso nos impulsionou a viajar pelo conhecimento, integrando a sabedoria das terapias milenares do Oriente com a precisão da ciência moderna. Foi assim que a <strong>aromaterapia</strong> se tornou um pilar central e que desenvolvemos nossos tratamentos exclusivos, como os Envolvimentos com Lama Vulcânica, unindo o poder nutritivo da natureza com o foco na cura terapêutica.</p> <p>Hoje, o Calmaria Spa é reconhecido por oferecer uma experiência que estimula todos os seus sentidos. Cada detalhe, desde o aroma suave que inunda o ambiente até a infusão de chá de boas-vindas, é orquestrado com a <strong>intencionalidade</strong> de induzir seu sistema nervoso ao estado de <strong>descanso e regeneração</strong>. Nossa missão é mais do que aliviar uma tensão; é reeducar seu corpo e sua mente a encontrarem um ritmo natural de paz.</p> <p>Nossa equipe de terapeutas é composta por pessoas que compartilham um valor inegociável: a <strong>presença</strong>. Eles não apenas executam técnicas, mas criam um plano de bem-estar empático e personalizado, garantindo que você se sinta genuinamente acolhido. Acreditamos que o cuidado deve ser contínuo e que a <strong>sustentabilidade</strong> começa pelo autocuidado, por isso utilizamos apenas produtos orgânicos e de origem responsável.</p> <p>Convidamos você a nos visitar e a iniciar uma jornada de transformação. Não apenas faça uma pausa, mas permita-se florescer em um ambiente de verdadeira calmaria. Seu santuário espera por você.</p>`,
+  title: `Calmaria Spa: Seu Santuário de Bem-Estar`,
+
+  text: `
+<p>
+  O Calmaria Spa nasceu com o propósito de oferecer um 
+  <strong>refúgio genuíno em meio ao ritmo acelerado da vida cotidiana</strong>. 
+  Aqui, acreditamos que o bem-estar não é apenas um momento, mas um estado cultivado com cuidado, presença e intenção. 
+  Por isso, cada elemento do nosso espaço foi desenhado para acolher, aquietar e devolver a você o silêncio que a rotina muitas vezes rouba.
+</p>
+
+<p>
+  Buscamos criar um ambiente que ressignifique o tempo.  
+  Ao atravessar nossas portas, o mundo lá fora desacelera e dá espaço para uma nova percepção: o corpo relaxa, a mente se abre e a respiração encontra um ritmo mais gentil.  
+  É nesse espaço de pausa que a verdadeira transformação acontece — com técnicas especializadas, produtos naturais e rituais que despertam sensações profundas de leveza e renovação.
+</p>
+
+<p>
+  Nossa filosofia integra a serenidade da natureza ao aconchego de um spa dedicado ao bem-estar integral.  
+  Tons terrosos, iluminação suave, elementos orgânicos e aromas delicados formam um cenário pensado para despertar equilíbrio.  
+  Cada sala, cada textura, cada detalhe é parte de um cuidado maior: criar uma atmosfera que conversa com o corpo e com a alma.
+</p>
+
+<p>
+  Ao longo da jornada pelo Calmaria Spa, convidamos você a se reconectar consigo mesma.  
+  Seja através de massagens terapêuticas, rituais de autocuidado, banhos relaxantes ou tratamentos que nutrem profundamente a pele, nossa intenção é sempre a mesma:  
+  proporcionar experiências que tocam, restauram e permanecem.
+</p>
+
+<p>
+  Acreditamos que o bem-estar também nasce do acolhimento humano.  
+  Por isso, nossa equipe é formada por profissionais experientes, sensíveis e atentos, que tratam cada atendimento como único.  
+  Escutamos suas necessidades, respeitamos seu tempo e personalizamos sua experiência para que cada visita seja significativa.
+</p>
+
+<p>
+  Mais do que um espaço de relaxamento, o Calmaria Spa é um santuário onde você pode simplesmente ser.  
+  Onde o peso dos dias se dissolve, onde o corpo encontra conforto e onde a mente finalmente repousa.  
+  Aqui, cuidamos de você com presença, propósito e delicadeza.
+</p>
+
+<p>
+  Este é um convite para desacelerar, respirar fundo e permitir-se viver momentos de profunda calma.  
+  No Calmaria Spa, cada sessão é pensada para harmonizar o seu interior e renovar suas energias — um retorno à leveza que habita em você.
+</p>
+`,
+
+  footerImage,
+  inlineImage,
 };

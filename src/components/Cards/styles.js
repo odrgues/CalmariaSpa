@@ -27,7 +27,7 @@ export const StyledCard = styled.div`
 
 export const CardTitle = styled.h1`
   font-size: ${theme.fontSizes.h3};
-  color: ${theme.colors.text};
+  color: ${theme.colors.text_primary};
   font-family: "Playfair Display", serif;
   font-weight: 600;
   margin-top: 0.75rem;
@@ -37,7 +37,7 @@ export const CardTitle = styled.h1`
 
 export const Paragraph = styled.p`
   font-size: ${theme.fontSizes.md};
-  color: ${theme.colors.text_cards};
+  color: ${theme.colors.text_muted};
   line-height: 1.6;
   font-family: "Montserrat", sans-serif;
   padding: 0 0.5rem;

@@ -8,7 +8,7 @@ const Title = styled.h2`
   padding: 0 2.5rem;
   font-weight: 400;
   line-height: 1.75;
-  color: ${theme.colors.title_highlight};
+  color: ${theme.colors.secondary};
 
   ${media.bp1366`
     padding: 0 1.5rem;

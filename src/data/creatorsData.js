@@ -3,9 +3,10 @@ export const CreatorsData = {
 
   narrative: `
   
- <p style="font-style: italic; color: #666; margin-bottom: 1rem;">
+<p style="font-style: italic; color: #666; margin-bottom: 1rem; text-align: center;">
   "A navegação deve transmitir a mesma paz que sentimos ao entrar em um ambiente de bem-estar."
 </p>
+
 
 <p>
   Sou <strong>Jessica Rodrigues</strong>, responsável por toda a camada de 

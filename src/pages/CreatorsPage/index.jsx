@@ -7,10 +7,11 @@ import {
   CreatorsWrapper,
   CreatorsTitle,
   FunctionalContainer,
+  CreatorsText,
   CreatorActionCard,
   SocialLinksWrapper,
   SocialLink,
-  DownloadButton, // NOVO
+  DownloadButton,
 } from "./styles";
 
 const CreatorsPage = () => {
@@ -21,19 +22,10 @@ const CreatorsPage = () => {
       <CreatorsWrapper>
         <CreatorsTitle>{CreatorsData.title}</CreatorsTitle>
 
-        <div
-          style={{
-            maxWidth: "800px",
-            margin: "0 auto",
-            fontSize: "1.1rem",
-            lineHeight: "1.8",
-            color: "#333",
-          }}
-        >
+        <CreatorsText>
           <div dangerouslySetInnerHTML={{ __html: CreatorsData.narrative }} />
-        </div>
+        </CreatorsText>
 
-        {/* 2. SEÇÃO FUNCIONAL (LINKS E DOWNLOADS) */}
         <FunctionalContainer>
           <h3>Conecte-se e Baixe Nossos Currículos</h3>
 
@@ -42,7 +34,6 @@ const CreatorsPage = () => {
               <h4>{creator.name}</h4>
 
               <SocialLinksWrapper>
-                {/* Link do LinkedIn */}
                 <SocialLink
                   href={creator.linkedin}
                   target="_blank"
@@ -51,7 +42,6 @@ const CreatorsPage = () => {
                   <FaLinkedin />
                 </SocialLink>
 
-                {/* Link do GitHub */}
                 <SocialLink
                   href={creator.github}
                   target="_blank"
@@ -61,7 +51,6 @@ const CreatorsPage = () => {
                 </SocialLink>
               </SocialLinksWrapper>
 
-              {/* Botão de Download */}
               {creator.cvPath && (
                 <DownloadButton
                   href={creator.cvPath}

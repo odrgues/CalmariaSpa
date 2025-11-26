@@ -95,7 +95,7 @@ export const FormContainer = styled.div`
 
 export const Title = styled.h2`
   font-size: ${theme.fontSizes.h2};
-  color: ${theme.colors.title_contact};
+  color: ${theme.colors.accent};
   font-family: "KronaOne", sans-serif;
   margin-bottom: 0.5rem;
   text-align: center;
@@ -103,7 +103,7 @@ export const Title = styled.h2`
 
 export const Subtitle = styled.p`
   font-size: ${theme.fontSizes.lg};
-  color: ${theme.colors.title_banner};
+  color: ${theme.colors.primary};
   font-family: "Montserrat", sans-serif;
   margin-bottom: 1.25rem;
   text-align: center;
@@ -118,7 +118,7 @@ export const Form = styled.form`
 export const Label = styled.label`
   font-size: ${theme.fontSizes.md};
   font-weight: bold;
-  color: ${theme.colors.title_banner};
+  color: ${theme.colors.primary};
   font-family: "Montserrat", sans-serif;
   margin-top: 10px;
 `;

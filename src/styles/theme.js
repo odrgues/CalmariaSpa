@@ -1,10 +1,12 @@
 const colors = {
-  title_banner: "#452829",
-  title_highlight: "#777c6d",
-  title_contact: "#777c6d",
-  text: "rgb(12, 4, 33)",
-  text_creators: "#0c0421",
-  text_cards: "#5d667a",
+  primary: "#452829",
+  secondary: "#777c6d",
+  accent: "#777c6d",
+
+  text_primary: "rgb(12, 4, 33, 1 )",
+  text_secondary: "#0c0421",
+  text_muted: "#5d667a",
+
   label: "#452829",
   button: "#957c62",
   white: "#fff",

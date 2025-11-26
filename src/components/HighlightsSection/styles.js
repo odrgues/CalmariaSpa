@@ -90,7 +90,7 @@ export const TextContainer = styled.div`
 
 export const Title = styled.h2`
   font-size: ${theme.fontSizes.h2};
-  color: ${theme.colors.title_highlight};
+  color: ${theme.colors.secondary};
   font-weight: 400;
   font-family: "KronaOne", sans-serif;
   line-height: 1.3;
@@ -103,7 +103,7 @@ export const Title = styled.h2`
 
 export const Paragraph = styled.p`
   font-size: ${theme.fontSizes.md};
-  color: ${theme.colors.text};
+  color: ${theme.colors.text_primary};
   line-height: 1.6;
   font-family: "Montserrat", sans-serif;
   margin-top: 0;

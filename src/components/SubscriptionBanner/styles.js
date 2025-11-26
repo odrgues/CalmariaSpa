@@ -15,7 +15,7 @@ export const StyledSubscriptionBanner = styled.section`
 
 export const Title = styled.h1`
   font-size: ${theme.fontSizes.h1};
-  color: ${theme.colors.title_banner};
+  color: ${theme.colors.primary};
   font-family: "KronaOne", sans-serif;
   font-weight: 400;
   margin-bottom: -0.3rem;
@@ -25,7 +25,7 @@ export const Title = styled.h1`
 
 export const Subtitle = styled.h2`
   font-size: ${theme.fontSizes.lg};
-  color: ${theme.colors.text};
+  color: ${theme.colors.text_primary};
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   margin-bottom: ${theme.spacing.sm};
