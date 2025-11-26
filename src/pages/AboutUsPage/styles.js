@@ -61,7 +61,7 @@ export const InlineImage = styled.div`
   img {
     width: 100%;
     height: auto;
-    border-radius: ${theme.radii.md};
+    border-radius: ${theme.radii.sm};
     display: block;
   }
 
@@ -70,6 +70,7 @@ export const InlineImage = styled.div`
     margin: ${theme.spacing.md} auto;
     display: flex;
     justify-content: center;
+    width: 100%;
   }
 `;
 
@@ -83,6 +84,6 @@ export const FooterImage = styled.div`
     max-width: 1200px;
     height: 250px;
     object-fit: cover;
-    border-radius: ${theme.radii.md};
+    border-radius: ${theme.radii.sm};
   }
 `;
