@@ -13,6 +13,7 @@ const StyledHeader = styled.header`
   align-items: flex-start;
   padding: 2.5rem 4%;
   gap: 30px;
+  filter: brightness(0.8);
 
   img {
     height: 88px;

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import NavBar from "../../components/NavBar";
-import { blogPostsData } from "../../data/blogPostsData";
+import { posts } from "../../data/blogPostsData";
+import Header from "../../components/Header";
 import Button from "../../components/Button";
 
 import {
@@ -18,19 +19,23 @@ import {
 const BlogPage = () => {
   return (
     <>
+      <Header />
       <NavBar />
+
+      <Banner>
+        <BlogTitle>Blog do Calmaria: Seu Guia de Bem-Estar</BlogTitle>
+      </Banner>
+
       <PageWrapper>
-        <Banner>
-          <BlogTitle>Blog do Calmaria Spa: Seu Guia de Bem-Estar</BlogTitle>
-        </Banner>
         <PostsContainer>
-          {blogPostsData.map((post) => (
+          {posts.map((post) => (
             <PostCard key={post.id}>
-              <PostImage src={post.image} alt={post.title} />
+              <PostImage src={post.coverImage} alt={post.title} />
+
               <PostContent>
                 <PostTitle>{post.title}</PostTitle>
 
-                <PostText>{post.text.substring(0, 150)}...</PostText>
+                <PostText>{post.preview}</PostText>
 
                 <Button to={`/blog/${post.slug}`} $readMoreStyle>
                   Ler Mais

@@ -1,31 +1,32 @@
-import { useParams, Link } from "react-router-dom";
-import { blogPostsData } from "../../data/blogPostsData";
-import {
-  ErrorMessage,
-  BlogPostWrapper,
-  PostImage,
-  PostTitle,
-  PostText,
-  BackLink,
-} from "./styles";
+import { useParams } from "react-router-dom";
+import { posts } from "../../data/blogPostsData.jsx";
+
+import Header from "../../components/Header";
+import NavBar from "../../components/NavBar";
+
+import { BlogPostWrapper, PostCover, BackLink } from "./styles";
 
 const BlogPostPage = () => {
   const { slug } = useParams();
-  const post = blogPostsData.find((p) => p.slug === slug);
-  if (!post) {
-    return <ErrorMessage />;
-  }
+  const post = posts.find((p) => p.slug === slug);
+
+  if (!post) return <h1>Post não encontrado</h1>;
 
   return (
-    <BlogPostWrapper>
-      <PostImage src={post.image} alt={post.title} />
-      <PostTitle>{post.title}</PostTitle>
-      <PostText>{post.textPost}</PostText>
+    <>
+      <Header />
+      <NavBar />
 
-      <Link to="/blog">
-        <BackLink> Voltar ao Blog</BackLink>
-      </Link>
-    </BlogPostWrapper>
+      <BlogPostWrapper>
+        <h1>{post.title}</h1>
+
+        <PostCover src={post.coverImage} alt={post.title} />
+
+        {post.content}
+
+        <BackLink to="/blog">← Voltar para o Blog</BackLink>
+      </BlogPostWrapper>
+    </>
   );
 };
 

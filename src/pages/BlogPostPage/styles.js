@@ -1,13 +1,8 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const BlogPostWrapper = styled.div``;
-export const ErrorMessage = styled.h1``;
-export const PostImage = styled.img`
-  width: 20%;
-`;
-export const PostTitle = styled.h1``;
-export const PostText = styled.p``;
 
-export const BackLink = styled.button`
-  background-color: plum;
-`;
+export const PostCover = styled.img``;
+
+export const BackLink = styled(Link)``;

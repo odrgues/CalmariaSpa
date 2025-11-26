@@ -1,69 +1,66 @@
 import styled, { css } from "styled-components";
 import blogBanner from "../../assets/blog-banner.jpg";
+import theme from "../../styles/theme";
+import media from "../../styles/breakpoints";
 
 export const PageWrapper = styled.main`
   min-height: 80vh;
-  background-color: #f5f0eb;
-  padding-bottom: 4rem;
+  padding-bottom: ${theme.spacing.xl};
 `;
 
 export const Banner = styled.div`
   background-image: url(${blogBanner});
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  height: 400px;
-  filter: brightness(0.8);
+  height: 300px;
+  filter: brightness(0.85);
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 768px) {
-    height: 250px;
-    background-size: cover;
-
-    background-position: center center;
-  }
+  ${media.bp768`
+    height: 350px;
+  `}
 `;
-export const BlogTitle = styled.h1`
-  color: #ffffff;
 
-  font-size: 2.5rem;
+export const BlogTitle = styled.h1`
+  color: ${theme.colors.white};
+  font-size: ${theme.fontSizes.h1};
   font-weight: 700;
   text-align: center;
-  z-index: 2;
-
-  @media (max-width: 768px) {
-    font-size: 1.5rem;
-    padding: 0 15px;
-  }
+  max-width: 900px;
+  padding: 0 1rem;
+  line-height: 1.2;
 `;
 
 export const PostsContainer = styled.div`
-  width: 90%;
+  width: 100%;
   max-width: 1200px;
-  margin: 4rem auto;
+  margin: ${theme.spacing.xl} auto;
   display: grid;
+  gap: ${theme.spacing.xl};
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 3rem;
 
-  @media (max-width: 768px) {
-    margin: 2rem auto;
-    gap: 2rem;
-  }
+  ${media.bp768`
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  `}
+
+  ${media.bp1024`
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  `}
 `;
 
 export const PostCard = styled.div`
-  background-color: #ffffff;
-  border-radius: 12px;
+  background: ${theme.gradients.card};
+  border-radius: ${theme.radii.md};
   overflow: hidden;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: ${theme.shadows.medium};
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
   cursor: pointer;
-  height: 100%;
 
   &:hover {
     transform: translateY(-8px);
@@ -73,42 +70,48 @@ export const PostCard = styled.div`
 
 export const PostImage = styled.img`
   width: 100%;
-  height: 200px;
+  height: 220px;
   object-fit: cover;
-  margin-top: 0;
   transition: transform 0.4s ease;
 
   ${PostCard}:hover & {
     transform: scale(1.05);
   }
+
+  ${media.bp768`
+    height: 260px;
+  `}
 `;
 
 export const PostContent = styled.div`
-  padding: 1.5rem;
+  padding: ${theme.spacing.lg};
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  min-height: 150px;
+  gap: ${theme.spacing.md};
 `;
 
 export const PostTitle = styled.h2`
   font-family: "Playfair Display", serif;
-  font-size: 1.5rem;
-  color: #1a2a53;
-  margin-bottom: 0.5rem;
+  font-size: ${theme.fontSizes.lg};
+  color: ${theme.colors.primary};
+  margin-bottom: 0.2rem;
   line-height: 1.3;
   font-weight: 600;
 
   ${PostCard}:hover & {
-    color: #a89083;
+    color: ${theme.colors.accent};
   }
+
+  ${media.bp768`
+    font-size: ${theme.fontSizes.xl};
+  `}
 `;
 
 export const PostText = styled.p`
-  font-size: 1rem;
-  color: #5d667a;
+  font-size: ${theme.fontSizes.base};
+  color: ${theme.colors.text_muted};
   line-height: 1.6;
-  margin-bottom: 1rem;
+
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
