@@ -6,10 +6,10 @@ import NavBar from "../../components/NavBar";
 import {
   CreatorsWrapper,
   CreatorsTitle,
-  FunctionalContainer, // NOVO
-  CreatorActionCard, // NOVO
-  SocialLinksWrapper, // NOVO
-  SocialLink, // NOVO
+  FunctionalContainer,
+  CreatorActionCard,
+  SocialLinksWrapper,
+  SocialLink,
   DownloadButton, // NOVO
 } from "./styles";
 

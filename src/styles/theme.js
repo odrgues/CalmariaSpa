@@ -3,6 +3,7 @@ const colors = {
   title_highlight: "#777c6d",
   title_contact: "#777c6d",
   text: "rgb(12, 4, 33)",
+  text_creators: "#0c0421",
   text_cards: "#5d667a",
   label: "#452829",
   button: "#957c62",

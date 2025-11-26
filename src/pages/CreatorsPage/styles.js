@@ -1,42 +1,35 @@
 import styled from "styled-components";
+import { theme } from "../../styles";
 
 export const CreatorsWrapper = styled.main`
   min-height: 85vh;
-  padding: 6rem 8%;
-  color: #5d667a;
-
-  @media (max-width: 768px) {
-    padding: 4rem 5%;
-  }
+  padding: clamp(2rem, 4vw, 6rem) clamp(5%, 8vw, 8%);
+  color: ${theme.colors.text};
 `;
 
 export const CreatorsTitle = styled.h1`
   font-family: "KronaOne", sans-serif;
-  font-size: 3rem;
-  color: #452829;
+  font-size: ${theme.fontSizes.h1};
+  color: ${theme.colors.title_banner};
   text-align: center;
-  margin-bottom: 3rem;
-
-  @media (max-width: 768px) {
-    font-size: 2.2rem;
-  }
+  margin-bottom: ${theme.spacing.gapMd};
 `;
 
 export const FunctionalContainer = styled.div`
   max-width: 800px;
-  margin: 4rem auto 0 auto;
-  padding: 30px 0;
-  border-top: #452829 2px solid;
+  margin: ${theme.spacing.gapLg} auto 0 auto;
+  padding: ${theme.spacing.lg} 0;
+  border-top: ${theme.colors.title_banner} 2px solid;
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: ${theme.spacing.gapMd};
 
   h3 {
     font-family: "KronaOne", sans-serif;
-    font-size: 1.5rem;
-    color: #1a2a53;
+    font-size: ${theme.fontSizes.h3};
+    color: ${theme.colors.title_banner};
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: ${theme.spacing.md};
   }
 `;
 
@@ -44,26 +37,23 @@ export const CreatorActionCard = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 30px;
-  background: linear-gradient(
-    to bottom,
-    rgba(245, 240, 235, 0.95) 30%,
-    rgba(220, 215, 210, 0.8) 100%
-  );
+  padding: ${theme.spacing.md} ${theme.spacing.lg};
+  background: ${theme.gradients.card};
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 
   h4 {
     font-family: "KronaOne", sans-serif;
-    font-size: 1.2rem;
-    color: #1a2a53;
+    font-size: ${theme.fontSizes.lg};
+    color: ${theme.colors.title_banner};
+    font-weight: normal;
   }
 
   @media (max-width: 600px) {
     flex-direction: column;
-    gap: 15px;
+    gap: ${theme.spacing.md};
     text-align: center;
-    padding: 20px;
+    padding: ${theme.spacing.md};
 
     h4 {
       width: 100%;
@@ -73,34 +63,35 @@ export const CreatorActionCard = styled.div`
 
 export const SocialLinksWrapper = styled.div`
   display: flex;
-  gap: 15px;
+  gap: ${theme.spacing.md};
   align-items: center;
 `;
 
 export const SocialLink = styled.a`
-  color: #0c0421;
-  font-size: 1.8rem;
+  color: ${theme.colors.text};
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
   transition: color 0.3s;
   text-decoration: none;
 
   &:hover {
-    color: #957c62;
+    color: ${theme.colors.button};
   }
 `;
 
 export const DownloadButton = styled.a`
   display: inline-flex;
   align-items: center;
-  padding: 10px 20px;
-  background-color: #957c62;
-  color: #fff;
+  padding: ${theme.spacing.sm} ${theme.spacing.md};
+  background-color: ${theme.colors.button};
+  color: ${theme.colors.white};
   text-decoration: none;
-  border-radius: 50px;
+  border-radius: ${theme.radii.pill};
   font-weight: 600;
   transition: background-color 0.3s;
-  font-size: 0.95rem;
+  font-size: ${theme.fontSizes.sm};
 
   &:hover {
-    background-color: #0c0421;
+    background-color: ${theme.colors.button};
+    opacity: 0.9;
   }
 `;
