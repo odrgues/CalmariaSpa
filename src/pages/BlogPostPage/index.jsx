@@ -19,11 +19,8 @@ const BlogPostPage = () => {
 
       <BlogPostWrapper>
         <h1>{post.title}</h1>
-
         <PostCover src={post.coverImage} alt={post.title} />
-
         {post.content}
-
         <BackLink to="/blog">← Voltar para o Blog</BackLink>
       </BlogPostWrapper>
     </>
