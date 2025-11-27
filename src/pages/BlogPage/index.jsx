@@ -4,8 +4,8 @@ import { posts } from "../../data/blogPostsData";
 import Button from "../../components/Button";
 
 import {
-  PageWrapper,
   Banner,
+  PageWrapper,
   PostsContainer,
   PostCard,
   BlogTitle,

@@ -4,7 +4,7 @@ import { posts } from "../../data/blogPostsData.jsx";
 import Header from "../../components/Header";
 import NavBar from "../../components/NavBar";
 
-import { BlogPostWrapper, PostCover, BackLink } from "./styles";
+import PostView from "./PostView.jsx";
 
 const BlogPostPage = () => {
   const { slug } = useParams();
@@ -12,17 +12,13 @@ const BlogPostPage = () => {
 
   if (!post) return <h1>Post não encontrado</h1>;
 
+  const PostLayoutComponent = PostView;
+
   return (
     <>
       <Header />
       <NavBar />
-
-      <BlogPostWrapper>
-        <h1>{post.title}</h1>
-        <PostCover src={post.coverImage} alt={post.title} />
-        {post.content}
-        <BackLink to="/blog">← Voltar para o Blog</BackLink>
-      </BlogPostWrapper>
+      <PostLayoutComponent post={post} />
     </>
   );
 };

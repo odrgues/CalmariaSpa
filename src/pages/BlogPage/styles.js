@@ -1,5 +1,6 @@
 import styled, { css } from "styled-components";
 import blogBanner from "../../assets/blog-banner.jpg";
+import { BannerBase } from "../../styles/BannerBase";
 import theme from "../../styles/theme";
 import media from "../../styles/breakpoints";
 
@@ -8,30 +9,11 @@ export const PageWrapper = styled.main`
   padding-bottom: ${theme.spacing.xl};
 `;
 
-export const Banner = styled.div`
+export const Banner = styled(BannerBase)`
   background-image: url(${blogBanner});
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  width: 100%;
-  min-height: 265px;
-  height: auto;
-
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  padding: 2.5rem 4%;
-  gap: 30px;
-  filter: brightness(0.8);
-
-  ${media.bp768`
-    min-height: 265px; 
-  `}
 `;
-
 export const BlogTitle = styled.h1`
   color: ${theme.colors.white};
   font-size: ${theme.fontSizes.h1};

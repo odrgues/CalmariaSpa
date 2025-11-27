@@ -1,19 +1,14 @@
+import React from "react";
 import styled from "styled-components";
 import headerImage from "../../assets/header-image.jpg";
+import logoImage from "../../../public/logo.png";
+import { BannerBase } from "../../styles/BannerBase";
+import media from "../../styles/breakpoints";
 
-const StyledHeader = styled.header`
+const StyledHeader = styled(BannerBase)`
   background-image: url(${headerImage});
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  min-height: 265px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: flex-start;
-  padding: 2.5rem 4%;
-  gap: 30px;
-  filter: brightness(0.8);
 
   img {
     height: 88px;
@@ -22,22 +17,23 @@ const StyledHeader = styled.header`
     filter: invert(1) brightness(2);
   }
 
-  @media (max-width: 768px) {
+  ${media.bp768`
     img {
       height: 90px;
     }
-  }
+  `}
 
-  @media (max-width: 480px) {
+  ${media.bp480`
     padding: 2rem 6%;
     img {
       height: 40px;
     }
-  }
+  `}
 `;
+
 const Header = () => (
   <StyledHeader>
-    <img src="/logo.png" alt="Logo do Calmaria Spa" />
+    <img src={logoImage} alt="Logo do Calmaria Spa" />
     <div className="divider" />
   </StyledHeader>
 );

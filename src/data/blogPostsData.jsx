@@ -1,5 +1,3 @@
-import ImageSlider from "../components/ImageSlider";
-
 import coverImage1 from "../assets/posts/post-1/cover-image.jpg";
 import coverImage2 from "../assets/posts/post-2/cover-image.jpg";
 import coverImage3 from "../assets/posts/post-3/cover-image.jpg";
@@ -10,8 +8,10 @@ import coverImage6 from "../assets/posts/post-6/cover-image.jpg";
 export const posts = [
   {
     id: 1,
+
     slug: "skincare-geracao-z",
-    title: "Os Segredos de Skincare da Geração Z",
+    title:
+      "Os Segredos de Skincare da Geração Z: Mais que Tendência, um Estilo de Vida!",
     coverImage: coverImage1,
     preview: "Descubra como a geração Z está redefinindo o skincare",
 
@@ -23,8 +23,8 @@ export const posts = [
         </h1>
 
         <p>
-          🧖‍♀️ Os Segredos de Skincare da Geração Z: Mais que Tendência, um Estilo
-          de Vida! A Geração Z, ou Gen Z, não está apenas seguindo tendências de
+          Os Segredos de Skincare da Geração Z: Mais que Tendência, um Estilo de
+          Vida! A Geração Z, ou Gen Z, não está apenas seguindo tendências de
           skincare; eles estão revolucionando a forma como encaramos os cuidados
           com a pele. Para essa geração, o skincare é um ato de autocuidado,
           bem-estar mental e um terreno fértil para a experimentação e o
@@ -36,7 +36,7 @@ export const posts = [
           da Gen Z? Descubra a seguir!
         </p>
 
-        <h2>💚 A Filosofia Gen Z: Ingredientes Sim, Rótulos Complexos Não</h2>
+        <h2> A Filosofia Gen Z: Ingredientes Sim, Rótulos Complexos Não</h2>
 
         <p>
           O skincare da Gen Z é marcado pela informação e pela busca por
@@ -64,15 +64,7 @@ export const posts = [
           solar é o protagonista absoluto.
         </p>
 
-        <ImageSlider
-          images={[
-            { id: 1, src: "/imgs/slider1.jpg" },
-            { id: 2, src: "/imgs/slider2.jpg" },
-            { id: 3, src: "/imgs/slider3.jpg" },
-          ]}
-        />
-
-        <h2>📱 Os 5 Hábitos Essenciais da Rotina Gen Z</h2>
+        <h2>Os 5 Hábitos Essenciais da Rotina Gen Z</h2>
 
         <p>
           <strong>1. Dupla Limpeza (Double Cleansing):</strong> Inspirados pela
@@ -103,7 +95,7 @@ export const posts = [
           religiosamente.
         </p>
 
-        <h2>🌍 Skincare Consciente: Além do Rosto</h2>
+        <h2>Skincare Consciente: Além do Rosto</h2>
 
         <p>A Gen Z também expressa seus valores através das escolhas:</p>
 
@@ -127,13 +119,14 @@ export const posts = [
           aprendizados e construir uma rotina que reflita seus valores.”
         </blockquote>
 
-        <p>💡 E você? Qual ingrediente ativo descobriu graças à Gen Z?</p>
+        <p>E você? Qual ingrediente ativo descobriu graças à Gen Z?</p>
       </>
     ),
   },
 
   {
     id: 2,
+
     slug: "slow-living-dezooming-livro-ativismo",
     title: "Slow Living e o De-Zooming: Ler é o Novo Ativismo",
     coverImage: coverImage2,
@@ -278,6 +271,7 @@ export const posts = [
 
   {
     id: 3,
+
     slug: "microdoses-de-alegria",
     title: "O Self-Care da Alegria: Microdoses para Viver Melhor",
     coverImage: coverImage3,
