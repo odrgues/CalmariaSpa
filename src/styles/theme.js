@@ -19,6 +19,7 @@ const spacing = {
   md: "clamp(16px, 2vw, 20px)",
   lg: "clamp(24px, 3vw, 32px)",
   xl: "clamp(32px, 4vw, 48px)",
+  xxl: "clamp(48px, 6vw, 72px)",
 
   gapSm: "clamp(1rem, 2vw, 1.5rem)",
   gapMd: "clamp(2rem, 3vw, 3rem)",

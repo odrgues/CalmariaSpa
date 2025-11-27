@@ -42,15 +42,24 @@ export const PostsContainer = styled.div`
   max-width: 1200px;
   margin: ${theme.spacing.xl} auto;
   display: grid;
-  gap: ${theme.spacing.xl};
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: ${theme.spacing.gapSm};
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  padding: 0 ${theme.spacing.sm};
+
+  ${media.bp480`
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    padding: 0 ${theme.spacing.md}; 
+  `}
 
   ${media.bp768`
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: ${theme.spacing.lg};
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 ${theme.spacing.xl};
   `}
 
   ${media.bp1024`
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 ${theme.spacing.xl}; 
   `}
 `;
 
