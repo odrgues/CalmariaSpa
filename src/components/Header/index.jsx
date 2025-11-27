@@ -19,6 +19,7 @@ const StyledHeader = styled.header`
     height: 88px;
     width: auto;
     object-fit: contain;
+    filter: invert(1) brightness(2);
   }
 
   @media (max-width: 768px) {

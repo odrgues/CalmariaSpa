@@ -13,17 +13,22 @@ export const Banner = styled.div`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+
   width: 100%;
-  height: 300px;
-  filter: brightness(0.85);
+  min-height: 265px;
+  height: auto;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 
+  padding: 2.5rem 4%;
+  gap: 30px;
+  filter: brightness(0.8);
+
   ${media.bp768`
-    height: 350px;
+    min-height: 265px; 
   `}
 `;
 
