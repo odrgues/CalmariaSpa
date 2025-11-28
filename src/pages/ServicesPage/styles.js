@@ -15,7 +15,6 @@ export const SlideImage = styled.img`
     css`
       opacity: 1;
       z-index: 10;
-      animation: ${fadeIn} 1s ease-in-out;
     `}
 `;
 

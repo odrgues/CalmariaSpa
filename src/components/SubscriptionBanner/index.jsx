@@ -6,11 +6,9 @@ import {
   FormContainer,
   Input,
   Message,
-  Icon,
   CenterWrapper,
 } from "./styles";
 import Button from "../Button";
-import icon from "../../assets/highlights/iconHighlights-1.png";
 
 const SubscriptionBanner = () => {
   const [email, setEmail] = useState("");
@@ -64,7 +62,6 @@ const SubscriptionBanner = () => {
       </FormContainer>
 
       <CenterWrapper>
-        {/* <Icon src={icon} alt="Ícone decorativo" /> */}
         {message && <Message $isError={isError}>{message}</Message>}
       </CenterWrapper>
     </StyledSubscriptionBanner>

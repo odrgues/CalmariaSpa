@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import theme from "./theme";
 import media from "./breakpoints";
 
 export const BannerBase = styled.div`

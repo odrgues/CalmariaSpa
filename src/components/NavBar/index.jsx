@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { theme } from "../../styles";
 import { media } from "../../styles/breakpoints";
 import { useLocation } from "react-router-dom";
 import NavBarItem from "./NavBarItem";

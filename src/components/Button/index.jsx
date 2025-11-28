@@ -5,13 +5,11 @@ const Button = ({
   children,
   to,
   type,
-  variant, // new: 'form' | 'subscribe' | 'read-more'
+  variant,
   $formStyle,
   $subscribeStyle,
   $readMoreStyle,
 }) => {
-  // Backwards-compatible mapping: if explicit boolean props are not provided,
-  // derive them from `variant`.
   const formProp = $formStyle ?? variant === "form";
   const subscribeProp = $subscribeStyle ?? variant === "subscribe";
   const readMoreProp = $readMoreStyle ?? variant === "read-more";
@@ -28,8 +26,6 @@ const Button = ({
       </StyledButton>
     );
   }
-
-  // Botão como link
   return (
     <StyledButton
       as={Link}

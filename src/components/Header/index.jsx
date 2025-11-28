@@ -3,7 +3,6 @@ import styled from "styled-components";
 import headerImage from "../../assets/header-image.jpg";
 import logoImage from "/logo.png";
 import { BannerBase } from "../../styles/BannerBase";
-import media from "../../styles/breakpoints";
 
 const StyledHeader = styled(BannerBase)`
   background-image: url(${headerImage});
