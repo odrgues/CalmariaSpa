@@ -1,10 +1,9 @@
 import { useParams } from "react-router-dom";
 import { posts } from "../../data/blogPostsData.jsx";
-
-import Header from "../../components/Header";
 import NavBar from "../../components/NavBar";
 
 import PostView from "./PostView.jsx";
+import BannerBlog from "../../components/BannerBlog";
 
 const BlogPostPage = () => {
   const { slug } = useParams();
@@ -16,7 +15,7 @@ const BlogPostPage = () => {
 
   return (
     <>
-      <Header />
+      <BannerBlog />
       <NavBar />
       <PostLayoutComponent post={post} />
     </>

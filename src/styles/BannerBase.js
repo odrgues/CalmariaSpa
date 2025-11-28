@@ -8,14 +8,15 @@ export const BannerBase = styled.div`
   background-repeat: no-repeat;
   filter: brightness(0.8);
   width: 100%;
-  min-height: 265px;
   height: auto;
   display: flex;
   flex-direction: column;
-  padding: 2.5rem 4%;
   gap: 30px;
 
+  padding: 3rem 4%;
+  min-height: auto;
+
   ${media.bp768`
-    min-height: 300px; 
+    min-height: 200px;
   `}
 `;

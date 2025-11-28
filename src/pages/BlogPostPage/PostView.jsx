@@ -1,15 +1,15 @@
 import React from "react";
+import Button from "../../components/Button";
 
-import { BlogPostWrapper, PostCover, BackLink, PostContent } from "./styles";
+import { BlogPostWrapper, PostContent } from "./styles";
 
 const StandardLayout = ({ post }) => {
-  const { title, coverImage, content } = post;
+  const { content } = post;
 
   return (
     <BlogPostWrapper>
-      <PostCover src={coverImage} alt={title} />
       <PostContent>{content}</PostContent>
-      <BackLink to="/blog">Voltar para o Blog</BackLink>
+      <Button to="/blog">Voltar para o Blog</Button>
     </BlogPostWrapper>
   );
 };

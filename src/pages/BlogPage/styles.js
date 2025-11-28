@@ -1,27 +1,10 @@
 import styled, { css } from "styled-components";
-import blogBanner from "../../assets/blog-banner.jpg";
-import { BannerBase } from "../../styles/BannerBase";
 import theme from "../../styles/theme";
 import media from "../../styles/breakpoints";
 
 export const PageWrapper = styled.main`
   min-height: 80vh;
   padding-bottom: ${theme.spacing.xl};
-`;
-
-export const Banner = styled(BannerBase)`
-  background-image: url(${blogBanner});
-  justify-content: center;
-  align-items: center;
-`;
-export const BlogTitle = styled.h1`
-  color: ${theme.colors.white};
-  font-size: ${theme.fontSizes.h1};
-  font-weight: 700;
-  text-align: center;
-  max-width: 900px;
-  padding: 0 1rem;
-  line-height: 1.2;
 `;
 
 export const PostsContainer = styled.div`

@@ -1,9 +1,34 @@
+import InlineImage from "../styles/InlineImage";
+
 import coverImage1 from "../assets/posts/post-1/cover-image.jpg";
+import inlineImage1 from "../assets/posts/post-1/image1.jpg";
+import inlineImage2 from "../assets/posts/post-1/image2.jpg";
+import inlineImage3 from "../assets/posts/post-1/image3.jpg";
+
 import coverImage2 from "../assets/posts/post-2/cover-image.jpg";
+import inlineImage5 from "../assets/posts/post-2/image1.jpg";
+import inlineImage6 from "../assets/posts/post-2/image2.jpg";
+import inlineImage18 from "../assets/posts/post-2/image18.jpg";
+import inlineImage19 from "../assets/posts/post-2/image19.jpg";
+
 import coverImage3 from "../assets/posts/post-3/cover-image.jpg";
+import inlineImage7 from "../assets/posts/post-3/image1.jpg";
+import inlineImage8 from "../assets/posts/post-3/image2.jpg";
+import inlineImage9 from "../assets/posts/post-3/image3.jpg";
+
 import coverImage4 from "../assets/posts/post-4/cover-image.jpg";
+import inlineImage10 from "../assets/posts/post-4/image1.jpg";
+import inlineImage11 from "../assets/posts/post-4/image2.jpg";
+
 import coverImage5 from "../assets/posts/post-5/cover-image.jpg";
+import inlineImage12 from "../assets/posts/post-5/image1.jpg";
+import inlineImage13 from "../assets/posts/post-5/image2.jpg";
+import inlineImage14 from "../assets/posts/post-5/image3.jpg";
+
 import coverImage6 from "../assets/posts/post-6/cover-image.jpg";
+import inlineImage15 from "../assets/posts/post-6/image1.jpg";
+import inlineImage16 from "../assets/posts/post-6/image2.jpg";
+import inlineImage17 from "../assets/posts/post-6/image3.jpg";
 
 export const posts = [
   {
@@ -18,108 +43,108 @@ export const posts = [
     content: (
       <>
         <h1>
-          Os Segredos de Skincare da Geração Z: Mais que Tendência, um Estilo de
-          Vida!
+          Os Segredos de Skincare da Geração Z: Um Ritual de Autocuidado que Vai
+          Muito Além de Tendências
         </h1>
 
         <p>
-          Os Segredos de Skincare da Geração Z: Mais que Tendência, um Estilo de
-          Vida! A Geração Z, ou Gen Z, não está apenas seguindo tendências de
-          skincare; eles estão revolucionando a forma como encaramos os cuidados
-          com a pele. Para essa geração, o skincare é um ato de autocuidado,
-          bem-estar mental e um terreno fértil para a experimentação e o
-          compartilhamento nas redes sociais.
+          Se existe uma geração que transformou o skincare em algo maior do que
+          uma simples rotina de beleza, essa geração é a Gen Z. Para eles,
+          cuidar da pele não é sobre vaidade exagerada ou sobre seguir regras
+          rígidas: é sobre criar um espaço de autoconsciência em meio ao caos
+          digital, um momento de conexão genuína consigo mesmos. Não é apenas
+          rotina — é linguagem, identidade, expressão cultural. A pele se torna
+          uma narrativa, um reflexo do que se vive, consome e acredita.
+        </p>
+
+        <InlineImage src={inlineImage1} side="right" />
+
+        <p>
+          A Gen Z cresceu em uma era em que a informação é instantânea, as
+          tendências mudam em horas e qualquer pessoa pode compartilhar
+          descobertas reais sem filtros de marcas ou revistas. O TikTok,
+          especialmente, virou uma espécie de laboratório global — um espaço
+          onde ingredientes, texturas e ativos ganham fama quase na velocidade
+          de um meme. Mas o interessante é que, ao contrário do consumo
+          impulsivo das gerações anteriores, eles pesquisam profundamente.
+          Gostam de saber o que estão usando, para que serve e, principalmente,
+          se aquele produto faz sentido para a pele deles.
         </p>
 
         <p>
-          Mas quais são os hábitos e a filosofia que definem o regime de beleza
-          da Gen Z? Descubra a seguir!
+          Mais do que isso, existe um desejo muito forte por autenticidade. A
+          Gen Z rejeita a ideia de que skincare precisa ser um processo
+          complicado ou cheio de passos. Eles preferem rotinas minimalistas,
+          inteligentes, com foco em resultados reais e ingredientes que
+          conversam entre si. “Skinimalismo” não é só um movimento: é uma
+          resposta ao excesso, uma forma de simplificar a vida em um mundo onde
+          tudo parece difícil de acompanhar.
         </p>
 
-        <h2> A Filosofia Gen Z: Ingredientes Sim, Rótulos Complexos Não</h2>
+        <InlineImage src={inlineImage2} side="left" />
 
         <p>
-          O skincare da Gen Z é marcado pela informação e pela busca por
-          transparência. Eles não se contentam com promessas vazias e procuram
-          entender a fundo o que estão aplicando na pele.
-        </p>
-
-        <p>
-          <strong>Ingredientes no Centro do Palco:</strong> Há um foco intenso
-          em ingredientes ativos comprovados, como ácido hialurônico para
-          hidratação, niacinamida para equilibrar a pele e retinol (ou
-          substitutos mais suaves) para melhorar a textura.
-        </p>
-
-        <p>
-          <strong>"Skinimalismo" e Rotinas Multifuncionais:</strong> Mesmo
-          gostando de testar novos produtos, a rotina diária tende a ser mais
-          enxuta, priorizando itens que fazem múltiplas funções. O objetivo é a
-          saúde da pele, não a quantidade de passos.
+          E talvez o que mais diferencie essa geração seja a relação íntima que
+          eles têm com a prevenção. Se antes o cuidado com a pele só começava
+          quando aparecia uma mancha, uma ruga ou uma crise de acne, hoje eles
+          entendem que proteger agora é evitar problemas no futuro. Por isso, o
+          protetor solar se tornou quase um símbolo de personalidade — usado,
+          adaptado, reaplicado, compartilhado, e até carregado em diferentes
+          formatos: gel, stick, serum, híbrido com maquiagem. O SPF virou mais
+          que produto: virou linguagem.
         </p>
 
         <p>
-          <strong>Prevenção é o Novo Tratamento:</strong> Diferente de gerações
-          anteriores, a Gen Z aposta na prevenção desde cedo — e o protetor
-          solar é o protagonista absoluto.
+          Outro ponto fascinante do skincare Gen Z é a personalização. Ao invés
+          de seguir rotinas engessadas, eles criam combinações que mudam
+          conforme o humor, a estação, o nível de estresse ou a textura da pele
+          naquele dia. Um serum calmante no verão, um hidratante mais rico no
+          inverno, uma limpeza mais delicada após um dia de sol, um boost de
+          ativos antes de um evento. É skincare vivo, maleável, cotidiano —
+          quase uma conversa diária entre a pele e quem cuida dela.
         </p>
 
-        <h2>Os 5 Hábitos Essenciais da Rotina Gen Z</h2>
+        <InlineImage src={inlineImage3} side="right" />
 
         <p>
-          <strong>1. Dupla Limpeza (Double Cleansing):</strong> Inspirados pela
-          rotina coreana, usam óleo/bálsamo + limpador aquoso para remover bem
-          maquiagem, FPS e poluição.
-        </p>
-
-        <p>
-          <strong>2. Domínio dos Ativos (Targeted Treatments):</strong> Usam
-          séruns específicos para acne, textura ou hidratação; preferem
-          esfoliantes químicos (AHA/BHA).
-        </p>
-
-        <p>
-          <strong>3. Hydration Station:</strong> A hidratação é prioridade
-          máxima — ácido hialurônico, mists e máscaras noturnas fortalecem a
-          barreira cutânea.
+          Não dá para ignorar também o impacto emocional da rotina. Para muitos,
+          o skincare é o único momento do dia em que podem respirar,
+          desacelerar, sentir os próprios movimentos. Aplicar um hidratante com
+          calma, massagear o rosto, observar as texturas — tudo isso se
+          transforma em um ritual de presença. Um pequeno intervalo entre o
+          barulho da internet e a pressão social constante. Um lembrete de que
+          existe um corpo ali, precisando ser tocado com gentileza.
         </p>
 
         <p>
-          <strong>4. Foco na Barreira Cutânea:</strong> Ceramidas e ingredientes
-          calmantes são essenciais para evitar irritações e recuperar a pele.
+          Além disso, a Gen Z transformou o skincare em um movimento consciente.
+          Eles preocupam-se com a origem dos ingredientes, com a transparência
+          das marcas, com o impacto ambiental das embalagens e até com a
+          diversidade representada nas campanhas. Querem produtos que atendam
+          diferentes tons, texturas e condições de pele. Querem responsabilidade
+          — e não apenas estética.
         </p>
 
         <p>
-          <strong>5. FPS Diário e Constante:</strong> O protetor solar é
-          indispensável. Seja em gel, creme ou stick, ele é reaplicado
-          religiosamente.
+          A expansão natural desse movimento fez com que o bodycare ganhasse
+          força. Não é mais só o rosto que merece atenção. Cremes com ácido
+          glicólico para o corpo, máscaras calmantes, esfoliantes mais suaves e
+          hidratantes inteligentes tomaram espaço. A Gen Z entende o corpo como
+          um todo — e trata a pele como parte da saúde, não como um enfeite.
         </p>
-
-        <h2>Skincare Consciente: Além do Rosto</h2>
-
-        <p>A Gen Z também expressa seus valores através das escolhas:</p>
-
-        <ul>
-          <li>
-            <strong>Sustentabilidade e Ética:</strong> Preferem marcas
-            cruelty-free e embalagens recicláveis.
-          </li>
-          <li>
-            <strong>Bodycare é o Novo Skincare:</strong> Usam ativos também no
-            corpo e no couro cabeludo.
-          </li>
-          <li>
-            <strong>Inclusão e Diversidade:</strong> Procuram marcas com tons e
-            produtos para todos.
-          </li>
-        </ul>
 
         <blockquote>
-          “Para a Gen Z, o skincare é um diálogo: ouvir a pele, compartilhar
-          aprendizados e construir uma rotina que reflita seus valores.”
+          “Para a Geração Z, skincare não é apenas uma rotina — é uma conversa
+          constante com a própria pele, uma forma de expressar valores e um
+          ritual de autocuidado que acompanha todas as fases da vida.”
         </blockquote>
 
-        <p>E você? Qual ingrediente ativo descobriu graças à Gen Z?</p>
+        <p>
+          No fim das contas, o skincare Gen Z nos ensina algo essencial: cuidar
+          da pele é cuidar da pessoa que vive dentro dela. É um gesto simples,
+          mas carregado de intenção, carinho e identidade. E você — qual hábito
+          da Gen Z já transformou a forma como você cuida de si mesmo?
+        </p>
       </>
     ),
   },
@@ -135,135 +160,137 @@ export const posts = [
     content: (
       <>
         <h1>
-          ⏳ Slow Living e o De-Zooming: Por Que Ler um Livro É o Novo Ativismo
+          Slow Living e o De-Zooming: Por Que Ler um Livro é o Novo Ativismo da
+          Geração Desacelerar
         </h1>
 
-        <h2>HOOK (O Confronto)</h2>
         <p>
-          Você consegue ficar 20 minutos olhando para uma página sem sentir a
-          mão coçar para pegar o celular? Seja honesto(a).
-        </p>
-        <p>
-          A gente foi treinado para a velocidade do 2x: áudios acelerados,
-          vídeos curtos, scroll infinito. Tudo é fast-paced. O problema? Sua
-          mente está sempre correndo, mas não está chegando a lugar nenhum.
-        </p>
-
-        <p>
-          O verdadeiro ato de rebeldia Gen Z contra o hustle culture não é fazer
-          greve; é desacelerar intencionalmente. É praticar o{" "}
-          <strong>Slow Living</strong>. E o portal de entrada para isso é:{" "}
-          <strong>ler um livro físico</strong>.
+          Quando foi a última vez que você ficou mais de vinte minutos lendo sem
+          parar para “dar só uma conferida rápida” no celular? Hoje, o impulso
+          de tocar na tela é quase fisiológico. Não é falta de disciplina — é
+          condicionamento. Aprendemos a viver no ritmo do 2x, do conteúdo
+          mastigado, do scroll infinito que promete tudo em segundos. Nosso
+          cérebro se habituou a fragmentos, nunca à profundidade. E, aos poucos,
+          a mente corre, corre, mas não chega a lugar algum.
         </p>
 
-        <h2>📖 Por Que o Livro é o Detox de Dopamina Supremo</h2>
+        <InlineImage src={inlineImage5} side="right" />
+
         <p>
-          Ler um livro é o self-care mais subestimado porque força seu cérebro a
-          sair do modo
-          <em> “Recompensa Imediata”</em> (Dopamina) e entrar no modo
-          <strong> Foco Profundo e Sustentável</strong> (Serotonina e Calma).
+          O mais curioso é que, no meio desse caos silencioso, a verdadeira
+          rebeldia não tem nada a ver com largar tudo e ir morar numa cabana. A
+          revolução possível — e acessível — é desacelerar de forma consciente.
+          É praticar o <strong>Slow Living</strong>. E talvez o ritual mais
+          poderoso dessa filosofia seja também o mais simples:{" "}
+          <strong>abrir um livro físico</strong> e permitir que o mundo lá fora
+          perca a urgência por alguns instantes.
+        </p>
+
+        <h2>Por Que o Livro é o Detox de Dopamina Supremo</h2>
+
+        <p>
+          A leitura profunda tem a capacidade rara de inverter o estado mental
+          da era digital. Ela rompe o ciclo do “próximo, próximo, próximo” e te
+          leva a um ritmo mais estável, criativo e contemplativo. É quase uma
+          meditação ativa — uma forma de reorganizar os pensamentos e tirar o
+          cérebro do modo de urgência permanente.
         </p>
 
         <h3>1. O De-Zooming da Mente</h3>
-        <p>
-          O vídeo te entrega tudo mastigado. A leitura te obriga a criar a
-          imagem, o som e o cenário na sua mente. É{" "}
-          <strong>ginástica criativa</strong> com baixíssimo estresse.
-        </p>
 
         <p>
-          <strong>Foco Longo:</strong> Um livro exige atenção contínua por mais
-          tempo — o treino perfeito para reverter o déficit de foco causado
-          pelas redes sociais.
+          Enquanto vídeos entregam tudo pronto e rápido, o livro exige
+          construção. Seu cérebro precisa imaginar cenários, dar voz aos
+          personagens, visualizar gestos, entender nuances. Essa reconstrução
+          mental funciona como uma
+          <strong> ginástica criativa </strong> poderosa, estimulando áreas que
+          o consumo acelerado não alcança. Livros pedem foco contínuo, algo que
+          está se tornando raro. Esse treino, repetido, remodela a capacidade de
+          atenção, reconectando a mente ao silêncio produtivo que perdemos.
+        </p>
+
+        <InlineImage src={inlineImage6} side="left" />
+
+        <p>
+          Aos poucos, você sente que a mente, antes fragmentada e sempre em
+          alerta, começa a se expandir de novo. Os pensamentos ganham
+          profundidade, as conexões ficam mais ricas, e a sensação de clareza
+          retorna. Ler é o movimento contrário do zoom constante das redes: é o
+          <strong> de-zooming </strong> que devolve perspectiva.
         </p>
 
         <h3>2. O Ativismo da Calma (Anti-Hustle)</h3>
-        <p>
-          Pegar um livro é uma declaração: <strong>"Eu decido o ritmo."</strong>
-          Não há notificações, não há algoritmo. Você não está consumindo:{" "}
-          <strong>você está experienciando</strong>.
-        </p>
 
         <p>
-          <strong>Zero Multitasking:</strong> Ler de verdade impede que você
-          faça outras coisas. É presença total — o oposto do multitasking
-          tóxico.
+          Abrir um livro é quase uma declaração política:
+          <strong>“O meu ritmo quem define sou eu.”</strong>
+          Não existe pop-up, autoplay ou feed infinito tentando disputar sua
+          atenção. A leitura exige presença total — e justamente por impedir a
+          multitarefa, ela se torna profundamente restauradora. Em um mundo que
+          pede velocidade, urgência e desempenho o tempo todo, escolher a calma
+          se torna um ato de resistência silenciosa.
         </p>
 
         <h3>3. O Ritual Sensorial</h3>
+
+        <InlineImage src={inlineImage19} side="right" />
+
         <p>
-          O livro físico oferece um ritual que o celular tirou da gente: o
-          cheiro do papel, o toque da capa, o som da página virando.
+          O livro físico ainda devolve algo que a vida digital não oferece:
+          textura, cheiro, temperatura, som. Detalhes simples, mas que ancoram o
+          corpo no agora. O toque da capa, o peso nas mãos, o barulho suave da
+          página virando — tudo isso cria um ritual. Cada parte do objeto
+          reforça a mensagem interna: “Agora é hora de desacelerar.” E esse
+          ritual sensorial nos reconecta com algo essencialmente humano: o
+          prazer de contemplar.
         </p>
 
+        <h2>Hacks para Reintegrar a Leitura no Seu Slow Life</h2>
+
         <p>
-          <strong>Ancoragem:</strong> Esses estímulos sensoriais te colocam
-          novamente no presente. Só pegar o livro já sinaliza ao cérebro: “Hora
-          de relaxar.”
+          A frase “não tenho tempo para ler” costuma desaparecer quando
+          percebemos o quanto escorregam facilmente trinta minutos em um scroll
+          distraído. Leitura não exige tempo — exige intenção. Um caminho
+          simples é transformar o livro em um novo ponto de atração visual no
+          ambiente. Deixar um exemplar convidativo no criado-mudo, na mesa de
+          centro, na mochila. Substituir o lugar do celular por ele. Assim, toda
+          vez que o impulso automático de pegar o telefone surgir, o livro
+          estará ali, ocupando o mesmo espaço mental — só que oferecendo
+          descanso, não exaustão.
         </p>
 
-        <h2>✨ Hacks para Reintegrar a Leitura no Seu Slow Life</h2>
+        <InlineImage src={inlineImage18} side="right" />
+
         <p>
-          Se você acha que não tem tempo, lembre-se: você provavelmente passou
-          <strong>30 minutos scrollando</strong> sem perceber hoje.
+          Outra forma leve de recomeçar é dividir o dia em pequenos rituais. Dez
+          minutos ao acordar, antes de olhar qualquer tela; dez minutos depois
+          do almoço; dez minutos antes de dormir. Esses blocos curtos começam a
+          moldar o foco novamente e, em poucas semanas, tornam-se tão naturais
+          quanto respirar. O ambiente também ajuda muito. Criar um canto de
+          leitura acolhedor — luz quente, manta macia, uma poltrona confortável,
+          um chá ou café — transforma o ato em convite. Uma playlist suave, sons
+          naturais ou jazz leve podem intensificar a sensação de refúgio.
         </p>
 
-        <h3>A. A Regra do “Livro-Chave”</h3>
+        <h2>Takeaway Final</h2>
+
         <p>
-          <strong>O Livro no Lugar do Celular:</strong>
-          Coloque um livro atraente no criado-mudo ou mesa de centro e tire o
-          celular dali.
+          Em um mundo que exige sua atenção o tempo todo,
+          <strong>ler é um ato de resistência</strong>. É autocuidado profundo,
+          é treino cognitivo, é um jeito de recuperar a presença e devolver
+          profundidade à forma como você pensa. A leitura reorganiza o foco,
+          acalma a mente e cria espaço interno — algo que se perdeu na correria
+          digital.
         </p>
 
-        <p>
-          <strong>O Gatilho:</strong>
-          Sentiu vontade de pegar o celular? Pegue o livro. Ele vira o novo
-          default do seu tédio ou pausa.
-        </p>
-
-        <h3>B. A Técnica do 10/10/10 (Para Iniciantes)</h3>
-        <p>Não precisa ler por uma hora. Comece com:</p>
-        <ul>
-          <li>
-            <strong>10 minutos</strong> ao acordar (antes do celular)
-          </li>
-          <li>
-            <strong>10 minutos</strong> no intervalo de almoço
-          </li>
-          <li>
-            <strong>10 minutos</strong> antes de dormir
-          </li>
-        </ul>
-
-        <h3>C. Faça do Seu Canto de Leitura o Seu Refúgio Estético</h3>
-        <p>
-          Se o ambiente é aesthetic, a atividade fica naturalmente mais
-          convidativa. Crie um cantinho com poltrona confortável, luz quente,
-          cobertor e algo quente para beber.
-        </p>
-
-        <p>
-          <strong>Vibe Check:</strong>
-          Use uma playlist calma (Jazz, Lofi, sons da natureza) sem letra para
-          não roubar foco.
-        </p>
-
-        <h2>💡 Takeaway Final</h2>
-        <p>
-          Em um mundo que exige atenção imediata,{" "}
-          <strong>ler é um ato de resistência</strong>. É o self-care que
-          melhora foco, acalma sua mente e te conecta profundamente com uma
-          história.
-        </p>
-
-        <p>
-          Pare de correr atrás do próximo vídeo.{" "}
+        <blockquote>
+          Pare de correr atrás do próximo vídeo.
           <strong>Escolha a página.</strong>
-        </p>
+        </blockquote>
 
         <p>
-          Qual livro está na sua to-read list para começar essa terapia do Slow
-          Living? 👇
+          E então — qual livro vai marcar o início da sua jornada de Slow
+          Living?
         </p>
       </>
     ),
@@ -280,142 +307,117 @@ export const posts = [
     content: (
       <>
         <h1>
-          ⚡️ O Self-Care da Alegria: Pare de Esperar o Fim de Semana e
-          Incorpore Microdoses de Felicidade
+          O Self-Care da Alegria: Pare de Esperar o Fim de Semana e Viver a Vida
+          que Já Está Acontecendo
         </h1>
 
+        <InlineImage src={inlineImage7} side="right" />
+
         <p>
-          <strong>HOOK — A Armadilha do Futuro:</strong> Você já se pegou
-          dizendo: “Vou ser feliz/relaxar quando… terminar o projeto, chegar o
-          fim de semana, tirar férias”?
+          Existe um hábito silencioso que quase todo mundo alimenta sem
+          perceber: a ideia de que a vida de verdade só acontece depois — depois
+          do expediente, depois de resolver os problemas, depois de terminar as
+          obrigações, depois de chegar o tão esperado fim de semana. Crescemos
+          acreditando que a rotina é uma fase intermediária, um corredor
+          comprido que precisamos atravessar para só então alcançar momentos que
+          realmente valem a pena. Mas quando toda a nossa alegria depende
+          exclusivamente do “depois”, algo inevitável acontece: a segunda, a
+          terça, a quarta — praticamente 70% da vida — viram apenas uma espera.
         </p>
 
         <p>
-          A gente foi treinado a enxergar a rotina como algo a ser superado para
-          só depois ter prazer. Esse padrão é exaustivo e rouba a alegria do
-          presente.
+          A verdade é que o cérebro humano não foi projetado para guardar
+          recompensas somente para o futuro. Ele precisa de pequenas frestas de
+          prazer espalhadas ao longo do dia para manter o humor estável, o foco
+          vivo e a motivação respirando. E é justamente aí que entra o conceito
+          das
+          <strong> Microdoses de Alegria </strong>: gestos mínimos, quase
+          inocentes, que têm o poder de alterar completamente a textura
+          emocional da sua rotina. Elas não exigem tempo extra, não pedem
+          grandes mudanças e não precisam transformar sua vida de ponta-cabeça.
+          São pequenas sementes, repetidas, que começam a florescer aos poucos,
+          até mudar completamente o jeito como você experimenta seus próprios
+          dias.
         </p>
 
         <p>
-          O verdadeiro wellness não está nas grandes viagens ou terapias caras —
-          está em ativar o seu sistema de recompensa com pequenas{" "}
-          <strong>Microdoses de Alegria</strong>, que transformam tarefas
-          cansativas em momentos de satisfação.
+          Quando você associa essas microdoses a tarefas que normalmente
+          desgastam sua energia — arrumar a cama, responder mensagens, cozinhar,
+          trabalhar — uma espécie de atalho neurológico se forma. O cérebro
+          passa a relacionar aquela tarefa, antes pesada, com uma sensação boa.
+          É como trocar a lente de uma câmera. A tarefa continua ali, mas ela
+          perde parte do peso. E quando a rotina deixa de ser uma arena de
+          obrigações e se torna um território de pequenos rituais, algo
+          profundamente humano desperta: a sensação de presença.
         </p>
 
-        <h2>🧠 Neurociência do Prazer: O Hack da Dopamina Diária</h2>
+        <InlineImage src={inlineImage8} side="left" />
 
         <p>
-          Seu cérebro ama recompensa. Se você só recompensa o cérebro no fim do
-          mês, ele fica desmotivado no cotidiano.
-        </p>
-
-        <h2>1. Transformando o Monotasking em Joyful Task</h2>
-
-        <p>
-          Microdoses de Alegria são a arte de acoplar uma atividade prazerosa
-          (baixa energia, alta recompensa) a uma tarefa chata (alta energia,
-          baixa recompensa).
-        </p>
-
-        <p>
-          <strong>A Troca:</strong> Você não precisa amar lavar a louça, mas
-          pode amar o podcast que só escuta enquanto lava a louça.
-        </p>
-
-        <p>
-          <strong>O Resultado:</strong> Seu cérebro associa a tarefa à
-          recompensa, deixando o processo leve e até gostoso.
-        </p>
-
-        <h2>2. O Peak-End Rule (O Self-Care da Memória)</h2>
-
-        <p>
-          A ciência mostra que nossa memória julga uma experiência pelo pico e
-          pelo final. Se o fim é prazeroso, a lembrança será positiva.
+          A neurociência explica esse fenômeno. Nosso cérebro opera em ciclos de
+          dopamina — não uma explosão gigantesca de prazer, mas pequenas
+          liberações contínuas. Elas reforçam comportamentos, estabilizam
+          emoções e fazem com que as tarefas do dia deixem de parecer batalhas
+          intermináveis. Quando você cria esses pequenos pontos de luz ao longo
+          da rotina, sua mente entende que viver também é permitido antes do
+          sábado. E assim, mesmo as ações mais simples ganham uma camada de
+          suavidade. Aquele banho comum transforma-se em um momento sensorial. O
+          café da manhã vira um ritual. A arrumação da casa se torna uma pausa
+          mental. Não porque essas atividades ficaram extraordinárias, mas
+          porque você começou a cuidar da forma como vive o processo.
         </p>
 
         <p>
-          <strong>Hack da Finalização:</strong> termine tarefas difíceis com um
-          mini-ritual de prazer — alongamento, uma música boa ou um café
-          especial. Isso faz seu cérebro querer repetir a atividade (ou ao menos
-          não rejeitá-la).
+          Um mecanismo curioso ajuda a intensificar esse efeito: o
+          <strong> Peak-End Rule </strong>. Ele mostra que nossa memória
+          registra as experiências com base em dois pontos — o ápice emocional e
+          o momento final. Ou seja, se você termina uma tarefa difícil com algo
+          prazeroso, seu cérebro classifica toda a experiência como menos
+          desgastante do que realmente foi. Esse pequeno truque emocional reduz
+          a resistência, diminui a procrastinação e começa a suavizar a forma
+          como você se relaciona com a própria rotina. Afinal, se o corpo sabe
+          que o final é bom, ele se opõe menos ao começo.
         </p>
 
-        <h2>✨ Hacks para Injetar Microdoses de Alegria na Rotina</h2>
-
-        <p>Comece pequeno. A magia está na intencionalidade.</p>
-
-        <h2>A. O Ritual da Bebida Perfeita</h2>
+        <InlineImage src={inlineImage9} side="right" />
 
         <p>
-          Não beba água ou café de qualquer jeito. Transforme a preparação em um
-          ritual estético.
-        </p>
-
-        <p>
-          <strong>Ação:</strong> Use sua xícara favorita, adicione um toque
-          especial (canela, espuma) e dedique 3 minutos para apenas sentir o
-          cheiro e o sabor, sem telas.
-        </p>
-
-        <p>
-          <strong>Foco:</strong> Transforme a hidratação em um momento de prazer
-          e presença.
-        </p>
-
-        <h2>B. Música para a Produtividade (O Soundtrack da Vida)</h2>
-
-        <p>
-          Crie playlists específicas para cada tipo de tarefa — não só para
-          treinos.
+          E quando você começa a cultivar gestos simples — acender uma vela,
+          preparar uma bebida com calma, ouvir uma música que te abraça, deixar
+          o ambiente mais aconchegante, hidratar a pele com carinho — algo sutil
+          acontece: o seu olhar muda. De repente, você começa a notar que existe
+          beleza no meio da terça-feira, que a luz que entra pela janela já é
+          uma forma de alegria, que uma conversa rápida pode ser emocionalmente
+          nutritiva, que terminar uma tarefa que você adiava há dias dá uma paz
+          inesperada. Esses pequenos registros fazem com que a mente aprenda a
+          procurar prazer, e quanto mais ela procura, mais ela encontra.
         </p>
 
         <p>
-          <strong>Playlists por Vibe:</strong> Lofi para e-mails, Pop anos 90
-          para arrumar a casa, trilha épica para escrever relatórios.
+          Com o tempo, você percebe que o problema nunca foi a rotina — foi a
+          forma como você a vivia. O que chamamos de vida acontece no meio do
+          caminho, entre um compromisso e outro, nos detalhes que ignoramos
+          porque estávamos ocupados demais esperando algo grandioso. Mas a
+          alegria raramente chega em grandes eventos; ela chega em pequenas
+          doses, repetidas, constantes, que se acumulam silenciosamente até
+          transformar tudo.
         </p>
 
         <p>
-          <strong>Self-Care Auditivo:</strong> A música dita o ritmo e o humor
-          do seu dia, tornando até tarefas pesadas mais cinematográficas.
+          Então, antes de fechar esta leitura, deixo um convite simples e
+          direto:
+          <strong>
+            qual Microdose de Alegria você pode incorporar nos próximos cinco
+            minutos?
+          </strong>
+          Pode ser respirar fundo, trocar a música, arrumar um cantinho, beber
+          algo gostoso com atenção. Não precisa ser grande. Só precisa existir.
         </p>
 
-        <h2>C. A Regra do “Coletar a Alegria” (Journaling Leve)</h2>
-
-        <p>
-          Pode parecer simples, mas funciona: antes de dormir, anote 3 coisas
-          que trouxeram alegria ou satisfação real (não precisam ser grandes).
-        </p>
-
-        <ul>
-          <li>A luz do sol na sua planta</li>
-          <li>O cheiro do shampoo novo</li>
-          <li>Ter terminado sua série de exercícios sem trapacear</li>
-        </ul>
-
-        <p>
-          <strong>Objetivo:</strong> Treinar o cérebro para reconhecer e
-          valorizar prazeres microscópicos, mudando o foco do que deu errado
-          para o que nutriu você.
-        </p>
-
-        <h2>💡 Takeaway Final</h2>
-
-        <p>
-          A felicidade não é um evento raro que você agenda — é um hábito que se
-          cultiva.
-        </p>
-
-        <p>
-          Não espere o fim de semana para sentir prazer. Comece hoje a incluir
-          Microdoses de Alegria na sua terça-feira. O wellness acontece na
-          rotina.
-        </p>
-
-        <p>
-          ✨ Qual Microdose de Alegria você vai testar nos próximos 10 minutos?
-        </p>
+        <blockquote>
+          Você não precisa esperar o fim de semana para viver bem. A vida já
+          está acontecendo. A pergunta é: você está dentro dela?
+        </blockquote>
       </>
     ),
   },
@@ -428,124 +430,99 @@ export const posts = [
       "Descubra por que dormir bem é o hack mais subestimado - e essencial - da vida.",
     content: (
       <>
-        <h1>💤 O Sono Não é Luxo, É Terapia</h1>
-        <p>
-          <strong>Por Que Dormir Bem é o Hack Mais Subestimado da Vida</strong>
-        </p>
+        <h1>
+          O Sono Não é Luxo, É Terapia — É a Forma mais Pura de Autocuidado
+        </h1>
 
-        <h2>HOOK (A Verdade Inconveniente)</h2>
-        <p>
-          Se você se orgulha de dormir pouco, você está se sabotando. Ponto
-          final.
-        </p>
+        <InlineImage src={inlineImage10} side="right" />
 
         <p>
-          Na nossa cultura de “estar ligado 24/7”, o sono virou a primeira coisa
-          a ser sacrificada. A gente trata 7 ou 8 horas de descanso como um luxo
-          que só teremos nas férias.
-        </p>
-
-        <p>
-          Mude o mindset: <strong>O sono não é a sua pausa.</strong>É o seu{" "}
-          <strong>upgrade obrigatório</strong>. É a hora em que o corpo entra no
-          modo <em>“Manutenção Essencial”</em>.
-        </p>
-
-        <h2>🧠 A Terapia da Noite: O Que Acontece Enquanto Você Apaga</h2>
-        <p>
-          O cérebro não desliga quando você dorme; ele entra em um modo de
-          limpeza e otimização que nenhum suplemento consegue replicar.
-        </p>
-
-        <h3>1. Faxina Neuronal (Clearing the Cache)</h3>
-        <p>
-          Durante o sono profundo, o <strong>Sistema Glinfático</strong> entra
-          em ação. Pense nele como o <em>lixeiro do cérebro</em>: ele lava e
-          drena toxinas acumuladas, incluindo proteínas que, se deixadas ali,
-          prejudicam memória e cognição.
-        </p>
-        <p>
-          Tradução:{" "}
-          <strong>dormir bem = seu cérebro se livrando do lixo tóxico.</strong>
-          Dormir mal = lixo acumulado.
-        </p>
-
-        <h3>2. O Upgrade da Memória (A Pasta “Salvos”)</h3>
-        <p>
-          Quando você aprende algo novo, isso fica na memória temporária.
-          Enquanto você dorme, o cérebro transfere esses dados para a
-          <strong>memória de longo prazo</strong>.
+          Existe uma crença silenciosa que domina nossa rotina moderna: a ideia
+          de que dormir pouco é sinônimo de produtividade. Quase como se o
+          descanso fosse um luxo reservado apenas a quem tem tempo sobrando.
+          Mas, por trás dessa narrativa glamurizada do cansaço, existe uma
+          verdade incômoda: quando você sacrifica o sono, sacrifica também
+          clareza mental, estabilidade emocional e até mesmo a sua capacidade de
+          sentir prazer nas pequenas coisas. O sono não é o intervalo entre os
+          dias — ele é o processo que sustenta a vida que acontece neles.
         </p>
 
         <p>
-          <strong>Dormir é estudar.</strong>
-          Virar a noite antes da prova impede o cérebro de salvar o conteúdo. É
-          esforço jogado fora.
+          O cérebro, apesar de parecer completamente desligado durante a noite,
+          entra em seu modo mais sofisticado de manutenção. Cada minuto de sono
+          profundo é como uma equipe de especialistas trabalhando para limpar,
+          reorganizar, reparar e fortalecer tudo o que você viveu, sentiu e
+          aprendeu. É um processo silencioso, invisível, mas absolutamente
+          essencial. É por isso que acordar descansado tem um efeito tão
+          profundo: você literalmente renasce, neurológica e emocionalmente,
+          todas as noites.
         </p>
 
-        <h3>3. O Refil Emocional (Regulando o Estresse)</h3>
-        <p>
-          Quando você está exausto(a), tudo irrita. Isso acontece porque a
-          privação de sono torna a<strong>Amígdala</strong> — região das emoções
-          — hipersensível.
-        </p>
+        <InlineImage src={inlineImage11} side="left" />
 
         <p>
-          <strong>O Self-Care da Calma:</strong>O sono adequado regula suas
-          emoções e ajuda a processar o estresse do dia, transformando reações
-          exageradas em respostas equilibradas.
-        </p>
-
-        <h2>🔑 Hacks para Transformar o Sono em Terapia</h2>
-        <p>Você não precisa de sleep tracking complexo. Só de consistência.</p>
-
-        <h3>1. A Higiene do Sono (The Vibe)</h3>
-        <p>
-          <strong>Escuridão Total:</strong>
-          Luzes mínimas (LED do carregador, rua) atrapalham a produção de
-          melatonina. Use blackout ou máscara de dormir. Escuro = sinal para
-          dormir.
+          Durante esse período, algo fascinante acontece. O sistema glinfático —
+          uma espécie de faxina interna — entra em ação removendo toxinas
+          acumuladas enquanto você estava acordado. Essa limpeza protege a
+          memória, a atenção e até o humor. O sono também reorganiza tudo o que
+          você aprendeu ao longo do dia; informações soltas ganham estrutura,
+          detalhes se conectam, lacunas se preenchem. É como se o cérebro
+          apertasse o botão “Salvar” antes de você acordar. Por isso, estudar ou
+          trabalhar exausto é como tentar escrever um texto sem nunca apertar
+          “gravar”: você produz, mas nada se consolida.
         </p>
 
         <p>
-          <strong>Temperatura:</strong>
-          Mantenha o quarto frio. O corpo precisa reduzir a temperatura interna
-          para entrar no sono profundo. Quarto fresco + cobertor = combo ideal.
-        </p>
-
-        <h3>2. O Wind Down Digital (Desconecte-se)</h3>
-        <p>
-          <strong>A Regra dos 60 Minutos:</strong>
-          Desligue telas 1 hora antes de deitar. A luz azul engana o cérebro,
-          fazendo-o achar que ainda é dia.
-        </p>
-
-        <p>
-          <strong>Crie um Ritual:</strong>
-          Leia algo, ouça um podcast calmo, medite, alongue. Algo low-effort que
-          sinalize ao corpo que o modo descanso está ativado.
-        </p>
-
-        <h3>3. Consistência é Tudo (Non-Negotiable)</h3>
-        <p>
-          <strong>Horário Fixo:</strong>
-          Durma e acorde no mesmo horário todos os dias — inclusive fins de
-          semana. Seu corpo ama rotina, e isso fortalece seu ritmo circadiano.
-        </p>
-
-        <h2>💡 Takeaway Final</h2>
-        <p>
-          O sono não é algo que você faz quando terminou tudo na sua lista. É
-          algo que você faz <strong>para conseguir</strong> terminar tudo na sua
-          lista.
+          No campo emocional, o efeito é ainda mais profundo. Uma noite mal
+          dormida deixa a amígdala — região do cérebro responsável pelas emoções
+          intensas — mais reativa. De repente, tudo pesa mais, tudo irrita mais,
+          tudo cansa mais. Já percebeu como, quando você dorme bem, até os
+          problemas parecem mais fáceis de resolver? Não é coincidência. O sono
+          regula o que sentimos, devolve perspectiva e reduz o ruído emocional
+          acumulado. É literalmente terapia — gratuita, natural e perfeitamente
+          ajustada para você.
         </p>
 
         <p>
-          Trate seu sono como o compromisso mais importante do dia. É sua
-          terapia gratuita mais poderosa.
+          Transformar o sono em ritual não exige luxo; exige intenção. Preparar
+          o ambiente, reduzir estímulos, respeitar o próprio cansaço e permitir
+          que o corpo entre lentamente no modo descanso é uma forma de carinho
+          consigo mesmo. É reconectar-se com um ritmo que é ancestral, biológico
+          e inegociável. Quando você cria esse pequeno território de calma antes
+          de deitar — luz suave, ambiente fresco, silêncio, respiração lenta —
+          sinaliza para o corpo que é seguro desligar, que o dia pode finalmente
+          ser entregue e que a noite pode começar o trabalho de restauração.
         </p>
 
-        <p>Qual a sua maior dificuldade para essa terapia noturna? 👇</p>
+        <p>
+          A consistência é o que transforma essa prática em benefício real.
+          Dormir e acordar no mesmo horário dá ao corpo um senso de estabilidade
+          que melhora praticamente tudo: digestão, humor, atenção, energia,
+          foco, criatividade. Você deixa de viver apagando incêndios e passa a
+          funcionar com presença. As manhãs ficam mais leves. As tardes deixam
+          de arrastar. As noites se tornam um território de paz, não de
+          ansiedade acumulada.
+        </p>
+
+        <p>
+          Por isso, repita mentalmente até internalizar: o sono não é aquilo que
+          sobra do seu dia — é aquilo que permite que o seu dia exista. É o
+          início, não o fim. É o ritual mais poderoso de autocuidado, o
+          investimento mais inteligente, a prática mais transformadora. O corpo
+          agradece, a mente responde e a vida inteira se reorganiza ao redor de
+          um descanso bem tratado.
+        </p>
+
+        <blockquote>
+          Trate o seu sono como o compromisso mais importante do dia. Ele é a
+          terapia silenciosa que sustenta tudo o que você deseja viver.
+        </blockquote>
+
+        <p>
+          E agora, deixo uma pergunta simples: qual é a primeira mudança — mesmo
+          que pequena — que você pode fazer hoje para honrar o descanso que seu
+          corpo vem pedindo há tanto tempo?
+        </p>
       </>
     ),
   },
@@ -561,153 +538,107 @@ export const posts = [
     content: (
       <>
         <h1>
-          🫧 Self-Care é Ciência: Pare de Exagerar! Como Fazer o Skin Barrier Dar
-          um Glow Up no Seu Rosto
+          Self-Care é Ciência: O Segredo da Pele Glowy Não é Exagerar, É
+          Respeitar a Barreira Cutânea
         </h1>
 
+        <InlineImage src={inlineImage12} side="right" />
+
         <p>
-          <strong>HOOK (A Confissão Sincera):</strong>
-          <br />A gente sabe — o skincare virou um labirinto de 12 passos,
-          séruns caríssimos e a pressão de ter uma pele de porcelana. Mas o
-          segredo para conquistar uma pele calma, radiante e saudável é, na
-          verdade, o oposto da complicação.
+          Existe uma verdade silenciosa que quase ninguém admite: no desejo de
+          alcançar uma pele impecável, muita gente acabou transformando o
+          skincare em uma maratona exaustiva de produtos, camadas, tratamentos e
+          expectativas irreais. Criamos rotinas longas, compramos o que está em
+          alta, combinamos ativos que nem sempre conversam entre si e esquecemos
+          que a pele, antes de tudo, é um organismo vivo que pede calma,
+          respeito e tempo. A indústria fez parecer que mais é sempre melhor,
+          mas o corpo, sábio e simples, insiste na mensagem oposta: o excesso é
+          justamente o que te afasta do resultado que você procura.
         </p>
 
         <p>
-          A verdade?{" "}
-          <strong>Você provavelmente está over-treating sua pele.</strong>
-          <br />O foco não é adicionar mais produtos, mas sim proteger sua{" "}
-          <strong>Barreira de Hidratação</strong>.
+          A maior ironia? A maior parte das pessoas que lutam por uma pele mais
+          bonita estão, sem perceber, fragilizando aquilo que mais importa: a{" "}
+          <strong>barreira de hidratação</strong>. Ela é como um muro delicado,
+          formado por células e lipídios, responsável por manter o que é bom
+          dentro — a água, a hidratação, o conforto — e bloquear o que é ruim —
+          irritantes, poluentes, bactérias. Quando ele está forte, a pele fica
+          calma, luminosa e resiliente. Mas quando está comprometido, cada passo
+          da rotina, cada produto novo, cada experimento precipitado se
+          transforma em uma nova agressão.
         </p>
 
         <p>
-          Pense na sua pele não como algo que precisa ser “consertado”, mas como
-          um <strong>muro protetor</strong> que precisa ser fortalecido.
+          E é aí que um ciclo muito comum começa. A pele fica sensível, então
+          você adiciona algo para acalmar. Ela fica áspera, então você tenta um
+          ácido. Ela fica oleosa, então você aumenta a limpeza. E, aos poucos,
+          um excesso bem-intencionado abre pequenas rachaduras invisíveis:
+          vermelhidão que não passa, espinhas que aparecem sem motivo claro,
+          ressecamento persistente, sensação constante de incômodo. A pele não
+          está “pedindo mais cuidados” — ela está pedindo pausa. Ela não quer
+          ser consertada; quer ser protegida.
         </p>
 
-        <h2>🛡️ O Muro da Felicidade: Entenda o Skin Barrier</h2>
+        <InlineImage src={inlineImage13} side="left" />
 
         <p>
-          A <strong>Barreira de Hidratação</strong> é a camada mais externa da
-          pele, formada por células e lipídios. Ela tem duas missões vitais:
+          É por isso que o novo self-care da pele não é sobre colecionar
+          produtos, mas sobre prestarmos atenção no básico. Um limpador suave
+          que não agrida. Uma hidratação rica em ceramidas, colesterol e ácidos
+          graxos, capazes de reconstruir o muro natural da pele. Um protetor
+          solar que realmente faça seu papel todos os dias, porque a luz — mesmo
+          a que parece inofensiva — é um dos danos mais profundos e silenciosos
+          que a barreira pode sofrer. Esse trio, tão simples e tão subestimado,
+          é a fundação de tudo o que você sonha quando imagina uma pele bonita.
         </p>
-
-        <ul>
-          <li>
-            <strong>Bloquear o Mal:</strong> impedir que poluentes, bactérias e
-            irritantes entrem na pele.
-          </li>
-          <li>
-            <strong>Manter o Bem:</strong> evitar que a água essencial evapore e
-            cause ressecamento.
-          </li>
-        </ul>
-
-        <h3>O S.O.S. da Barreira Quebrada</h3>
 
         <p>
-          Quando você exagera — muitos ácidos, esfoliação agressiva ou limpeza
-          excessiva — o muro da sua pele cria “rachaduras”.
+          A partir daí, os ativos poderosos deixam de ser um jogo de tentativa e
+          erro e passam a ser uma estratégia. Vitamina C pela manhã para
+          iluminar e proteger, retinol à noite para renovar — mas cada um no seu
+          momento, sem competição, sem misturar o que deveria ser usado com
+          cuidado. De início lento, observando, respeitando o ritmo da pele.
+          Porque o autocuidado verdadeiro não é um sprint, mas uma dança
+          paciente entre estímulo e descanso.
         </p>
 
-        <h3>Sintomas da Barreira Danificada</h3>
+        <p>
+          Até o toque importa. A forma de secar o rosto, de aplicar um
+          hidratante, de massagear a pele — tudo isso comunica ao corpo se ele
+          está sendo agredido ou acolhido. Pressionar levemente a toalha,
+          substituir movimentos bruscos por toques suaves, aplicar produtos com
+          as pontas dos dedos ao invés de esfregar: gestos simples que reduzem o
+          atrito e aumentam a capacidade de recuperação da pele. É
+          impressionante como pequenas gentilezas constroem grandes mudanças
+          quando são repetidas.
+        </p>
 
-        <ul>
-          <li>
-            <strong>Vermelhidão / Irritação</strong>: você pensa “preciso de
-            algo calmante”, mas na verdade sua pele pede pausa.
-          </li>
-          <li>
-            <strong>Espinhazinhas constantes</strong>: você pensa “vou usar mais
-            ácido”, mas é irritação acumulada.
-          </li>
-          <li>
-            <strong>Ressecamento que não passa</strong>: você acha que o
-            hidratante não funciona, mas são lipídios faltando.
-          </li>
-        </ul>
+        <InlineImage src={inlineImage14} side="right" />
+
+        <p>
+          No fim das contas, a grande descoberta é que a pele glowy que vemos
+          nas redes, nas campanhas e nas inspirações não nasce de um arsenal de
+          produtos, mas de consistência. De respeitar limites. De oferecer
+          descanso. De entender que a aparência é um reflexo da saúde, e a saúde
+          é um reflexo da forma como você cuida — ou exagera — no processo.
+          Quando a barreira está equilibrada, a pele naturalmente encontra o seu
+          brilho. Não aquele brilho artificial de excesso de ativos, mas o glow
+          silencioso e estável de quem entende o próprio ritmo.
+        </p>
 
         <blockquote>
-          “Na verdade, sua pele está gritando: ME DEIXA EM PAZ!”
+          O segredo não é fazer mais — é fazer melhor. A pele não quer luxo,
+          quer equilíbrio. Ela só precisa de calma para florescer.
         </blockquote>
 
-        <h2>✨ O Self-Care Minimalista para a Pele (O Less is More)</h2>
-
         <p>
-          O autocuidado moderno é sobre intenção. Menos excesso, mais
-          funcionalidade.
-        </p>
-
-        <h3>1. O Reset do “Siga o Bê-A-Bá”</h3>
-
-        <p>
-          Se sua pele está sensível, pare tudo por 1 a 2 semanas. Foque no
-          essencial:
-        </p>
-
-        <ul>
-          <li>
-            <strong>Limpeza Suave:</strong> use um limpador cremoso ou não
-            espumante. Lave por menos de 60s.
-          </li>
-          <li>
-            <strong>Hidratação com Ceramidas:</strong> ceramidas, colesterol e
-            ácidos graxos reconstruem o muro da pele.
-          </li>
-          <li>
-            <strong>Proteção Solar:</strong> indispensável; o sol é o maior
-            inimigo da barreira.
-          </li>
-        </ul>
-
-        <h3>2. O Hack dos Ativos (A Regra do 80/20)</h3>
-
-        <p>Ativos poderosos devem ser usados com estratégia.</p>
-
-        <ul>
-          <li>
-            <strong>Não misture:</strong> vitamina C de manhã, retinol à noite —
-            nunca juntos no mesmo layer.
-          </li>
-          <li>
-            <strong>Slow Intro:</strong> retinol 2x por semana. Sem irritar?
-            Aumente. Irritou? Pause. Ouça sua pele.
-          </li>
-        </ul>
-
-        <h3>3. O Toque de Midas (A Gentileza Importa)</h3>
-
-        <p>Gentileza é a chave.</p>
-
-        <ul>
-          <li>
-            <strong>Toalha Macia:</strong> pressione, não esfregue.
-          </li>
-          <li>
-            <strong>Aplicação Pat-Pat:</strong> aplique produtos com batidinhas
-            — melhor absorção e menos atrito.
-          </li>
-        </ul>
-
-        <h2>💡 Takeaway Final: O Segredo da Pele Glowy</h2>
-
-        <p>
-          O verdadeiro self-care da pele é priorizar a <strong>saúde</strong> (o
-          muro) em vez da perfeição (o filtro). Dê à sua pele o que ela precisa:
-          calma, hidratação e consistência.
-        </p>
-
-        <p>
-          <strong>
-            Qual produto você vai “dar férias” hoje para fortalecer sua
-            Barreira?
-          </strong>
-          Deixe nos comentários! 👇
+          Então, antes de terminar esta leitura, fica um convite suave: qual
+          produto pode tirar férias hoje para devolver à sua pele o espaço que
+          ela precisa para se restaurar?
         </p>
       </>
     ),
   },
-
   {
     id: 6,
     slug: "hard-reset-gen-z-anti-burnout",
@@ -717,141 +648,127 @@ export const posts = [
       "Seu guia Gen Z para sobreviver ao burnout com self-care real - sem performance.",
     content: (
       <>
-        <h1>🚨 Pelo Amor de Deus, Faça um Hard Reset! 🚨</h1>
-        <p>
-          <strong>
-            Seu Guia Gen Z para Sobreviver ao Burnout com Self-Care (Que
-            Funciona)
-          </strong>
-        </p>
+        <h1>Faça um Hard Reset! Seu Guia Gen Z Anti-Burnout</h1>
 
-        <h2>HOOK (O Meme é Real)</h2>
-        <p>
-          Se a sua notificação de <em>"Bateria Fraca"</em> fosse uma pessoa,
-          seria você. O burnout não é preguiça; é o seu sistema entrando em pane
-          depois de rodar 24/7. 🆘
-        </p>
+        <InlineImage src={inlineImage15} side="right" />
 
         <p>
-          A verdade? A gente vive na era do{" "}
-          <strong>hustle culture tóxico</strong>. Somos forçados a ser
-          multitasking o tempo todo, e o resultado é essa sensação constante de
-          esgotamento que tentamos curar com mais cafeína e menos sono.
+          Existe um momento na vida de todo jovem adulto em que a mente
+          simplesmente trava. Não é preguiça, não é drama, e muito menos falta
+          de força de vontade: é o sistema inteiro entrando em modo de
+          emergência. Você abre o laptop, tenta começar o que precisa fazer, e o
+          corpo responde como um celular com 2% de bateria — lento, irritado,
+          piscando aquele alerta invisível de “reinicialização necessária”. A
+          verdade é que estamos vivendo a era do desempenho constante, do foco
+          infinito e do correr sem parar. Só que o corpo não acompanha esse
+          ritmo, e a mente muito menos.
         </p>
 
         <p>
-          Chega de <em>toxic positivity</em> dizendo que é só “descansar mais”.
-          Vamos falar sério sobre <strong>Self-Care que é reset</strong>, e não
-          só uma máscara facial.
-        </p>
-
-        <h2>📉 O Sintoma #1: Você é uma Planilha Vazia</h2>
-        <p>O burnout se manifesta de formas tristes:</p>
-
-        <ul>
-          <li>
-            <strong>"Eu só tô desanimado(a)."</strong>
-            <br />
-            <em>Exaustão Emocional:</em> Você não sente mais alegria, prazer ou
-            raiva. É só um vazio cinza.
-          </li>
-
-          <li>
-            <strong>"Não consigo focar em nada."</strong>
-            <br />
-            <em>Despersonalização:</em> Sua capacidade de concentração zerou.
-            Você sente que está assistindo sua vida de longe.
-          </li>
-
-          <li>
-            <strong>"Tudo que eu faço é 'meh'."</strong>
-            <br />
-            <em>Baixa Realização:</em> Você se sente inútil, mesmo sabendo que
-            está trabalhando 1000%.
-          </li>
-        </ul>
-
-        <p>
-          ⚠️ Se você se identificou, girl, você não está sozinha. É hora de
-          forçar um <strong>logoff</strong>.
-        </p>
-
-        <h2>✨ Self-Care Que Não é Performance</h2>
-        <p>
-          O self-care virou performance (postar a xícara de chá perfeita no
-          Insta). O self-care de verdade é o que te dá energia sem gerar um
-          post.
-        </p>
-
-        <h3>1. O Hack do Dreno de Energia (Aprenda a dizer NÃO)</h3>
-        <p>
-          Você está constantemente “disponível”? Isso é um dreno gigante de
-          energia.
+          O burnout virou quase um idioma entre a Gen Z. E não é coincidência.
+          Somos a geração que cresceu com a promessa de produtividade como
+          passaporte para qualquer sonho, e hoje tentamos sobreviver a uma
+          rotina que exige desempenho emocional, físico e digital. Somos
+          multitarefas por obrigação, não por talento. A vida virou uma aba do
+          navegador, o descanso virou culpa, e o “dar conta de tudo” virou um
+          vício silencioso. E quando alguém diz para você “é só descansar mais”,
+          dá vontade de rir — ou chorar. Porque não é só isso. Nunca foi.
         </p>
 
         <p>
-          <strong>Bloqueie o Calendário:</strong>
-          Se você não tem energia, bloqueie 1 hora no Google Calendar com o
-          título:
-          <em>“Deep Work: Não Perturbe (ou Soneca)”</em>. Trate o descanso como
-          um compromisso real.
+          O Hard Reset não é uma pausa glamurizada. Não é skincare com vela
+          aromática. Não é postar a xícara de chá com legenda motivacional. É
+          sobreviver. É reaprender a respirar. É reconquistar a capacidade de
+          sentir alguma coisa além de exaustão. E, antes de mais nada, é admitir
+          que você não foi feito(a) para funcionar 24/7. Seu cérebro não é uma
+          planilha. Seu corpo não é um aplicativo. A vida não é uma sprint
+          interminável.
+        </p>
+
+        <InlineImage src={inlineImage16} side="left" />
+
+        <p>
+          O burnout se instala de forma sorrateira. No início, é só um cansaço
+          estranho. Depois, o foco evapora. Depois, a criatividade some. E,
+          quando você percebe, até coisas que antes te davam prazer agora
+          parecem um peso. É como se você estivesse assistindo a própria vida a
+          partir de uma janela — tudo acontece, mas nada realmente te alcança.
+          Esse distanciamento emocional não é frescura: é o cérebro operando em
+          modo de proteção, desligando funções não essenciais para tentar manter
+          você de pé.
         </p>
 
         <p>
-          <strong>A Regra da Resposta Tardia:</strong>
-          Não responda e-mails ou DMs imediatamente. Treine as pessoas a
-          esperarem. Se não for urgente (e quase nunca é), responda depois. Seu
-          tempo de reação = seu limite.
-        </p>
-
-        <h3>2. O Dopamine Detox (A Cura para o Doomscrolling)</h3>
-        <p>
-          Seu cérebro está viciado em micro-doses de dopamina: notificações,
-          likes, scroll infinito.
+          E aqui está o ponto central: não existe “produtividade” sem energia
+          emocional. A Gen Z já entendeu que, antes de aprender a fazer mais,
+          precisa aprender a sentir de novo. E, para isso, nasce um novo tipo de
+          self-care — não o performativo, mas o estratégico. Aquele que
+          reorganiza a vida por dentro. Aquele que coloca limites onde antes só
+          existia cansaço. Aquele que devolve ao corpo a chance de descansar sem
+          culpa.
         </p>
 
         <p>
-          <strong>O Teste do 15 Minutos:</strong>
-          Tire o Instagram ou TikTok da tela inicial por 15 minutos. Olhe para a
-          parede. Fique entediado(a). Esse tédio é seu cérebro se recalibrando.
+          O primeiro passo do Hard Reset começa com algo simples, quase óbvio:
+          desligar-se. Não das pessoas — mas das expectativas. Do tempo de
+          resposta imediato. Da sensação de que tudo é urgente. Da obrigação
+          silenciosa de ser disponível. A Gen Z está aprendendo a arte de dizer
+          “não” como quem aprende a respirar. E, quando você começa a recusar o
+          que drena sua energia, algo surpreendente acontece: sua vida
+          desacelera para um ritmo que seu corpo aguenta. A ansiedade diminui. O
+          foco volta em pequenas ondas. O mundo deixa de parecer um corredor
+          apertado.
+        </p>
+
+        <InlineImage src={inlineImage17} side="right" />
+
+        <p>
+          A segunda fase do Hard Reset é desintoxicar o cérebro — não de comida,
+          mas de estímulos. Estamos viciados em dopamina rápida: atualizações,
+          feeds, notificações, vídeos curtos que piscam na tela como pequenas
+          explosões. Nosso cérebro está saturado. E o silêncio, que antes
+          parecia desconfortável, começa a surgir como um luxo. Quando você
+          reduz o consumo de estímulos, mesmo que por minutos, algo muda: o
+          tédio reaparece. E o tédio, para o cérebro, é cura. É no tédio que a
+          mente se recalibra. É no tédio que você redescobre que existe vida
+          fora do scroll infinito.
         </p>
 
         <p>
-          <strong>Conteúdo Low-Effort:</strong>
-          Troque notícias pesadas (doomscrolling) por algo que realmente te
-          acalma: vídeos de aquário, jardinagem, música clássica. Low-effort,
-          high-reward.
-        </p>
-
-        <h3>3. O Ritual de Transição (A Ponte entre Trabalho e Vida)</h3>
-        <p>Você sai do Zoom e já está na cozinha. Não existe separação.</p>
-
-        <p>
-          <strong>A "Walk of Shame" (Digna):</strong>
-          Quando desligar o PC, saia do local de trabalho. Caminhe 5 minutos —
-          mesmo que seja só no quarteirão. Isso comunica ao corpo:{" "}
-          <em>“O trabalho acabou.”</em>
+          A última fase — e talvez a mais importante — é criar rituais de
+          transição. Porque o burnout não nasce só do excesso de trabalho, mas
+          da falta de fronteiras entre trabalho e vida. Sair de uma reunião e já
+          estar no seu quarto é o tipo de mistura que nenhum cérebro consegue
+          processar. A Gen Z está resgatando pequenos rituais que funcionam como
+          pontes: caminhar cinco minutos depois do trabalho, tomar um banho em
+          silêncio, fazer uma pequena pausa antes de entrar em casa, ajustar a
+          luz do ambiente, trocar de roupa, desligar notificações. São detalhes.
+          Mas detalhes têm poder.
         </p>
 
         <p>
-          <strong>O Banho de Onsen/Banya Suave:</strong>
-          Use a sabedoria ancestral (lembram do post anterior? 😉). Tome banho
-          em silêncio e finalize com água fria por 30 segundos. Esse choque
-          quebra o ciclo de estresse e reacende sua energia.
-        </p>
-
-        <h2>🔑 O Mindset Gen Z Anti-Burnout</h2>
-        <p>Não precisamos de oito side hustles. Precisamos de limites.</p>
-
-        <p>
-          O verdadeiro self-care não é uma rotina extra; é a remoção do que te
-          sobrecarrega. É respeitar seus limites e lembrar que você não é uma
-          máquina de produtividade.
+          Quando você aprende a desacelerar, a dizer não, a criar espaço e a
+          reduzir estímulos, algo sutil acontece: você volta para si. O mundo
+          para de soar tão alto. O corpo para de gritar. A mente para de fugir.
+          E, aos poucos, você começa a recuperar a capacidade de sentir prazer
+          em coisas pequenas — uma música que te abraça, o cheiro do café, a luz
+          da manhã, o silêncio depois do banho. A vida retoma a textura que você
+          tinha esquecido.
         </p>
 
         <blockquote>
-          “Seja o CEO da sua energia, e não o escravo da sua to-do list.” 🤝
+          “O verdadeiro self-care não é adicionar mais coisas à rotina. É
+          remover o que te consome até sobrar você.”
         </blockquote>
+
+        <p>
+          O Hard Reset não é um evento. É um retorno. Um retorno à sensação de
+          estar vivo(a), presente, consciente. E, se existe um convite para você
+          levar daqui, é este: desacelere antes que o corpo faça isso por você.
+          O burnout não é um castigo — é um aviso. E você não precisa esperar
+          chegar ao limite para se cuidar. A vida não é uma corrida. A vida é
+          ritmo. E o seu merece ser ouvido.
+        </p>
       </>
     ),
   },

@@ -2,13 +2,12 @@ import { Link } from "react-router-dom";
 import NavBar from "../../components/NavBar";
 import { posts } from "../../data/blogPostsData";
 import Button from "../../components/Button";
+import BannerBlog from "../../components/BannerBlog";
 
 import {
-  Banner,
   PageWrapper,
   PostsContainer,
   PostCard,
-  BlogTitle,
   PostImage,
   PostTitle,
   PostContent,
@@ -18,11 +17,8 @@ import {
 const BlogPage = () => {
   return (
     <>
-      <Banner>
-        <BlogTitle>Blog do Calmaria: Seu Guia de Bem-Estar</BlogTitle>
-      </Banner>
+      <BannerBlog />
       <NavBar />
-
       <PageWrapper>
         <PostsContainer>
           {posts.map((post) => (
