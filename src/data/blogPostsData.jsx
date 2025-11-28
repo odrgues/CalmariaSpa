@@ -252,10 +252,10 @@ export const posts = [
           percebemos o quanto escorregam facilmente trinta minutos em um scroll
           distraído. Leitura não exige tempo — exige intenção. Um caminho
           simples é transformar o livro em um novo ponto de atração visual no
-          ambiente. Deixar um exemplar convidativo no criado-mudo, na mesa de
-          centro, na mochila. Substituir o lugar do celular por ele. Assim, toda
-          vez que o impulso automático de pegar o telefone surgir, o livro
-          estará ali, ocupando o mesmo espaço mental — só que oferecendo
+          ambiente. Deixar um exemplar convidativo na mesinha de cabeceira, na
+          mesa de centro, na mochila. Substituir o lugar do celular por ele.
+          Assim, toda vez que o impulso automático de pegar o telefone surgir, o
+          livro estará ali, ocupando o mesmo espaço mental — só que oferecendo
           descanso, não exaustão.
         </p>
 
@@ -285,7 +285,7 @@ export const posts = [
 
         <blockquote>
           Pare de correr atrás do próximo vídeo.
-          <strong>Escolha a página.</strong>
+          <strong> Escolha a página.</strong>
         </blockquote>
 
         <p>

@@ -29,7 +29,7 @@ export const CreatorsData = {
 
 <p>
   Olá, sou <strong>Rafael Alvarenga</strong>, e contribuí com o desenvolvimento do projeto ao lado da Jessica.
-  Enquanto ela conduzia toda a direção visual, a experiência do usuário e a construção do frontend,
+  Enquanto ela conduzia construção do frontend,
   pude colaborar oferecendo apoio na organização de ideias, revisões e na estruturação geral do conceito do site.
 </p>
 
