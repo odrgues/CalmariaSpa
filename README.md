@@ -7,38 +7,22 @@
 ## Demonstração  
 
 ### Tela Inicial  
-![Tela inicial](./public/demo/home1.png)
-![Tela inicial](./public/demo/home2.png)
-![Tela inicial](./public/demo/home3.png)
-![Tela inicial](./public/demo/home4.png)
-![Tela inicial](./public/demo/footer.png)
+![Tela inicial](./public/demo/home.png)
 
 ### Página de Serviços  
-![Página de Serviços](./public/demo/service1.png)
-![Página de Serviços](./public/demo/service2.png)
-![Página de Serviços](./public/demo/footer.png)
+![Página de Serviços](./public/demo/services.png)
 
 ### Demonstração do Blog  
-![Blog](./public/demo/blog1.png)
-![Blog](./public/demo/blog2.png)
-![Blog](./public/demo/footer.png)
+![Blog](./public/demo/blog.png)
 
 ### Demonstração de um Post do Blog  
-![Post](./public/demo/post1.png)
-![Post](./public/demo/post2.png)
-![Post](./public/demo/post3.png)
-![Post](./public/demo/post4.png)
-![Post](./public/demo/footer.png)
+![Post](./public/demo/post.png)
 
 ### Página "Sobre o Spa"  
-![Sobre o Spa](./public/demo/about1.png)
-![Sobre o Spa](./public/demo/about2.png)
-![Sobre o Spa](./public/demo/about3.png)
+![Sobre o Spa](./public/demo/about.png)
 
 ### Página "Sobre os Criadores"  
-![Sobre os Criadores](./public/demo/creators1.png)
-![Sobre os Criadores](./public/demo/creators2.png)
-![Sobre os Criadores](./public/demo/creators3.png)
+![Sobre os Criadores](./public/demo/creators.png)
 
 
 ---
