@@ -21,10 +21,14 @@
 ### Demonstração do Blog  
 ![Blog](./public/demo/blog1.png)
 ![Blog](./public/demo/blog2.png)
+![Blog](./public/demo/footer.png)
 
 ### Demonstração de um Post do Blog  
 ![Post](./public/demo/demo-post1.png)
 ![Post](./public/demo/demo-post2.png)
+![Post](./public/demo/demo-post3.png)
+![Post](./public/demo/demo-post4.png)
+![Post](./public/demo/demo-footer.png)
 
 ### Página "Sobre o Spa"  
 ![Sobre o Spa](./public/demo/about1.png)
