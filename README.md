@@ -1,16 +1,131 @@
-# React + Vite
+# Calmaria Spa
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Calmaria Spa** é uma aplicação frontend desenvolvida em **React** com **Styled Components**, criada para transmitir leveza, bem-estar e uma navegação suave. O projeto apresenta serviços, conteúdos e sessões visuais organizadas de forma responsiva e modular.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Demonstração  
 
-## React Compiler
+### 🏠 Tela Inicial  
+[INSIRA A IMAGEM OU GIF DA HOME AQUI]  
+[🔗 **Ver esta seção no site**](#)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+### 💆 Página de Serviços  
+[INSIRA A IMAGEM DA PÁGINA DE SERVIÇOS AQUI]  
+[🔗 **Explorar serviços**](#)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### 📰 Demonstração do Blog  
+[INSIRA A IMAGEM DA LISTA DE POSTS AQUI]  
+[🔗 **Acessar blog**](#)
+
+---
+
+### ✍️ Demonstração de um Post do Blog  
+[INSIRA A IMAGEM DO POST ABERTO AQUI]  
+[🔗 **Ler um post completo**](#)
+
+---
+
+### 🧘 Página "Sobre o Spa"  
+[INSIRA A IMAGEM DA PÁGINA DE SOBRE AQUI]  
+[🔗 **Sobre o Calmaria Spa**](#)
+
+---
+
+### 👩‍💻 Página "Sobre os Criadores"  
+[INSIRA A IMAGEM DA PÁGINA DE CRIADORES AQUI]  
+[🔗 **Ver criadores do projeto**](#)
+
+---
+
+
+
+
+---
+
+## Tecnologias Utilizadas
+- **React**
+- **Vite**
+- **Styled Components**
+- **React Icons**
+- **Swiper.js** (sliders)
+- **ESLint**
+- **JavaScript (ES6+)**
+
+---
+
+##  Estrutura do Projeto
+
+calmaria-spa/
+├── public/
+│ └── favicon.svg
+├── src/
+│ ├── assets/ # Imagens utilizadas no projeto
+│ ├── components/ # Componentes reutilizáveis
+│ │ ├── Buttons/
+│ │ ├── Cards/
+│ │ ├── Footer/
+│ │ ├── Header/
+│ │ ├── ImageSlider/
+│ │ ├── NavBar/
+│ │ └── ...
+│ ├── data/ # Dados para serviços, sliders, textos etc.
+│ ├── pages/ # Páginas principais (Home, Services, Blog...)
+│ ├── styles/ # Tema global, breakpoints e reset CSS
+│ ├── App.jsx # Estrutura principal da aplicação
+│ └── main.jsx # Ponto de entrada
+└── package.json
+
+
+---
+
+##  Principais Funcionalidades
+
+### ✔ **Layout totalmente responsivo**  
+Breakpoints configurados manualmente para múltiplas larguras de tela.
+
+### ✔ **Componentização limpa**  
+Componentes separados por responsabilidade (Cards, Slider, NavBar, Footer etc).
+
+### ✔ **Styled Components com tema global**  
+- Cores, tipografia e espaçamentos centralizados.  
+- Facilita manutenção e mudanças visuais.
+
+### ✔ **Sliders com Swiper.js**  
+Utilizados para banners e seções com múltiplas imagens.
+
+### ✔ **Organização modular do conteúdo**  
+Dados mantidos em `/src/data` para facilitar edição e escalabilidade.
+
+---
+##  Sobre o Design
+
+O design do Calmaria Spa foi inspirado em um layout apresentado em um curso da Alura.
+Usei o arquivo do Figma apenas como referência estética inicial, mas todo o restante — cores, tipografia, composição, espaçamentos, componentes e estrutura visual — foi modificado e recriado para refletir um estilo próprio.
+
+A interface final segue uma proposta mais minimalista e acolhedora, com foco em:
+
+- **Paleta suave em tons naturais**: tons neutros, verdes suaves e cores terrosas.
+- **Harmonia entre texto e imagens** para reforçar a sensação de conforto.
+- **Uso moderado de sombras, espaçamentos amplos e arejamento visual**.
+- **Layout minimalista**, garantindo que o usuário navegue de forma fluida e tranquila.
+- **Componentes visuais consistentes** com o tema (botões, cards, seções e banners).
+- **Sliders com transições suaves**, reforçando o clima relaxante.
+- **Responsividade cuidadosa** para manter estética e experiência em qualquer tela.
+
+O objetivo foi unir estética limpa com uma experiência que remete ao bem-estar — o mesmo que se espera ao entrar em um spa físico.
+
+---
+
+## ▶ Como Rodar o Projeto
+
+```bash
+# Instalar dependências
+npm install
+
+# Rodar localmente
+npm run dev
