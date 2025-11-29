@@ -7,36 +7,29 @@
 ## Demonstração  
 
 ### Tela Inicial  
-
-
----
+![Tela inicial](./public/demo/home1.png)
+![Tela inicial](./public/demo/home2.png)
+![Tela inicial](./public/demo/home3.png)
 
 ### Página de Serviços  
-
-
----
+![Página de Serviços](./public/demo/service1.png)
+![Página de Serviços](./public/demo/service2.png)
 
 ### Demonstração do Blog  
-
-
----
+![Blog](./public/demo/blog1.png)
+![Blog](./public/demo/blog2.png)
 
 ### Demonstração de um Post do Blog  
-
-
----
+![Post](./public/demo/demo-post1.png)
+![Post](./public/demo/demo-post2.png)
 
 ### Página "Sobre o Spa"  
-
-
----
+![Sobre o Spa](./public/demo/about1.png)
+![Sobre o Spa](./public/demo/about2.png)
 
 ### Página "Sobre os Criadores"  
-
-
----
-
-
+![Sobre os Criadores](./public/demo/creators1.png)
+![Sobre os Criadores](./public/demo/creators2.png)
 
 
 ---
@@ -80,20 +73,20 @@ calmaria-spa/
 
 ##  Principais Funcionalidades
 
-### ✔ **Layout totalmente responsivo**  
+### **Layout totalmente responsivo**  
 Breakpoints configurados manualmente para múltiplas larguras de tela.
 
-### ✔ **Componentização limpa**  
+### **Componentização limpa**  
 Componentes separados por responsabilidade (Cards, Slider, NavBar, Footer etc).
 
-### ✔ **Styled Components com tema global**  
+### **Styled Components com tema global**  
 - Cores, tipografia e espaçamentos centralizados.  
 - Facilita manutenção e mudanças visuais.
 
-### ✔ **Sliders com Swiper.js**  
+### **Sliders com Swiper.js**  
 Utilizados para banners e seções com múltiplas imagens.
 
-### ✔ **Organização modular do conteúdo**  
+### **Organização modular do conteúdo**  
 Dados mantidos em `/src/data` para facilitar edição e escalabilidade.
 
 ---
