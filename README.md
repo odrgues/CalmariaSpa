@@ -116,8 +116,7 @@ A interface final segue uma proposta mais minimalista e acolhedora, com foco em:
 
 O objetivo foi unir estética limpa com uma experiência que remete ao bem-estar — o mesmo que se espera ao entrar em um spa físico.
 
-Figma utilizado como inspiração para realização do projeto:  
-[**Figma de Inspiração**](https://www.figma.com/proto/OCTufveMJNvpfVZg0AwAEe/Calmaria-Spa-%7C-Curso-Sass?node-id=98-572&t=6CQJlQDEUQ3aSOd5-1)
+Figma utilizado como inspiração para realização do projeto: [**Figma de Inspiração**](https://www.figma.com/proto/OCTufveMJNvpfVZg0AwAEe/Calmaria-Spa-%7C-Curso-Sass?node-id=98-572&t=6CQJlQDEUQ3aSOd5-1)
 
 ---
 
