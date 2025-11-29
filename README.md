@@ -24,19 +24,21 @@
 ![Blog](./public/demo/footer.png)
 
 ### Demonstração de um Post do Blog  
-![Post](./public/demo/demo-post1.png)
-![Post](./public/demo/demo-post2.png)
-![Post](./public/demo/demo-post3.png)
-![Post](./public/demo/demo-post4.png)
-![Post](./public/demo/demo-footer.png)
+![Post](./public/demo/post1.png)
+![Post](./public/demo/post2.png)
+![Post](./public/demo/post3.png)
+![Post](./public/demo/post4.png)
+![Post](./public/demo/footer.png)
 
 ### Página "Sobre o Spa"  
 ![Sobre o Spa](./public/demo/about1.png)
 ![Sobre o Spa](./public/demo/about2.png)
+![Sobre o Spa](./public/demo/about3.png)
 
 ### Página "Sobre os Criadores"  
 ![Sobre os Criadores](./public/demo/creators1.png)
 ![Sobre os Criadores](./public/demo/creators2.png)
+![Sobre os Criadores](./public/demo/creators3.png)
 
 
 ---
@@ -114,7 +116,9 @@ A interface final segue uma proposta mais minimalista e acolhedora, com foco em:
 
 O objetivo foi unir estética limpa com uma experiência que remete ao bem-estar — o mesmo que se espera ao entrar em um spa físico.
 
-Figma utilizado como inspiração para realização do projeto: [Protótipo Figma] (https://www.figma.com/proto/OCTufveMJNvpfVZg0AwAEe/Calmaria-Spa-%7C-Curso-Sass?node-id=98-572&t=6CQJlQDEUQ3aSOd5-1)
+Figma utilizado como inspiração para realização do projeto:  
+[**Figma de Inspiração**](https://www.figma.com/proto/OCTufveMJNvpfVZg0AwAEe/Calmaria-Spa-%7C-Curso-Sass?node-id=98-572&t=6CQJlQDEUQ3aSOd5-1)
+
 ---
 
 ## ▶ Como Rodar o Projeto

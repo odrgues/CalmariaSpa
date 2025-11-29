@@ -21,7 +21,6 @@ const StyledHeader = styled(BannerBase)`
 const Header = () => (
   <StyledHeader>
     <img src={logoImage} alt="Logo do Calmaria Spa" />
-    <div className="divider" />
   </StyledHeader>
 );
 
