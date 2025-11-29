@@ -4,41 +4,35 @@
 
 ---
 
-## 📸 Demonstração  
+## Demonstração  
 
-### 🏠 Tela Inicial  
-[INSIRA A IMAGEM OU GIF DA HOME AQUI]  
-[🔗 **Ver esta seção no site**](#)
+### Tela Inicial  
 
----
-
-### 💆 Página de Serviços  
-[INSIRA A IMAGEM DA PÁGINA DE SERVIÇOS AQUI]  
-[🔗 **Explorar serviços**](#)
 
 ---
 
-### 📰 Demonstração do Blog  
-[INSIRA A IMAGEM DA LISTA DE POSTS AQUI]  
-[🔗 **Acessar blog**](#)
+### Página de Serviços  
+
 
 ---
 
-### ✍️ Demonstração de um Post do Blog  
-[INSIRA A IMAGEM DO POST ABERTO AQUI]  
-[🔗 **Ler um post completo**](#)
+### Demonstração do Blog  
+
 
 ---
 
-### 🧘 Página "Sobre o Spa"  
-[INSIRA A IMAGEM DA PÁGINA DE SOBRE AQUI]  
-[🔗 **Sobre o Calmaria Spa**](#)
+### Demonstração de um Post do Blog  
+
 
 ---
 
-### 👩‍💻 Página "Sobre os Criadores"  
-[INSIRA A IMAGEM DA PÁGINA DE CRIADORES AQUI]  
-[🔗 **Ver criadores do projeto**](#)
+### Página "Sobre o Spa"  
+
+
+---
+
+### Página "Sobre os Criadores"  
+
 
 ---
 
@@ -60,6 +54,7 @@
 
 ##  Estrutura do Projeto
 
+```
 calmaria-spa/
 ├── public/
 │ └── favicon.svg
@@ -79,7 +74,7 @@ calmaria-spa/
 │ ├── App.jsx # Estrutura principal da aplicação
 │ └── main.jsx # Ponto de entrada
 └── package.json
-
+```
 
 ---
 
