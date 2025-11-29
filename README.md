@@ -10,10 +10,13 @@
 ![Tela inicial](./public/demo/home1.png)
 ![Tela inicial](./public/demo/home2.png)
 ![Tela inicial](./public/demo/home3.png)
+![Tela inicial](./public/demo/home4.png)
+![Tela inicial](./public/demo/footer.png)
 
 ### Página de Serviços  
 ![Página de Serviços](./public/demo/service1.png)
 ![Página de Serviços](./public/demo/service2.png)
+![Página de Serviços](./public/demo/footer.png)
 
 ### Demonstração do Blog  
 ![Blog](./public/demo/blog1.png)
